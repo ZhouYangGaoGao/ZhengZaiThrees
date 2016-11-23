@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 排行 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/xiuchang_Area_paihang"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black18">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/xiuchang_paihangListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@drawable/icon_6_1_line"
+        android:dividerHeight="1dp" />
+
+    <com.modernsky.istv.widget.WidgetRadioSwitch
+        android:id="@+id/wrs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right" />
+</FrameLayout>

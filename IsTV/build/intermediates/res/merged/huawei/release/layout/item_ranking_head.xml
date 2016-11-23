@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="110dp">
+
+    <LinearLayout
+        android:id="@+id/ll_champion"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="#272727"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-8dp"
+            android:src="@drawable/num_one"/>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_ranking_first_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text=""
+                android:textColor="#ffbb51"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/tv_red_net_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="35dp"
+                android:layout_toRightOf="@+id/tv_ranking_first_name"
+                android:text=""
+                android:textColor="#616161"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/tv_ren_qi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_ranking_first_name"
+                android:layout_marginTop="16dp"
+                android:text="人气/  "
+                android:textColor="#ffffff"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/tv_first_human_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_ranking_first_name"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/tv_ren_qi"
+                android:text=""
+                android:textColor="#ffbb51"
+                android:textSize="18sp"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:gravity="center">
+
+
+            <com.modernsky.istv.view.RoundAngleImageView
+                android:id="@+id/raiv_first_head"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/icon_5_0_head"
+                android:scaleType="centerCrop"
+                app:roundHeight="30dp"
+                app:roundWidth="30dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-14dp"
+                android:src="@drawable/imperial_crown"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

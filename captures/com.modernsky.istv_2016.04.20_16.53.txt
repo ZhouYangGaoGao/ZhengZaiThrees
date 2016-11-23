@@ -1,0 +1,564 @@
+TASK com.modernsky.istv id=236
+  ACTIVITY com.modernsky.istv/.acitivity.PlayActivity 44123c pid=20777
+    Local FragmentActivity c13a4 State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    Active Fragments in 3a4d573:
+      #0: XuanjiFragment{3a4d0a9 #0 id=0x7f0e0161 android:switcher:2131624289:0}
+        mFragmentId=#7f0e0161 mContainerId=#7f0e0161 mTag=android:switcher:2131624289:0
+        mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+        mAdded=true mRemoving=false mResumed=true mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+        mRetainInstance=false mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{3a4d573 in HostCallbacks{4ed55cf}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@4ed55cf
+        mContainer=android.support.v4.view.ViewPager{64ccb5c VFED..... ........ 0,144-1080,1284 #7f0e0161 app:id/viewpager}
+        mView=android.widget.LinearLayout{9d0ce65 V.E...... ........ 0,0-1080,1140}
+        mInnerView=android.widget.LinearLayout{9d0ce65 V.E...... ........ 0,0-1080,1140}
+        Child FragmentManager{c937feb in XuanjiFragment{3a4d0a9}}:
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@4ed55cf
+            mContainer=android.support.v4.app.Fragment$1@6894148
+            mParent=XuanjiFragment{3a4d0a9 #0 id=0x7f0e0161 android:switcher:2131624289:0}
+            mCurState=5 mStateSaved=false mDestroyed=false
+      #1: PlayFragment{2fd2d06 #1 id=0x7f0e0161 android:switcher:2131624289:1}
+        mFragmentId=#7f0e0161 mContainerId=#7f0e0161 mTag=android:switcher:2131624289:1
+        mState=5 mIndex=1 mWho=android:fragment:1 mBackStackNesting=0
+        mAdded=true mRemoving=false mResumed=true mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=false mHasMenu=false
+        mRetainInstance=false mRetaining=false mUserVisibleHint=false
+        mFragmentManager=FragmentManager{3a4d573 in HostCallbacks{4ed55cf}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@4ed55cf
+        mArguments=Bundle[{videoId=889}]
+        mContainer=android.support.v4.view.ViewPager{64ccb5c VFED..... ........ 0,144-1080,1284 #7f0e0161 app:id/viewpager}
+        mView=android.widget.LinearLayout{2282fc7 V.E...... ........ 1080,0-2160,1140}
+        mInnerView=android.widget.LinearLayout{2282fc7 V.E...... ........ 1080,0-2160,1140}
+        Child FragmentManager{49529f4 in PlayFragment{2fd2d06}}:
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@4ed55cf
+            mContainer=android.support.v4.app.Fragment$1@d03651d
+            mParent=PlayFragment{2fd2d06 #1 id=0x7f0e0161 android:switcher:2131624289:1}
+            mCurState=5 mStateSaved=false mDestroyed=false
+    Added Fragments:
+      #0: XuanjiFragment{3a4d0a9 #0 id=0x7f0e0161 android:switcher:2131624289:0}
+      #1: PlayFragment{2fd2d06 #1 id=0x7f0e0161 android:switcher:2131624289:1}
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@4ed55cf
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@4ed55cf
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{4af1392 V.E..... ... 0,0-1080,1920}
+        android.widget.LinearLayout{b6e0163 V.E..... ... 0,0-1080,1920}
+          android.view.ViewStub{7d4f160 G.E..... ... 0,0-0,0 #10203b8 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{7763619 V.E..... ... 0,60-1080,1920 #1020002 android:id/content}
+            android.widget.LinearLayout{226d6de V.E..... ... 0,0-1080,1860 #7f0e012b app:id/rootView}
+              android.widget.FrameLayout{db550bf V.E..... ... 0,0-1080,576 #7f0e012c app:id/include_video}
+                android.widget.RelativeLayout{787c38c V.E..... ... 0,0-1080,576 #7f0e03f9 app:id/VODplayerLayout}
+                  com.letv.universal.widget.ReSurfaceView{cab1ad5 V.E..... ... 0,0-1080,576 #7f0e00de app:id/sf}
+                android.widget.LinearLayout{cc582ea G.E..... ... 340,132-740,444 #7f0e03e1 app:id/video_loading}
+                  android.widget.ImageView{8f839db V.ED.... ... 0,0-400,226 #7f0e03e2 app:id/img_loading}
+                  android.widget.TextView{db38c78 V.ED.... ... 84,226-315,312}
+                android.widget.FrameLayout{70f8f51 G.E..... ... 290,38-790,538 #7f0e03e3 app:id/operation_volume_brightness}
+                  android.widget.ImageView{8f0e3b6 V.ED.... ... 0,0-500,500 #7f0e03e4 app:id/operation_bg}
+                  android.widget.FrameLayout{8b698b7 V.E..... ... 109,403-391,500}
+                    android.widget.ImageView{cd0f824 V.ED.... ... 0,0-282,22 #7f0e03e5 app:id/operation_full}
+                    android.widget.ImageView{6ccf8d V.ED.... ... 0,0-0,22 #7f0e03e6 app:id/operation_percent}
+                com.modernsky.istv.view.MediaController{99f8542 G.E..... ... 0,0-1080,576 #7f0e03e7 app:id/mediacontroller_view}
+                  android.widget.RelativeLayout{6920953 V.E..... ... 0,0-1080,576 #7f0e03e9 app:id/rl_video}
+                    android.widget.RelativeLayout{4377290 V.E..... ... 0,0-1080,128 #7f0e0165 app:id/relativeLayout1}
+                      android.widget.ImageButton{be3d789 VFED..C. ... 0,0-98,128 #7f0e0338 app:id/img_btn_back}
+                      android.widget.Button{8a4b38e GFED..C. ... 0,0-0,0 #7f0e03ea app:id/btn_xuanji}
+                      android.widget.TextView{aa9e7af V.ED.... ... 98,35-1080,92 #7f0e03eb app:id/tv_video_titles}
+                      android.widget.TextView{f4927bc G.ED..C. ... 0,0-0,0 #7f0e03ed app:id/btn_biaoqing}
+                      android.widget.TextView{3a96345 G.ED..C. ... 0,0-0,0 #7f0e03ec app:id/btn_wutai}
+                      android.widget.ImageButton{7bc7a9a GFED..C. ... 0,0-0,0 #7f0e03ee app:id/btn_vr}
+                      android.widget.TextView{5b74fcb G.ED..C. ... 0,0-0,0 #7f0e03ef app:id/btn_jiemu}
+                    android.widget.ImageButton{b5f03a8 VFED..C. ... 972,226-1080,350 #7f0e03f0 app:id/img_btn_lock}
+                    android.widget.LinearLayout{681eec1 V.E..... ... 0,384-1080,576 #7f0e03d6 app:id/ll_video_function}
+                      android.widget.LinearLayout{657a666 G.E..... ... 0,0-0,0 #7f0e03d7 app:id/ll_break}
+                        android.widget.TextView{e91da7 V.ED.... ... 0,0-0,0}
+                        android.widget.TextView{74b254 V.ED..C. ... 0,0-0,0 #7f0e03d8 app:id/tv_clarity}
+                      android.widget.SeekBar{fdb5fd VFED.... ... 0,0-1080,72 #7f0e00e1 app:id/seek_video}
+                      android.widget.LinearLayout{827c2f2 V.E..... ... 0,72-1080,192}
+                        android.widget.ImageButton{f7fed43 VFED..C. ... 15,15-105,105 #7f0e034b app:id/im_play_or_pause}
+                        android.widget.ImageView{8949fc0 V.ED.... ... 105,5-137,115 #7f0e034c app:id/iv_line}
+                        android.widget.ImageButton{e74b4f9 GFED..C. ... 0,0-0,0 #7f0e034d app:id/im_play_next}
+                        android.widget.FrameLayout{86b1c3e V.E..... ... 137,27-638,92}
+                          android.widget.TextView{e2a1a9f V.ED.... ... 120,0-380,65 #7f0e034e app:id/tv_video_time}
+                          android.widget.TextView{203f7ec G.ED..C. ... 0,0-0,0 #7f0e03d9 app:id/tv_sendmsg}
+                        android.widget.ImageButton{dc2a7b5 GFED..C. ... 0,0-0,0 #7f0e0232 app:id/img_show_tanmu}
+                        android.widget.ImageButton{5f8be4a VFED..C. ... 638,5-670,115 #7f0e0351 app:id/ImageButton8}
+                        android.widget.ImageButton{c1fc1bb VFED..C. ... 670,13-766,107 #7f0e03da app:id/ImageButton7}
+                        android.widget.ImageButton{82ea6d8 VFED..C. ... 766,14-862,106 #7f0e03db app:id/ImageButton6}
+                        android.widget.ImageButton{5c30a31 VFED..C. ... 862,13-956,107 #7f0e03dc app:id/ImageButton5}
+                        android.widget.ImageButton{40c7516 GFED..C. ... 0,0-0,0 #7f0e03dd app:id/ImageButton4}
+                        android.widget.ImageButton{9febe97 VFED..C. ... 956,0-1080,120 #7f0e03de app:id/img_paly_fangda}
+                    android.widget.ListView{f535884 IFED.VC. ... 846,128-1056,576 #7f0e03f1 app:id/rg_play}
+                    android.widget.ListView{58d186d G.ED.VC. ... 0,0-0,0 #7f0e03f2 app:id/lv_wutai}
+                    android.widget.ListView{bd2cca2 G.ED.VC. ... 0,0-0,0 #7f0e03f3 app:id/lv_vr}
+                android.widget.RelativeLayout{a66ad33 V.E..... ... 225,108-855,468 #7f0e03f5 app:id/rl_ad}
+                  android.widget.ImageView{eef78f0 V.ED..C. ... 0,0-630,360 #7f0e03f6 app:id/image_ad}
+                  android.widget.ImageView{c6fce69 V.ED..C. ... 550,0-630,80 #7f0e03f7 app:id/image_cancel_ad}
+                android.widget.RelativeLayout{ab510ee V.E..... ... 0,0-1080,300 #7f0e03f8 app:id/barrage}
+              android.widget.LinearLayout{54e98f V.E..... ... 0,576-1080,1860 #7f0e015f app:id/ll_descrption}
+                android.support.design.widget.TabLayout{6eb341c VFED.... ... 0,0-1080,144 #7f0e0160 app:id/tabs}
+                  android.support.design.widget.TabLayout$SlidingTabStrip{5ade825 V.ED.... ... 0,0-1080,144}
+                    android.support.design.widget.TabLayout$TabView{9654dfa VFE...C. .S. 0,0-540,144}
+                      android.widget.ImageView{7408fab G.ED.... .S. 0,0-0,0}
+                      android.widget.TextView{b857608 V.ED.... .S. 228,43-312,100}
+                    android.support.design.widget.TabLayout$TabView{3f9e1a1 VFE...C. ... 540,0-1080,144}
+                      android.widget.ImageView{7aa4fc6 G.ED.... ... 0,0-0,0}
+                      android.widget.TextView{f67b87 V.ED.... ... 228,43-312,100}
+                android.support.v4.view.ViewPager{64ccb5c VFED.... ... 0,144-1080,1284 #7f0e0161 app:id/viewpager}
+                  android.widget.LinearLayout{9d0ce65 V.E..... ... 0,0-1080,1140}
+                    android.widget.ListView{3ffeab4 VFED.VC. F.. 0,0-1080,1140 #7f0e004e app:id/listview}
+                      android.widget.RelativeLayout{8b1f6dd V.E..... ... 0,0-1080,363}
+                        android.widget.ImageView{8eba252 V.ED.... ... 0,0-1080,363 #7f0e02bc app:id/item_listview_topic_img}
+                        android.widget.ImageView{5354923 V.ED.... ... 0,0-1080,363}
+                        android.widget.TextView{80afe20 V.ED.... ... 1032,221-1032,270 #7f0e0267 app:id/textView6}
+                        android.widget.TextView{2dc23d9 V.ED.... ... 764,276-1032,325 #7f0e0180 app:id/textView3}
+                        android.widget.TextView{d7d919e G.ED.... ... 0,0-0,0 #7f0e017f app:id/textView2}
+                        android.widget.TextView{f09547f G.ED.... ... 0,0-0,0 #7f0e0181 app:id/textView4}
+                        android.widget.TextView{7f1dc4c G.ED.... ... 0,0-0,0 #7f0e0182 app:id/textView5}
+                        android.widget.TextView{1e22495 V.ED.... ... 132,151-1032,212 #7f0e0264 app:id/xiuchang_jingyanzhiTet}
+                  android.widget.LinearLayout{2282fc7 V.E..... ... 1080,0-2160,1140}
+                    com.handmark.pulltorefresh.library.PullToRefreshListView{4ad29aa V.ED.... ... 0,0-1080,990 #7f0e0270 app:id/listview_pinglun}
+                      com.handmark.pulltorefresh.library.internal.RotateLoadingLayout{3e8b99b I.E..... ... 0,-594-1080,0}
+                        android.widget.FrameLayout{b867138 V.E..... ... 0,354-1080,594 #7f0e0375 app:id/fl_inner}
+                          android.widget.FrameLayout{80d7511 V.E..... ... 312,45-402,195}
+                            android.widget.ImageView{38c3676 V.ED.... ... 0,25-90,124 #7f0e0376 app:id/pull_to_refresh_image}
+                            android.widget.ProgressBar{8f5477 G.ED.... ... 0,0-0,0 #7f0e0377 app:id/pull_to_refresh_progress}
+                          android.widget.LinearLayout{3cd68e4 V.E..... ... 372,45-708,195}
+                            android.widget.TextView{8c3514d V.ED.... ... 0,46-336,103 #7f0e0378 app:id/pull_to_refresh_text}
+                            android.widget.TextView{c7d4402 G.ED.... ... 0,0-0,0 #7f0e0379 app:id/pull_to_refresh_sub_text}
+                      android.widget.FrameLayout{79ac113 V.E..... ... 0,0-1080,990}
+                        com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{b6a2f50 VFED.VC. ... 0,0-1080,990 #102000a android:id/list}
+                          android.widget.FrameLayout{e80b549 V.E..... ... 0,0-1080,0}
+                            com.handmark.pulltorefresh.library.internal.RotateLoadingLayout{37f9e4e G.E..... ... 0,0-1080,240}
+                              android.widget.FrameLayout{de65b6f V.E..... ... 0,0-1080,240 #7f0e0375 app:id/fl_inner}
+                                android.widget.FrameLayout{1caf07c V.E..... ... 312,45-402,195}
+                                  android.widget.ImageView{4965d05 V.ED.... ... 0,25-90,124 #7f0e0376 app:id/pull_to_refresh_image}
+                                  android.widget.ProgressBar{b3b515a G.ED.... ... 0,0-0,0 #7f0e0377 app:id/pull_to_refresh_progress}
+                                android.widget.LinearLayout{a73f8b V.E..... ... 463,45-617,195}
+                                  android.widget.TextView{d149868 V.ED.... ... 0,46-154,103 #7f0e0378 app:id/pull_to_refresh_text}
+                                  android.widget.TextView{a4c481 G.ED.... ... 0,0-0,0 #7f0e0379 app:id/pull_to_refresh_sub_text}
+                          android.widget.RelativeLayout{6cd2926 V.E..... ... 0,6-1080,260}
+                            android.widget.RelativeLayout{1484967 V.E...C. ... 30,30-1050,224 #7f0e023d app:id/rl_pinglun_info}
+                              com.modernsky.istv.view.RoundAngleImageView{eced314 V.ED..C. ... 9,0-129,120 #7f0e023e app:id/img_grid}
+                              android.widget.TextView{7d827bd V.ED.... ... 60,0-134,56 #7f0e023f app:id/tv_lable}
+                              android.widget.TextView{c52b1b2 V.ED.... ... 159,0-408,61 #7f0e0166 app:id/tv_video_name}
+                              android.widget.TextView{3061503 V.ED.... ... 868,0-1020,41 #7f0e0173 app:id/time}
+                              android.widget.TextView{7500c80 V.ED.... ... 159,61-257,114 #7f0e017f app:id/textView2}
+                              android.widget.LinearLayout{be482b9 V.E..... ... 159,114-1020,194}
+                                android.widget.TextView{43636fe V.ED..C. ... 582,0-713,76 #7f0e0240 app:id/pinlun_good}
+                                android.widget.TextView{64afe5f V.ED..C. ... 728,0-861,80 #7f0e0241 app:id/pinlun_count}
+                            com.modernsky.istv.view.NoScroListView{3e970ac G.ED.VC. ... 0,0-0,0 #7f0e0242 app:id/gridview_paly_pinglun}
+                            android.widget.TextView{bc19175 G.ED..C. ... 0,0-0,0 #7f0e0243 app:id/tv_add_more}
+                          android.widget.RelativeLayout{13ac50a V.E..... ... 0,266-1080,520}
+                            android.widget.RelativeLayout{dcb217b V.E...C. ... 30,30-1050,224 #7f0e023d app:id/rl_pinglun_info}
+                              com.modernsky.istv.view.RoundAngleImageView{3d2eb98 V.ED..C. ... 9,0-129,120 #7f0e023e app:id/img_grid}
+                              android.widget.TextView{426cff1 V.ED.... ... 60,0-134,56 #7f0e023f app:id/tv_lable}
+                              android.widget.TextView{d4827d6 V.ED.... ... 159,0-408,61 #7f0e0166 app:id/tv_video_name}
+                              android.widget.TextView{9605a57 V.ED.... ... 868,0-1020,41 #7f0e0173 app:id/time}
+                              android.widget.TextView{fd72944 V.ED.... ... 159,61-239,114 #7f0e017f app:id/textView2}
+                              android.widget.LinearLayout{bc77a2d V.E..... ... 159,114-1020,194}
+                                android.widget.TextView{6f6eb62 V.ED..C. ... 582,0-713,76 #7f0e0240 app:id/pinlun_good}
+                                android.widget.TextView{2a644f3 V.ED..C. ... 728,0-861,80 #7f0e0241 app:id/pinlun_count}
+                            com.modernsky.istv.view.NoScroListView{bf95b0 G.ED.VC. ... 0,0-0,0 #7f0e0242 app:id/gridview_paly_pinglun}
+                            android.widget.TextView{74e8c29 G.ED..C. ... 0,0-0,0 #7f0e0243 app:id/tv_add_more}
+                          android.widget.RelativeLayout{bdc5bae V.E..... ... 0,526-1080,780}
+                            android.widget.RelativeLayout{7563d4f V.E...C. ... 30,30-1050,224 #7f0e023d app:id/rl_pinglun_info}
+                              com.modernsky.istv.view.RoundAngleImageView{805cdc V.ED..C. ... 9,0-129,120 #7f0e023e app:id/img_grid}
+                              android.widget.TextView{11ac1e5 V.ED.... ... 60,0-134,56 #7f0e023f app:id/tv_lable}
+                              android.widget.TextView{b9684ba V.ED.... ... 159,0-472,61 #7f0e0166 app:id/tv_video_name}
+                              android.widget.TextView{d635f6b V.ED.... ... 868,0-1020,41 #7f0e0173 app:id/time}
+                              android.widget.TextView{2246ac8 V.ED.... ... 159,61-264,114 #7f0e017f app:id/textView2}
+                              android.widget.LinearLayout{ba9761 V.E..... ... 159,114-1020,194}
+                                android.widget.TextView{f983286 V.ED..C. ... 582,0-713,76 #7f0e0240 app:id/pinlun_good}
+                                android.widget.TextView{cd68747 V.ED..C. ... 728,0-861,80 #7f0e0241 app:id/pinlun_count}
+                            com.modernsky.istv.view.NoScroListView{c796b74 G.ED.VC. ... 0,0-0,0 #7f0e0242 app:id/gridview_paly_pinglun}
+                            android.widget.TextView{e28489d G.ED..C. ... 0,0-0,0 #7f0e0243 app:id/tv_add_more}
+                          android.widget.RelativeLayout{3b4f112 V.E..... ... 0,786-1080,1040}
+                            android.widget.RelativeLayout{b6a50e3 V.E...C. ... 30,30-1050,224 #7f0e023d app:id/rl_pinglun_info}
+                              com.modernsky.istv.view.RoundAngleImageView{37bcae0 V.ED..C. ... 9,0-129,120 #7f0e023e app:id/img_grid}
+                              android.widget.TextView{cc5d199 V.ED.... ... 60,0-134,56 #7f0e023f app:id/tv_lable}
+                              android.widget.TextView{b6d0c5e V.ED.... ... 159,0-350,61 #7f0e0166 app:id/tv_video_name}
+                              android.widget.TextView{5e7183f V.ED.... ... 868,0-1020,41 #7f0e0173 app:id/time}
+                              android.widget.TextView{c82b50c V.ED.... ... 159,61-276,114 #7f0e017f app:id/textView2}
+                              android.widget.LinearLayout{a18ee55 V.E..... ... 159,114-1020,194}
+                                android.widget.TextView{ff9906a V.ED..C. ... 582,0-713,76 #7f0e0240 app:id/pinlun_good}
+                                android.widget.TextView{33ef95b V.ED..C. ... 728,0-861,80 #7f0e0241 app:id/pinlun_count}
+                            com.modernsky.istv.view.NoScroListView{92c15f8 G.ED.VC. ... 0,0-0,0 #7f0e0242 app:id/gridview_paly_pinglun}
+                            android.widget.TextView{c471ad1 G.ED..C. ... 0,0-0,0 #7f0e0243 app:id/tv_add_more}
+                      com.handmark.pulltorefresh.library.internal.RotateLoadingLayout{3184936 I.E..... ... 0,990-1080,1584}
+                        android.widget.FrameLayout{d69d037 V.E..... ... 0,0-1080,240 #7f0e0375 app:id/fl_inner}
+                          android.widget.FrameLayout{50899a4 V.E..... ... 312,45-402,195}
+                            android.widget.ImageView{c51930d V.ED.... ... 0,25-90,124 #7f0e0376 app:id/pull_to_refresh_image}
+                            android.widget.ProgressBar{297c2c2 G.ED.... ... 0,0-0,0 #7f0e0377 app:id/pull_to_refresh_progress}
+                          android.widget.LinearLayout{c0138d3 V.E..... ... 414,45-666,195}
+                            android.widget.TextView{207ac10 V.ED.... ... 0,46-252,103 #7f0e0378 app:id/pull_to_refresh_text}
+                            android.widget.TextView{8115309 G.ED.... ... 0,0-0,0 #7f0e0379 app:id/pull_to_refresh_sub_text}
+                    android.widget.LinearLayout{8a3490e V.E..... ... 0,990-1080,1140 #7f0e0259 app:id/xiuchang_bottom_area}
+                      android.widget.EditText{c9c8f2f VFED..CL ... 30,30-906,120 #7f0e0271 app:id/footbar_play}
+                      android.widget.TextView{fa3793c V.ED..C. ... 951,31-1065,118 #7f0e025c app:id/btn_send}
+
+  ACTIVITY com.modernsky.istv/.acitivity.MainActivity 57ad0ec pid=20777
+    Local FragmentActivity 5473972 State:
+      mCreated=truemResumed=false mStopped=true mReallyStopped=true
+      mLoadersStarted=true
+    Active Fragments in 4cee81a:
+      #0: LiveFragment{4ecef4b #0 id=0x7f0e012d com.modernsky.istv.fragment.LiveFragment}
+        mFragmentId=#7f0e012d mContainerId=#7f0e012d mTag=com.modernsky.istv.fragment.LiveFragment
+        mState=2 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+        mAdded=true mRemoving=false mResumed=false mFromLayout=false mInLayout=false
+        mHidden=true mDetached=false mMenuVisible=true mHasMenu=false
+        mRetainInstance=false mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{4cee81a in HostCallbacks{4735a41}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@4735a41
+        mNextAnim=2130968602
+        mContainer=android.widget.FrameLayout{9e36be6 V.E...... .......D 0,0-1080,1725 #7f0e012d app:id/fragmentRoot}
+        mView=android.widget.RelativeLayout{a993527 G.E...... .......D 0,0-1080,1725}
+        mInnerView=android.widget.RelativeLayout{a993527 G.E...... .......D 0,0-1080,1725}
+        Child FragmentManager{497b3d4 in LiveFragment{4ecef4b}}:
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@4735a41
+            mContainer=android.support.v4.app.Fragment$1@75a597d
+            mParent=LiveFragment{4ecef4b #0 id=0x7f0e012d com.modernsky.istv.fragment.LiveFragment}
+            mCurState=2 mStateSaved=true mDestroyed=false
+      #1: FirstFragment{cd9fcc3 #1 id=0x7f0e012d com.modernsky.istv.fragment.FirstFragment}
+        mFragmentId=#7f0e012d mContainerId=#7f0e012d mTag=com.modernsky.istv.fragment.FirstFragment
+        mState=2 mIndex=1 mWho=android:fragment:1 mBackStackNesting=0
+        mAdded=true mRemoving=false mResumed=false mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+        mRetainInstance=false mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{4cee81a in HostCallbacks{4735a41}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@4735a41
+        mNextAnim=2130968603
+        mContainer=android.widget.FrameLayout{9e36be6 V.E...... .......D 0,0-1080,1725 #7f0e012d app:id/fragmentRoot}
+        mView=android.widget.RelativeLayout{4b81079 V.E...... ......ID 0,0-1080,1725}
+        mInnerView=android.widget.RelativeLayout{4b81079 V.E...... ......ID 0,0-1080,1725}
+        Child FragmentManager{dfa11be in FirstFragment{cd9fcc3}}:
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@4735a41
+            mContainer=android.support.v4.app.Fragment$1@455a96c
+            mParent=FirstFragment{cd9fcc3 #1 id=0x7f0e012d com.modernsky.istv.fragment.FirstFragment}
+            mCurState=2 mStateSaved=true mDestroyed=false
+    Added Fragments:
+      #0: LiveFragment{4ecef4b #0 id=0x7f0e012d com.modernsky.istv.fragment.LiveFragment}
+      #1: FirstFragment{cd9fcc3 #1 id=0x7f0e012d com.modernsky.istv.fragment.FirstFragment}
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@4735a41
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@4735a41
+      mCurState=2 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{7a03b35 I.E..... ... 0,0-1080,1920}
+        android.widget.LinearLayout{1418bca V.E..... ... 0,0-1080,1920}
+          android.view.ViewStub{fa9f058 G.E..... ... 0,0-0,0 #10203b8 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{ea655b1 V.E..... ... 0,60-1080,1920 #1020002 android:id/content}
+            android.widget.RelativeLayout{2d49a96 V.E..... ... 0,0-1080,1860}
+              com.modernsky.istv.view.SlidingMenu{1a3b617 VFED.... ... 0,0-1080,1860 #7f0e0162 app:id/id_menu}
+                android.widget.LinearLayout{f9ba04 V.E..... ... 0,0-1980,1860}
+                  android.widget.RelativeLayout{4199bed V.E..... ... 0,0-900,1860 #7f0e0163 app:id/include_left_menu}
+                    android.widget.LinearLayout{2b7ca22 V.E..... ... 0,0-900,1860}
+                      android.widget.RelativeLayout{239cb3 V.E..... ... 0,0-900,345 #7f0e031d app:id/ll_me}
+                        com.modernsky.istv.view.RoundAngleImageView{e0109e9 V.ED..C. ... 300,30-600,330 #7f0e00cd app:id/im_user}
+                        android.widget.TextView{9b1510f V.ED..C. ... 460,30-600,112 #7f0e031e app:id/tv_dengji}
+                        android.widget.TextView{7cc459c V.ED.... ... 110,112-460,168 #7f0e031f app:id/tv_my_rongyu}
+                      android.widget.RelativeLayout{d3c7b7a V.E..... ... 0,345-900,627 #7f0e0320 app:id/ll_my_rongyu}
+                        android.widget.LinearLayout{abbef2b V.E..... ... 286,33-614,94 #7f0e0321 app:id/ll_my_name}
+                          android.widget.TextView{b261f88 V.ED.... ... 15,0-328,61 #7f0e0322 app:id/tv_my_name}
+                        android.widget.TextView{8070d21 V.ED.... ... 378,109-522,158 #7f0e0323 app:id/tv_lable_name}
+                        android.widget.TextView{d885307 V.ED.... ... 141,188-759,267}
+                      android.widget.LinearLayout{ac1ac34 G.E..... ... 0,345-900,453 #7f0e0324 app:id/ll_login_regist}
+                        android.view.View{b265a5d V.ED.... ... 0,0-900,1}
+                        android.widget.LinearLayout{1cd18a3 V.E..... ... 0,1-900,109}
+                          android.widget.TextView{ef33f59 V.ED..C. ... 0,23-449,84 #7f0e0325 app:id/tv_my_login}
+                          android.view.View{2b5471e V.ED.... ... 449,0-450,108}
+                          android.widget.TextView{20e9bff V.ED..C. ... 450,23-900,84 #7f0e0326 app:id/tv_my_regist}
+                      android.widget.ScrollView{9fa4dcc VFED.... ... 0,627-900,1680}
+                        android.widget.LinearLayout{b0f7815 V.E..... ... 0,0-900,1420}
+                          android.widget.RelativeLayout{2baf91b V.E...C. ... 0,45-900,180 #7f0e02fe app:id/layout_myspace}
+                            android.widget.ImageView{57c8091 V.ED.... ... 51,45-96,90 #7f0e02ff app:id/img_left_myspace}
+                            android.widget.TextView{6551bf6 V.ED.... ... 147,39-315,96 #7f0e0300 app:id/text_myspace}
+                            android.widget.ImageView{7060bf7 V.ED.... ... 315,0-339,39 #7f0e0301 app:id/new_myspace}
+                            android.widget.ImageView{d428a64 V.ED.... ... 809,37-849,97}
+                          android.widget.TextView{8d794cd G.ED..C. ... 0,0-0,0 #7f0e0302 app:id/tv_my_zhanneixin}
+                          android.widget.TextView{6af0182 V.ED..C. ... 0,185-900,320 #7f0e0303 app:id/tv_my_chongzhi}
+                          android.widget.TextView{cfe8d0 V.ED..C. ... 0,365-900,500 #7f0e0304 app:id/tv_my_rank}
+                          android.widget.TextView{255b0c9 V.ED..C. ... 0,505-900,640 #7f0e0305 app:id/tv_my_calendor}
+                          android.widget.TextView{ecfb3ce V.ED..C. ... 0,685-900,820 #7f0e0306 app:id/tv_my_shoucang}
+                          android.widget.TextView{68c82ef V.ED..C. ... 0,825-900,960 #7f0e0307 app:id/tv_my_jilu}
+                          android.widget.TextView{37f9085 G.ED..C. ... 0,0-0,0 #7f0e0308 app:id/tv_show_cost}
+                          android.widget.TextView{7373eda V.ED..C. ... 0,965-900,1100 #7f0e0309 app:id/tv_my_youhuiquan}
+                          android.widget.TextView{e485f0b V.ED..C. ... 0,1145-900,1280 #7f0e030a app:id/tv_login_qrcode}
+                          android.widget.TextView{f4801e8 V.ED..C. ... 0,1285-900,1420 #7f0e030b app:id/tv_user_report}
+                      android.widget.TextView{3adb001 V.ED..C. ... 0,1725-900,1860 #7f0e0327 app:id/tv_my_setting}
+                  android.widget.LinearLayout{e5a6ea6 V.E..... ... 900,0-1980,1860}
+                    android.widget.RelativeLayout{49be0e7 V.E..... ... 0,0-1080,135}
+                      android.widget.ImageView{e8f5494 V.ED..C. ... 45,21-137,113 #7f0e0385 app:id/img_me}
+                      android.widget.Button{d444b3d VFED..C. ... 444,35-636,100 #7f0e004d app:id/tv_title}
+                      android.widget.ImageView{bba483 V.ED..C. ... 960,30-1035,105 #7f0e0386 app:id/img_search}
+                    android.widget.RelativeLayout{c572600 V.E..... ... 0,135-1080,1860}
+                      android.widget.FrameLayout{9e36be6 V.E..... ... 0,0-1080,1725 #7f0e012d app:id/fragmentRoot}
+                        android.widget.RelativeLayout{a993527 G.E..... ... 0,0-1080,1725}
+                          com.handmark.pulltorefresh.library.PullToRefreshListView{2af5e39 V.ED.... ... 0,0-1080,1725 #7f0e004e app:id/listview}
+                            com.handmark.pulltorefresh.library.internal.RotateLoadingLayout{c76ac7e I.E..... ... 0,-1035-1080,0}
+                              android.widget.FrameLayout{808a22c V.E..... ... 0,795-1080,1035 #7f0e0375 app:id/fl_inner}
+                                android.widget.FrameLayout{71ea4f5 V.E..... ... 312,45-402,195}
+                                  android.widget.ImageView{bb320fb V.ED.... ... 0,25-90,124 #7f0e0376 app:id/pull_to_refresh_image}
+                                  android.widget.ProgressBar{7019b71 G.ED.... ... 0,0-0,0 #7f0e0377 app:id/pull_to_refresh_progress}
+                                android.widget.LinearLayout{371cd56 V.E..... ... 372,45-708,195}
+                                  android.widget.TextView{f7b0ac4 V.ED.... ... 0,46-336,103 #7f0e0378 app:id/pull_to_refresh_text}
+                                  android.widget.TextView{c437dad G.ED.... ... 0,0-0,0 #7f0e0379 app:id/pull_to_refresh_sub_text}
+                            android.widget.FrameLayout{9d568e2 V.E..... ... 0,0-1080,1725}
+                              com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{69eb473 VFED.VC. ... 0,0-1080,1725 #102000a android:id/list}
+                                android.widget.FrameLayout{a4747a9 V.E..... ... 0,0-1080,0}
+                                  com.handmark.pulltorefresh.library.internal.RotateLoadingLayout{de5312e G.E..... ... 0,0-1080,240}
+                                    android.widget.FrameLayout{72624cf V.E..... ... 0,0-1080,240 #7f0e0375 app:id/fl_inner}
+                                      android.widget.FrameLayout{18eee5c V.E..... ... 312,45-402,195}
+                                        android.widget.ImageView{117323a V.ED.... ... 0,25-90,124 #7f0e0376 app:id/pull_to_refresh_image}
+                                        android.widget.ProgressBar{b0a3eeb G.ED.... ... 0,0-0,0 #7f0e0377 app:id/pull_to_refresh_progress}
+                                      android.widget.LinearLayout{b9f42e1 V.E..... ... 463,45-617,195}
+                                        android.widget.TextView{4363806 V.ED.... ... 0,46-154,103 #7f0e0378 app:id/pull_to_refresh_text}
+                                        android.widget.TextView{acbdec7 G.ED.... ... 0,0-0,0 #7f0e0379 app:id/pull_to_refresh_sub_text}
+                                android.widget.RelativeLayout{b98acf4 V.E..... ... 0,1-1080,610}
+                                  android.widget.FrameLayout{d6c2c1d V.E..... ... 0,0-1080,609}
+                                    com.modernsky.istv.view.ChildViewPager{7edce92 VFED.... ... 0,0-1080,609 #7f0e01bb app:id/viewPager}
+                                      android.widget.RelativeLayout{c1da063 V.E..... ... 4320,0-5400,609}
+                                        android.widget.ImageView{f0da460 V.ED.... ... 0,0-1080,609 #7f0e02e9 app:id/img_viewpager}
+                                        android.widget.LinearLayout{3246d19 G.E..... ... 0,0-0,0}
+                                          android.widget.TextView{a1641de V.ED.... ... 0,0-0,0 #7f0e0166 app:id/tv_video_name}
+                                          android.widget.TextView{33fdfbf V.ED.... ... 0,0-0,0 #7f0e017f app:id/textView2}
+                                      android.widget.RelativeLayout{518a68c V.E..... ... 3240,0-4320,609}
+                                        android.widget.ImageView{a85c1d5 V.ED.... ... 0,0-1080,609 #7f0e02e9 app:id/img_viewpager}
+                                        android.widget.LinearLayout{bc09dea G.E..... ... 0,0-0,0}
+                                          android.widget.TextView{e1cb8db V.ED.... ... 0,0-0,0 #7f0e0166 app:id/tv_video_name}
+                                          android.widget.TextView{6ef9f78 V.ED.... ... 0,0-0,0 #7f0e017f app:id/textView2}
+                                      android.widget.RelativeLayout{c1da063 V.E..... ... 4320,0-5400,609}
+                                        android.widget.ImageView{f0da460 V.ED.... ... 0,0-1080,609 #7f0e02e9 app:id/img_viewpager}
+                                        android.widget.LinearLayout{3246d19 G.E..... ... 0,0-0,0}
+                                          android.widget.TextView{a1641de V.ED.... ... 0,0-0,0 #7f0e0166 app:id/tv_video_name}
+                                          android.widget.TextView{33fdfbf V.ED.... ... 0,0-0,0 #7f0e017f app:id/textView2}
+                                    android.widget.LinearLayout{56da651 V.E..... ... 0,599-1080,609 #7f0e03fb app:id/viewGroup}
+                                      android.widget.ImageView{c02aeb6 V.ED.... ... 0,0-540,10}
+                                      android.widget.ImageView{52407b7 V.ED.... ... 540,0-1080,10}
+                                android.widget.RelativeLayout{c15568d V.E...C. ... 0,611-1080,1061}
+                                  android.widget.RelativeLayout{3830042 V.E..... ... 0,0-1080,450}
+                                    android.widget.ImageView{de76853 V.ED.... ... 0,0-1080,450 #7f0e017d app:id/imageView1}
+                                    android.widget.RelativeLayout{82e590 G.E..... ... 0,0-0,0 #7f0e02c1 app:id/rl_timeline}
+                                      android.widget.ImageView{70dce89 V.ED.... ... 0,0-0,0 #7f0e02ad app:id/point_item_time}
+                                      android.widget.TextView{b7636af V.ED.... ... 0,0-0,0 #7f0e02ae app:id/text_item_time}
+                                  android.widget.RelativeLayout{58cabc V.E..... ... 0,310-1080,450 #7f0e02c2 app:id/buttomLayout}
+                                    android.widget.LinearLayout{cfbca45 V.E..... ... 48,15-228,140}
+                                      android.widget.TextView{534559a V.ED.... ... 0,0-160,61 #7f0e0166 app:id/tv_video_name}
+                                      android.widget.TextView{8798ecb V.ED.... ... 0,61-180,110 #7f0e017f app:id/textView2}
+                                    android.widget.ImageView{145d6a8 V.ED.... ... 600,30-1050,120 #7f0e02c3 app:id/tv_time_count}
+                                    android.widget.LinearLayout{13c5c1 I.E..... ... 600,30-1050,120 #7f0e013c app:id/timeLauout}
+                                      android.widget.RelativeLayout{2f23166 V.E..... ... 0,0-90,90}
+                                        android.widget.TextView{7104ca7 V.ED.... ... 0,0-90,49 #7f0e013d app:id/up1}
+                                        android.widget.TextView{755fcfd V.ED.... ... 0,49-90,82 #7f0e013e app:id/down1}
+                                      android.widget.RelativeLayout{b5ffdf2 V.E..... ... 120,0-210,90}
+                                        android.widget.TextView{26b0c43 V.ED.... ... 0,0-90,49 #7f0e013f app:id/up2}
+                                        android.widget.TextView{422d2c0 V.ED.... ... 0,49-90,82 #7f0e0140 app:id/down2}
+                                      android.widget.RelativeLayout{66c073e V.E..... ... 240,0-330,90}
+                                        android.widget.TextView{e28299f V.ED.... ... 0,0-90,49 #7f0e0141 app:id/up3}
+                                        android.widget.TextView{3c25aec V.ED.... ... 0,49-90,82 #7f0e0142 app:id/down3}
+                                      android.widget.RelativeLayout{ffcceb5 V.E..... ... 360,0-450,90}
+                                        android.widget.TextView{f6fc0bb V.ED.... ... 0,0-90,49 #7f0e0143 app:id/up4}
+                                        android.widget.TextView{af039d8 V.ED.... ... 0,49-90,82 #7f0e0144 app:id/down4}
+                                android.widget.RelativeLayout{ef8a131 V.E...C. ... 0,1062-1080,1512}
+                                  android.widget.RelativeLayout{bcfad97 V.E..... ... 0,0-1080,450}
+                                    android.widget.ImageView{81b1b84 V.ED.... ... 0,0-1080,450 #7f0e017d app:id/imageView1}
+                                    android.widget.RelativeLayout{2051f6d G.E..... ... 0,0-0,0 #7f0e02c1 app:id/rl_timeline}
+                                      android.widget.ImageView{70fc7a2 V.ED.... ... 0,0-0,0 #7f0e02ad app:id/point_item_time}
+                                      android.widget.TextView{9d78c33 V.ED.... ... 0,0-0,0 #7f0e02ae app:id/text_item_time}
+                                  android.widget.RelativeLayout{ff06bf0 V.E..... ... 0,310-1080,450 #7f0e02c2 app:id/buttomLayout}
+                                    android.widget.LinearLayout{5e14569 V.E..... ... 48,15-228,140}
+                                      android.widget.TextView{c46bbee V.ED.... ... 0,0-147,61 #7f0e0166 app:id/tv_video_name}
+                                      android.widget.TextView{f74b88f V.ED.... ... 0,61-180,110 #7f0e017f app:id/textView2}
+                                    android.widget.ImageView{288571c V.ED.... ... 600,30-1050,120 #7f0e02c3 app:id/tv_time_count}
+                                    android.widget.LinearLayout{a3fcf25 I.E..... ... 600,30-1050,120 #7f0e013c app:id/timeLauout}
+                                      android.widget.RelativeLayout{a0e4eab V.E..... ... 0,0-90,90}
+                                        android.widget.TextView{751c908 V.ED.... ... 0,0-90,49 #7f0e013d app:id/up1}
+                                        android.widget.TextView{d4338a1 V.ED.... ... 0,49-90,82 #7f0e013e app:id/down1}
+                                      android.widget.RelativeLayout{e665ac6 V.E..... ... 120,0-210,90}
+                                        android.widget.TextView{bbe6db4 V.ED.... ... 0,0-90,49 #7f0e013f app:id/up2}
+                                        android.widget.TextView{2b9bddd V.ED.... ... 0,49-90,82 #7f0e0140 app:id/down2}
+                                      android.widget.RelativeLayout{6dd5d52 V.E..... ... 240,0-330,90}
+                                        android.widget.TextView{e1be823 V.ED.... ... 0,0-90,49 #7f0e0141 app:id/up3}
+                                        android.widget.TextView{3195ad9 V.ED.... ... 0,49-90,82 #7f0e0142 app:id/down3}
+                                      android.widget.RelativeLayout{84ffc9e V.E..... ... 360,0-450,90}
+                                        android.widget.TextView{93ae37f V.ED.... ... 0,0-90,49 #7f0e0143 app:id/up4}
+                                        android.widget.TextView{29dbf4c V.ED.... ... 0,49-90,82 #7f0e0144 app:id/down4}
+                                android.widget.RelativeLayout{1bb44aa V.E...C. ... 0,1513-1080,1963}
+                                  android.widget.RelativeLayout{124389b V.E..... ... 0,0-1080,450}
+                                    android.widget.ImageView{88d8438 V.ED.... ... 0,0-1080,450 #7f0e017d app:id/imageView1}
+                                    android.widget.RelativeLayout{dda8c11 G.E..... ... 0,0-0,0 #7f0e02c1 app:id/rl_timeline}
+                                      android.widget.ImageView{2e10176 V.ED.... ... 0,0-0,0 #7f0e02ad app:id/point_item_time}
+                                      android.widget.TextView{5b2abe4 V.ED.... ... 0,0-0,0 #7f0e02ae app:id/text_item_time}
+                                  android.widget.RelativeLayout{3cad84d V.E..... ... 0,310-1080,450 #7f0e02c2 app:id/buttomLayout}
+                                    android.widget.LinearLayout{3d3bf02 V.E..... ... 48,15-290,140}
+                                      android.widget.TextView{2e72013 V.ED.... ... 0,0-242,61 #7f0e0166 app:id/tv_video_name}
+                                      android.widget.TextView{ff9ac49 V.ED.... ... 0,61-180,110 #7f0e017f app:id/textView2}
+                                    android.widget.ImageView{942c94e I.ED.... ... 600,30-1050,120 #7f0e02c3 app:id/tv_time_count}
+                                    android.widget.LinearLayout{b19aa6f V.E..... ... 600,30-1050,120 #7f0e013c app:id/timeLauout}
+                                      android.widget.RelativeLayout{cb5937c V.E..... ... 0,0-90,90}
+                                        android.widget.TextView{a27c405 V.ED.... ... 0,0-90,49 #7f0e013d app:id/up1}
+                                        android.widget.TextView{1862c5a V.ED.... ... 0,49-90,82 #7f0e013e app:id/down1}
+                                      android.widget.RelativeLayout{f407e8b V.E..... ... 120,0-210,90}
+                                        android.widget.TextView{f866b68 V.ED.... ... 0,0-90,49 #7f0e013f app:id/up2}
+                                        android.widget.TextView{b659b81 V.ED.... ... 0,49-90,82 #7f0e0140 app:id/down2}
+                                      android.widget.RelativeLayout{66ab426 V.E..... ... 240,0-330,90}
+                                        android.widget.TextView{9b67867 V.ED.... ... 0,0-90,49 #7f0e0141 app:id/up3}
+                                        android.widget.TextView{20ad614 V.ED.... ... 0,49-90,82 #7f0e0142 app:id/down3}
+                                      android.widget.RelativeLayout{34f6ebd V.E..... ... 360,0-450,90}
+                                        android.widget.TextView{fbdecb2 V.ED.... ... 0,0-90,49 #7f0e0143 app:id/up4}
+                                        android.widget.TextView{5a83403 V.ED.... ... 0,49-90,82 #7f0e0144 app:id/down4}
+                          android.widget.RelativeLayout{5c93f80 V.E..... ... 0,0-1080,1725 #7f0e025d app:id/listLayout}
+                            android.view.View{50939b9 G.ED.... ... 0,0-0,0 #7f0e025e app:id/bacground}
+                            android.view.View{29a21fe V.ED.... ... 0,150-300,1545 #7f0e025f app:id/layout_time}
+                            android.widget.ListView{a700d5f I.ED..C. ... 0,862-600,862 #7f0e0260 app:id/timeList}
+                        android.widget.RelativeLayout{4b81079 V.E..... ... 0,0-1080,1725}
+                          com.handmark.pulltorefresh.library.PullToRefreshListView{c42d3ac V.ED.... ... 0,0-1080,1725 #7f0e004e app:id/listview}
+                            com.handmark.pulltorefresh.library.internal.RotateLoadingLayout{972600a I.E..... ... 0,-1035-1080,0}
+                              android.widget.FrameLayout{bdf7e98 V.E..... ... 0,795-1080,1035 #7f0e0375 app:id/fl_inner}
+                                android.widget.FrameLayout{84b66f1 V.E..... ... 312,45-402,195}
+                                  android.widget.ImageView{d384957 V.ED.... ... 0,25-90,124 #7f0e0376 app:id/pull_to_refresh_image}
+                                  android.widget.ProgressBar{31e812d G.ED.... ... 0,0-0,0 #7f0e0377 app:id/pull_to_refresh_progress}
+                                android.widget.LinearLayout{d8e23f3 V.E..... ... 372,45-708,195}
+                                  android.widget.TextView{56b88b0 V.ED.... ... 0,46-336,103 #7f0e0378 app:id/pull_to_refresh_text}
+                                  android.widget.TextView{c9106ae G.ED.... ... 0,0-0,0 #7f0e0379 app:id/pull_to_refresh_sub_text}
+                            android.widget.FrameLayout{25d0c4f V.E..... ... 0,0-1080,1725}
+                              com.handmark.pulltorefresh.library.PullToRefreshListView$InternalListViewSDK9{d6ba8e5 VFED.VC. ... 0,0-1080,1725 #102000a android:id/list}
+                                android.widget.FrameLayout{3881e6b V.E..... ... 0,0-1080,0}
+                                  com.handmark.pulltorefresh.library.internal.RotateLoadingLayout{bfbbdc8 G.E..... ... 0,0-0,0}
+                                    android.widget.FrameLayout{eb2ee61 V.E..... ... 0,0-0,0 #7f0e0375 app:id/fl_inner}
+                                      android.widget.FrameLayout{6d73d86 V.E..... ... 0,0-0,0}
+                                        android.widget.ImageView{a083647 V.ED.... ... 0,0-0,0 #7f0e0376 app:id/pull_to_refresh_image}
+                                        android.widget.ProgressBar{7f2ee74 G.ED.... ... 0,0-0,0 #7f0e0377 app:id/pull_to_refresh_progress}
+                                      android.widget.LinearLayout{759ac12 V.E..... ... 0,0-0,0}
+                                        android.widget.TextView{b87efe3 V.ED.... ... 0,0-0,0 #7f0e0378 app:id/pull_to_refresh_text}
+                                        android.widget.TextView{8a7de0 G.ED.... ... 0,0-0,0 #7f0e0379 app:id/pull_to_refresh_sub_text}
+                                android.widget.RelativeLayout{8920899 V.E..... ... 0,1-1080,364}
+                                  android.widget.ImageView{3bfa73f V.ED..C. ... 0,0-1080,363 #7f0e017d app:id/imageView1}
+                                  android.widget.RelativeLayout{749980c G.E..... ... 0,0-0,0}
+                                    android.widget.TextView{61aab6a V.ED.... ... 0,0-0,0 #7f0e0166 app:id/tv_video_name}
+                                    android.widget.TextView{791785b V.ED.... ... 0,0-0,0 #7f0e02aa app:id/tv_video_name_detil}
+                                    android.widget.TextView{cfe28f8 V.ED.... ... 0,0-0,0 #7f0e017f app:id/textView2}
+                                  android.widget.ImageView{8331d1 V.ED.... ... 930,0-1080,150 #7f0e02ab app:id/item_rotate_textview}
+                                  android.widget.RelativeLayout{9b01436 V.E...C. ... 0,0-269,72 #7f0e02ac app:id/rl_timeLine}
+                                    android.widget.ImageView{de53f37 V.ED.... ... 15,30-47,62 #7f0e02ad app:id/point_item_time}
+                                    android.widget.TextView{f68dca4 V.ED.... ... 62,15-269,72 #7f0e02ae app:id/text_item_time}
+                                android.widget.RelativeLayout{db81a0d V.E..... ... 0,365-1080,728}
+                                  android.widget.ImageView{2613dc2 V.ED..C. ... 0,0-1080,363 #7f0e017d app:id/imageView1}
+                                  android.widget.RelativeLayout{a4497d3 G.E..... ... 0,0-0,0}
+                                    android.widget.TextView{6d94a09 V.ED.... ... 0,0-0,0 #7f0e0166 app:id/tv_video_name}
+                                    android.widget.TextView{b09740e V.ED.... ... 0,0-0,0 #7f0e02aa app:id/tv_video_name_detil}
+                                    android.widget.TextView{536de2f V.ED.... ... 0,0-0,0 #7f0e017f app:id/textView2}
+                                  android.widget.ImageView{7691c3c V.ED.... ... 930,0-1080,150 #7f0e02ab app:id/item_rotate_textview}
+                                  android.widget.RelativeLayout{c37dc5 I.E...C. ... 0,0-269,72 #7f0e02ac app:id/rl_timeLine}
+                                    android.widget.ImageView{eecc31a V.ED.... ... 15,30-47,62 #7f0e02ad app:id/point_item_time}
+                                    android.widget.TextView{e5d2e4b V.ED.... ... 62,15-269,72 #7f0e02ae app:id/text_item_time}
+                                android.widget.RelativeLayout{ac9c028 V.E..... ... 0,729-1080,1092}
+                                  android.widget.ImageView{783f6e6 V.ED..C. ... 0,0-1080,363 #7f0e017d app:id/imageView1}
+                                  android.widget.RelativeLayout{44e6427 G.E..... ... 0,0-0,0}
+                                    android.widget.TextView{ef0a07d V.ED.... ... 0,0-0,0 #7f0e0166 app:id/tv_video_name}
+                                    android.widget.TextView{b089b72 V.ED.... ... 0,0-0,0 #7f0e02aa app:id/tv_video_name_detil}
+                                    android.widget.TextView{e331bc3 V.ED.... ... 0,0-0,0 #7f0e017f app:id/textView2}
+                                  android.widget.ImageView{a0a6c40 V.ED.... ... 930,0-1080,150 #7f0e02ab app:id/item_rotate_textview}
+                                  android.widget.RelativeLayout{cebc779 I.E...C. ... 0,0-269,72 #7f0e02ac app:id/rl_timeLine}
+                                    android.widget.ImageView{7c0fcbe V.ED.... ... 15,30-47,62 #7f0e02ad app:id/point_item_time}
+                                    android.widget.TextView{321b11f V.ED.... ... 62,15-269,72 #7f0e02ae app:id/text_item_time}
+                                android.widget.RelativeLayout{64a0c6c V.E..... ... 0,1093-1080,1456}
+                                  android.widget.ImageView{4d86235 V.ED..C. ... 0,0-1080,363 #7f0e017d app:id/imageView1}
+                                  android.widget.RelativeLayout{80c26ca G.E..... ... 0,0-0,0}
+                                    android.widget.TextView{18358 V.ED.... ... 0,0-0,0 #7f0e0166 app:id/tv_video_name}
+                                    android.widget.TextView{4b9ecb1 V.ED.... ... 0,0-0,0 #7f0e02aa app:id/tv_video_name_detil}
+                                    android.widget.TextView{b2de596 V.ED.... ... 0,0-0,0 #7f0e017f app:id/textView2}
+                                  android.widget.ImageView{682a517 V.ED.... ... 930,0-1080,150 #7f0e02ab app:id/item_rotate_textview}
+                                  android.widget.RelativeLayout{ab77d04 V.E...C. ... 0,0-269,72 #7f0e02ac app:id/rl_timeLine}
+                                    android.widget.ImageView{d4fa2ed V.ED.... ... 15,30-47,62 #7f0e02ad app:id/point_item_time}
+                                    android.widget.TextView{edac522 V.ED.... ... 62,15-269,72 #7f0e02ae app:id/text_item_time}
+                                android.widget.RelativeLayout{5827bb3 V.E..... ... 0,1457-1080,1820}
+                                  android.widget.ImageView{9b16570 V.ED..C. ... 0,0-1080,363 #7f0e017d app:id/imageView1}
+                                  android.widget.RelativeLayout{21080e9 G.E..... ... 0,0-0,0}
+                                    android.widget.TextView{f9f200f V.ED.... ... 0,0-0,0 #7f0e0166 app:id/tv_video_name}
+                                    android.widget.TextView{d1f689c V.ED.... ... 0,0-0,0 #7f0e02aa app:id/tv_video_name_detil}
+                                    android.widget.TextView{ce742a5 V.ED.... ... 0,0-0,0 #7f0e017f app:id/textView2}
+                                  android.widget.ImageView{563d67a V.ED.... ... 930,0-1080,150 #7f0e02ab app:id/item_rotate_textview}
+                                  android.widget.RelativeLayout{337ae2b I.E...C. ... 0,0-269,72 #7f0e02ac app:id/rl_timeLine}
+                                    android.widget.ImageView{1ae6421 V.ED.... ... 15,30-47,62 #7f0e02ad app:id/point_item_time}
+                                    android.widget.TextView{c48e046 V.ED.... ... 62,15-269,72 #7f0e02ae app:id/text_item_time}
+                          android.widget.RelativeLayout{cf62f34 V.E..... ... 0,0-1080,1725 #7f0e025d app:id/listLayout}
+                            android.view.View{422bad2 G.ED.... ... 0,0-0,0 #7f0e025e app:id/bacground}
+                            android.view.View{821b7a3 V.ED.... ... 0,150-300,1545 #7f0e025f app:id/layout_time}
+                            android.widget.ListView{d4e7659 IFED..C. ... 0,367-600,1357 #7f0e0260 app:id/timeList}
+                              android.widget.RelativeLayout{44db21e V.E..... ... 0,0-600,90}
+                                android.widget.ImageView{28e2aff V.ED.... ... 15,29-47,61 #7f0e02e4 app:id/point_item_timeline}
+                                android.widget.TextView{7dc30cc V.ED.... ... 62,16-269,73 #7f0e02e5 app:id/text_item_timeline}
+                              android.widget.RelativeLayout{9671f15 V.E..... ... 0,90-600,180}
+                                android.widget.ImageView{b9ed22a V.ED.... ... 15,29-47,61 #7f0e02e4 app:id/point_item_timeline}
+                                android.widget.TextView{d24781b V.ED.... ... 62,16-269,73 #7f0e02e5 app:id/text_item_timeline}
+                              android.widget.RelativeLayout{5018db8 V.E..... ... 0,180-600,270}
+                                android.widget.ImageView{f279791 V.ED.... ... 15,29-47,61 #7f0e02e4 app:id/point_item_timeline}
+                                android.widget.TextView{8087af7 V.ED.... ... 62,16-269,73 #7f0e02e5 app:id/text_item_timeline}
+                              android.widget.RelativeLayout{31dcd64 V.E..... ... 0,270-600,360}
+                                android.widget.ImageView{79d1bcd V.ED.... ... 15,29-47,61 #7f0e02e4 app:id/point_item_timeline}
+                                android.widget.TextView{9eb7c82 V.ED.... ... 62,16-269,73 #7f0e02e5 app:id/text_item_timeline}
+                              android.widget.RelativeLayout{7bfcf93 V.E..... ... 0,360-600,450}
+                                android.widget.ImageView{c9c5bd0 V.ED.... ... 15,29-47,61 #7f0e02e4 app:id/point_item_timeline}
+                                android.widget.TextView{8d8dece V.ED.... ... 62,16-269,73 #7f0e02e5 app:id/text_item_timeline}
+                              android.widget.RelativeLayout{98dd1ef V.E..... ... 0,450-600,540}
+                                android.widget.ImageView{53364fc V.ED.... ... 15,29-47,61 #7f0e02e4 app:id/point_item_timeline}
+                                android.widget.TextView{68ef785 V.ED.... ... 62,16-269,73 #7f0e02e5 app:id/text_item_timeline}
+                              android.widget.RelativeLayout{2819da V.E..... ... 0,540-600,630}
+                                android.widget.ImageView{18f9e0b V.ED.... ... 15,29-47,61 #7f0e02e4 app:id/point_item_timeline}
+                                android.widget.TextView{5cc8701 V.ED.... ... 62,16-269,73 #7f0e02e5 app:id/text_item_timeline}
+                              android.widget.RelativeLayout{4fdf9a6 V.E..... ... 0,630-600,720}
+                                android.widget.ImageView{e980fe7 V.ED.... ... 15,29-47,61 #7f0e02e4 app:id/point_item_timeline}
+                                android.widget.TextView{f415794 V.ED.... ... 62,16-269,73 #7f0e02e5 app:id/text_item_timeline}
+                              android.widget.RelativeLayout{7f9923d V.E..... ... 0,720-600,810}
+                                android.widget.ImageView{8000a32 V.ED.... ... 15,29-47,61 #7f0e02e4 app:id/point_item_timeline}
+                                android.widget.TextView{9a65900 V.ED.... ... 62,16-269,73 #7f0e02e5 app:id/text_item_timeline}
+                              android.widget.RelativeLayout{f21539 V.E..... ... 0,810-600,900}
+                                android.widget.ImageView{ca0977e V.ED.... ... 15,29-47,61 #7f0e02e4 app:id/point_item_timeline}
+                                android.widget.TextView{7fd14df V.ED.... ... 62,16-269,73 #7f0e02e5 app:id/text_item_timeline}
+                              android.widget.RelativeLayout{698052c V.E..... ... 0,900-600,990}
+                                android.widget.ImageView{c55cbf5 V.ED.... ... 15,29-47,61 #7f0e02e4 app:id/point_item_timeline}
+                                android.widget.TextView{92aad8a V.ED.... ... 62,16-269,73 #7f0e02e5 app:id/text_item_timeline}
+                      android.widget.LinearLayout{ac81ffb V.E..... ... 0,1551-1080,1725}
+                        android.widget.RadioGroup{8164818 V.E..... ... 0,-3-1080,177 #7f0e024a app:id/bottomGroup}
+                          android.widget.RadioButton{6043271 VFED..C. ... 0,21-360,180 #7f0e024b app:id/main_rb_left}
+                          android.widget.RadioButton{f6ec0d7 VFED..C. ... 360,21-720,180 #7f0e024c app:id/main_rb_center}
+                          android.widget.RadioButton{e33cdc4 VFED..C. ... 720,21-1080,180 #7f0e024d app:id/main_rb_right}
+              com.modernsky.istv.view.DrageLayout{eeb63e2 V.E..... ... 0,150-1080,1680 #7f0e02f5 app:id/drageLayout}
+                android.widget.RelativeLayout{5820230 V.E..... ... 0,1380-150,1530 #7f0e02f6 app:id/draglayoutView}
+                  android.widget.ImageView{ddfdc2e V.ED.... ... 0,0-150,150 #7f0e02f7 app:id/img_bac}
+                  android.widget.ImageView{6faf3cf I.ED.... ... 0,0-150,150 #7f0e02f8 app:id/img_bac2}
+                  android.widget.ImageView{3d115c V.ED.... ... 0,0-150,150}
+                  android.widget.ImageView{e729c65 V.ED.... ... 0,0-150,150}
+                  android.widget.ImageView{d918d3a V.ED.... ... 0,0-150,150 #7f0e02f9 app:id/img3}
+                  android.widget.ImageView{637e748 V.ED.... ... 0,0-150,150}
+                  android.widget.RelativeLayout{7f599e1 V.E..... ... 0,0-150,150}
+                    com.modernsky.istv.view.RoundAngleImageView{d7b4306 V.ED.... ... 36,36-114,114 #7f0e02fa app:id/img4}
+                  android.widget.ImageView{88b8dc7 V.ED.... ... 0,0-150,150 #7f0e02fb app:id/img5}
+                  android.widget.ImageView{7882ff4 V.ED.... ... 0,0-150,150 #7f0e02fc app:id/img6}
+              android.widget.RelativeLayout{e50f31d I.E..... ... 0,1530-1080,1680 #7f0e0164 app:id/layoutButtom_drag}
+                android.widget.LinearLayout{7a93f63 V.E..... ... 0,0-1080,150}
+                  android.widget.RelativeLayout{df25760 V.E..... ... 0,0-462,150}
+                    android.widget.RelativeLayout{b0ea419 V.E...C. ... 0,0-150,150 #7f0e028d app:id/leftimg}
+                      android.widget.ImageView{f91acde V.ED.... ... 0,0-150,150}
+                      android.widget.ImageView{5666ebf V.ED.... ... 0,0-150,150 #7f0e028e app:id/imgButtom3}
+                      android.widget.ImageView{915898c V.ED.... ... 0,0-150,150}
+                      android.widget.RelativeLayout{c5c68d5 V.E..... ... 0,0-150,150}
+                        com.modernsky.istv.view.RoundAngleImageView{d9d37db V.ED.... ... 36,36-114,114 #7f0e028f app:id/img4_buttom}
+                    android.widget.TextView{157b278 V.ED.... ... 165,6-462,91 #7f0e0290 app:id/name_song}
+                    android.widget.TextView{b87bd51 V.ED.... ... 165,91-255,132 #7f0e0291 app:id/name_person}
+                  android.widget.RelativeLayout{22079b6 V.E...C. ... 462,0-616,150 #7f0e0292 app:id/playLayout}
+                    android.widget.ImageView{5ad76b7 V.ED.... ... 32,30-122,120 #7f0e0293 app:id/playOrStop}
+                  android.widget.RelativeLayout{f39dd8d V.E...C. ... 616,0-770,150 #7f0e0294 app:id/nextLayout}
+                    android.widget.ImageView{5327b42 V.ED.... ... 54,52-99,97 #7f0e0295 app:id/next}
+                  android.widget.RelativeLayout{f18c753 V.E...C. ... 770,0-925,150 #7f0e0296 app:id/likeLayout}
+                    android.widget.ImageView{573c589 V.ED.... ... 55,52-100,97 #7f0e0297 app:id/like}
+                  android.widget.RelativeLayout{971098e V.E...C. ... 925,0-1080,150 #7f0e0298 app:id/deleteLayout}
+                    android.widget.ImageView{7de85af V.ED.... ... 55,52-100,97 #7f0e0299 app:id/delete}

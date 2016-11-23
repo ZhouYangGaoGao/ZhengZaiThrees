@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="LePanoVideo">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/playerLibRelease/libs/LePanoVideo.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">正在现场</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="pinglun">评论</string>
+    <string name="fasong">发送</string>
+    <string name="login">登录</string>
+    <string name="fast_register">注册账号</string>
+    <string name="back_pinglun">返回评论</string>
+    <string name="input_count">输入手机号或邮箱</string>
+    <string name="input_count_phone">输入手机号</string>
+    <string name="phone_login">找回密码</string>
+    <string name="login_hezuo_wangzhan">使用合作网站账号登录</string>
+    <string name="hour_before">小时前</string>
+    <string name="minute_before">分钟前</string>
+    <string name="day_before">天前</string>
+    <string name="mouth_before">月前</string>
+    <string name="year_before">年前</string>
+    <string name="good">赞</string>
+    <string name="start_zhengzai">开启正在现场</string>
+    <string name="xieyi">《正在现场使用服务协议》</string>
+    <string name="video_layout_loading">正在缓冲...</string>
+    <string name="search">正在搜索</string>
+    <string name="hot_yugao">热门预告</string>
+    <string name="hot_search">热门搜索</string>
+    <string name="music_day">音乐节</string>
+    <string name="guess_youlike">热门艺人搜索</string>
+    <string name="cancel">取消</string>
+    <string name="clear">清空</string>
+    <string name="biaoqing">标清</string>
+    <string name="xuanji">选集</string>
+    <string name="input_psd">请输入6-16位字母数字密码</string>
+    <string name="regiter_phone">手机注册</string>
+    <string name="regiter_email">邮箱注册</string>
+    <string name="regiter">注册</string>
+    <string name="intput_duanxin_code">请输入6位短信验证码</string>
+    <string name="input_email">输入常用邮箱</string>
+    <string name="_zhengzai_tv_">我已阅读《正在现场使用服务协议》</string>
+    <string name="gaoqing">高 清</string>
+    <string name="chaoqing">超 清</string>
+    <string name="cancle">取消</string>
+    <string name="hudong">条互动</string>
+    <string name="your_think">这一刻你的想法...</string>
+    <string name="fabiao_pinglun">发表评论</string>
+    <string name="complete">完成</string>
+    <string name="pinglun_success">评论成功</string>
+    <string name="dianzan_success">点赞成功</string>
+    <string name="shoucang_success">收藏成功</string>
+    <string name="del_shoucang_success">取消收藏成功</string>
+    <string name="just_now">刚刚</string>
+    <string name="_getRegisterCode">获取验证码</string>
+    <string name="_regetTime">后重新发送</string>
+    <string name="_show">正在空间</string>
+    <string name="_now">正在现场</string>
+    <string name="_live">正在直播</string>
+    <string name="_paihangbang">排行</string>
+    <string name="_zhuanti">专题</string>
+    <string name="_already_yuyue">已预约</string>
+    <string name="_cancle_yuyue">取消预约成功</string>
+    <string name="_me">我</string>
+    <string name="take_photo">拍照</string>
+    <string name="photos">相册</string>
+    <string name="_name">名字</string>
+    <string name="_phone">手机</string>
+    <string name="_emial">邮箱</string>
+    <string name="title_reportdialog">"哎呀被翻牌子啦！"</string>
+    <!-- 友盟字段 -->
+    <string name="_del_success">删除成功</string>
+    <string name="_del">删除</string>
+    <string name="_next">下一步</string>
+
+    <!-- 微信支付 -->
+    <!-- WXPayEntryActivity -->
+    <string name="app_tip">提示</string>
+    <string name="pay_result_tip">这个界面用于显示第三方app通过微信支付的结果</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+
+    <!-- BC-test -->
+    <string name="bc_pay" formatted="false">微信支付</string>
+    <string name="bc_pay_wx_title">微信支付</string>
+    <string name="bc_pay_goto_wx">打开微信支付</string>
+    <string name="my_youhuima">优惠券</string>
+    <string name="pay_success">支付成功</string>
+    <string name="pay_fail">支付失败</string>
+    <!-- 2.0 -->
+    <string name="guangchang">广场</string>
+    <string name="vitamio_library_app_name">VitamioLibrary</string>
+    <string name="vitamio_init_decoders">正在加载…</string>
+    <string name="permission_group_tools_label">tools</string>
+    <string name="permission_group_tools_description">初始化资源</string>
+    <string name="permission_receive_messages_label">接收消息</string>
+    <string name="permission_receive_messages_description">接收广播</string>
+    <string name="permission_write_providers_label">读写权限</string>
+    <string name="permission_write_providers_description">删除或者创建新的内容条目</string>
+    <string name="VideoView_error_title">不能播放此视频</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">对不起，此视频流播放失败。</string>
+    <string name="VideoView_error_text_unknown">对不起，此视频播放失败。</string>
+    <string name="VideoView_error_button">OK</string>
+    <string name="mediacontroller_play_pause">播放/暂停</string>
+
+    <string-array name="shareContent">
+        <item>你会和我一样无法拒绝TA吗？</item>
+        <item>认识这个人吗？最近特火的那个</item>
+        <item>没想到学校里还有这等大神，快来帮TA登上草莓音乐节</item>
+    </string-array>
+    <string-array name="shareContentForSelf">
+        <item>这就是我被压抑了许久的天性，终于在直播中得到释放了！</item>
+        <item>生活太无聊，灵魂要裸奔，这里是我的直播，欢迎围观！</item>
+        <item>在这里直播，我能登上2016草莓音乐节，不信来战</item>
+    </string-array>
+    <string-array name="shareContent_show">
+        <item>妈妈问我为什么跪着看直播，都是因为他！</item>
+        <item>你会和我一样无法拒绝TA吗？</item>
+        <item>这么魔性的直播，不能我一个人瞎，分享出来压压惊</item>
+    </string-array>
+    <string-array name="shareContent_transcripts">
+        <item>这就是我的真实水平，下一步准备开60亿人演唱会！</item>
+        <item>我打算收拾收拾准备出道了！这就是我的直播成绩</item>
+        <item>朋友们，我不打算瞒着你们了，其实我很红的</item>
+    </string-array>
+    <string-array name="shareContent_shenkui">
+        <item>滋补文章武装你的弹药库</item>
+        <item>这里散发着真理的光辉@所有人</item>
+        <item>别让你的灵魂生无可恋</item>
+    </string-array>
+    <string-array name="shareContent_showyugao">
+        <item>无聊的生活需要颜色，这个直播我喜欢!</item>
+        <item>好魔性的直播，不由自主就转了！</item>
+        <item>烂大街的没品直播已经刷新你的审美下限，我们来点不一样的!</item>
+    </string-array>
+
+
+
+    <string name="what">摩登天空旗下直播平台@正在现场 推出高校音乐直播——宿舍音乐会！一场全程直播的大学生造星运动！
+没有复杂手续，没有暗箱操作，百万用户围观，一切公开透明，从嘈杂的宿舍脱颖而出，走向2016草莓音乐节！
+你不知道是谁在观看直播，同学，老师，女粉丝，差评师，制片人，艺人总监，你未来的伯乐。
+你不知道会发生什么，断卡，断电，室友乱入，上铺走光，画质渣渣，满屏弹幕，一夜成名。
+我们需要你，人民需要你。
+</string>
+    <string name="toanchor">隔壁老王直播游戏得到几十万的礼物，今天你直播音乐收获乐迷百万赠礼不是梦，告别抠脚大汉和扒蒜老妹儿的low逼直播，过关斩将走向草莓音乐节，成为巨星指日可待，干丫的。</string>
+    <string name="tostudent">烂大街的没品直播已经刷新你的审美下限，你得来点儿酷的——跟随2016草莓音乐节城市步伐，每一座城市掀起一片热浪，将你的身(枕)边人捧成巨星，见证真正意义上的草根逆袭。</string>
+    <string name="required">只要你年满八岁并注册为“正在现场”会员，即可申请成为选手。
+宿舍就是你最好的直播间，锅碗瓢盆全都张罗起来，有室友乱入就更好了！
+</string>
+
+    <!-- 渠道名称 -->
+    <string name="zhengzai">zhengzai</string>
+    <string name="xiaomi">XiaoMi</string>
+    <string name="aliyun">aliyun</string>
+    <string name="dangbei">dangbei</string>
+</resources>

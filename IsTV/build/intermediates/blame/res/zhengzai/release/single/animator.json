@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/zhengzai/release/animator/fragment_slide_left_enter.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/animator/fragment_slide_left_enter.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/zhengzai/release/animator/push_left_out_animator.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/animator/push_left_out_animator.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/zhengzai/release/animator/fragment_slide_right_enter.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/animator/fragment_slide_right_enter.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/zhengzai/release/animator/fragment_slide_right_exit.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/animator/fragment_slide_right_exit.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/zhengzai/release/animator/fragment_slide_left_exit.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/animator/fragment_slide_left_exit.xml"
+    }
+]

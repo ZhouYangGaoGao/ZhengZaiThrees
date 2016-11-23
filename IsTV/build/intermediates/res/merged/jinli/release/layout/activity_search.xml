@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/netsearch_preaent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/searchview"
+                style="@android:style/Widget.TextView"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/shape_search"
+                android:ems="10"
+                android:hint="@string/search"
+                android:imeOptions="actionSend"
+                android:inputType="textFilter"
+                android:paddingLeft="75dp"
+                android:textColor="@color/text_black"
+                android:textColorHint="@color/text_black_l"
+                android:textCursorDrawable="@drawable/cursor"
+                android:textSize="@dimen/search_text_size" />
+
+            <TextView
+                android:id="@+id/tv_fenlei"
+                android:layout_width="65dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:drawableRight="@drawable/search_sanjiao"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:text="全部" />
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/search_cancel"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/but_4search_cancel"
+            android:gravity="center"
+            android:text="@string/clear"
+            android:textColor="@color/white"
+            android:textSize="@dimen/search_text_size"
+            tools:ignore="ButtonOrder" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/netsearch_preaent">
+
+        <ScrollView
+            android:id="@+id/sv_double"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@color/list_divider"
+                android:dividerPadding="1px"
+                android:orientation="vertical">
+
+                <com.modernsky.istv.view.NoScroListView
+                    android:id="@+id/lv_video"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.modernsky.istv.view.NoScroListView
+                    android:id="@+id/lv_album"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </ScrollView>
+
+        <ListView
+            android:id="@+id/listview_history"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:divider="@null"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/listview_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <ListView
+            android:id="@+id/listview_search_hot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"/>
+    </FrameLayout>
+
+    <include
+        layout="@layout/layout_diantai"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="50dp" />
+
+    <include
+        android:id="@+id/layoutButtom_drag"
+        layout="@layout/include_buttom_drag"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible" />
+
+</RelativeLayout>

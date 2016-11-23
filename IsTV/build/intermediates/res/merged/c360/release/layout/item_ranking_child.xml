@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="70dp"
+              android:background="#272727"
+              android:gravity="center_vertical"
+              android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_rank_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/num_two"/>
+
+    <RelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="12dp"
+        android:gravity="center">
+
+        <com.modernsky.istv.view.RoundAngleImageView
+            android:id="@+id/raiv_other_head"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/icon_5_0_head"
+            android:scaleType="centerCrop"
+            app:roundHeight="25dp"
+            app:roundWidth="25dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="9dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_ranking_other_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="弹弓乐队"
+            android:textColor="#ffffff"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/tv_red_net_other_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@+id/tv_ranking_other_name"
+            android:text="直播霸霸"
+            android:textColor="#616161"
+            android:textSize="10sp"/>
+
+        <ProgressBar
+            android:id="@+id/pb_other_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="130dp"
+            android:layout_height="5dp"
+            android:layout_below="@+id/tv_ranking_other_name"
+            android:layout_marginTop="17dp"
+            android:max="100"
+            android:progress="90"
+            android:progressDrawable="@drawable/progressbar_color"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="22dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_ren_qi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:gravity="right"
+            android:text="人气/"
+            android:textColor="#ffffff"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/tv_other_human_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_ranking_name"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/tv_ren_qi"
+            android:text="1867920"
+            android:textColor="#ffffff"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

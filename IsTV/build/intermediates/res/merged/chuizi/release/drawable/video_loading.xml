@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/omp1_00000"
+        android:duration="@integer/loading_time" />
+    <item
+        android:drawable="@drawable/omp1_00002"
+        android:duration="@integer/loading_time" />
+    <item
+        android:drawable="@drawable/omp1_00004"
+        android:duration="@integer/loading_time" />
+    <item
+        android:drawable="@drawable/omp1_00006"
+        android:duration="@integer/loading_time" />
+    <item
+        android:drawable="@drawable/omp1_00008"
+        android:duration="@integer/loading_time" />
+    <item
+        android:drawable="@drawable/omp1_00010"
+        android:duration="@integer/loading_time" />
+    <item
+        android:drawable="@drawable/omp1_00012"
+        android:duration="@integer/loading_time" />
+    <item
+        android:drawable="@drawable/omp1_00014"
+        android:duration="@integer/loading_time" />
+    <item
+        android:drawable="@drawable/omp1_00016"
+        android:duration="@integer/loading_time" />
+    <item
+        android:drawable="@drawable/omp1_00018"
+        android:duration="@integer/loading_time" />
+    <item
+        android:drawable="@drawable/omp1_00020"
+        android:duration="@integer/loading_time" />
+    <item
+        android:drawable="@drawable/omp1_00022"
+        android:duration="@integer/loading_time" />
+</animation-list>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray">
+
+    <ImageView
+        android:id="@+id/img_bacground"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/time_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="15:34"
+        android:textColor="@color/whitefa"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/date_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time_screen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="11月24日  星期二"
+        android:textColor="@color/whitefa"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/name_song_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date_screen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="最后一次看见那些人老去"
+        android:textColor="@color/whitefa"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/name_person_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_song_screen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="马頔"
+        android:textColor="@color/whitefa"
+        android:textSize="11sp" />
+
+    <com.modernsky.istv.view.RoundAngleImageView
+        android:id="@+id/img_song_screen"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_below="@+id/name_person_screen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/card_grid_bg"
+        app:roundHeight="140dp"
+        app:roundWidth="140dp" />
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/img_song_screen"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/delete_screen"
+                android:layout_width="40dp"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/fm_lockscreen_but_delete" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/play_screen"
+                android:layout_width="40dp"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/fm_lockscreen_but_play" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/next_screen"
+                android:layout_width="40dp"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/fm_lockscreen_but_next" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/like_screen"
+                android:layout_width="40dp"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/fm_lockscreen_but_like" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

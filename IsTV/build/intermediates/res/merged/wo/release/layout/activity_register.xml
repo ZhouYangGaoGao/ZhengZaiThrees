@@ -1,0 +1,273 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/topcontent"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navi_height"
+        android:background="@color/topbar_bg">
+
+        <Button
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/icon_back" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:onClick="backBtn" />
+
+        <TextView
+            android:id="@+id/register_titleTet"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/regiter_phone"
+            android:textColor="@color/text_default_color"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- 手机注册 -->
+        <LinearLayout
+            android:id="@+id/register_phoneArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/register_phoneEdt"
+                style="@style/edit_input_style"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/black"
+                android:drawableBottom="@drawable/edit_line_select"
+                android:drawableLeft="@drawable/edit_phone_select"
+                android:drawablePadding="5dp"
+                android:gravity="left|center"
+                android:hint="请输入11位手机号"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:id="@+id/erreorCountTet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:gravity="right"
+                android:paddingTop="5dp"
+                android:text="帐号格式错误"
+                android:textColor="@color/red"
+                android:textSize="@dimen/default_text_size"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp">
+
+                <EditText
+                    android:id="@+id/register_codeEdt"
+                    style="@style/edit_input_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/register_codeBtn"
+                    android:background="@color/black"
+                    android:drawableBottom="@drawable/edit_line_select"
+                    android:drawableLeft="@drawable/edit_code_select"
+                    android:drawablePadding="5dp"
+                    android:gravity="left|center"
+                    android:hint="@string/intput_duanxin_code"
+                    android:inputType="number"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/register_codeBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/shape_oval_default_color"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/_getRegisterCode"
+                    android:textColor="@color/text_default_color"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/register_codeEroTet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="120dp"
+                android:gravity="right"
+                android:text="验证码格式错误"
+                android:textColor="@color/red"
+                android:textSize="@dimen/default_text_size"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/register_psdEdt"
+                style="@style/edit_input_style"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/black"
+                android:drawableBottom="@drawable/edit_line_select"
+                android:drawableLeft="@drawable/edit_psd_select"
+                android:drawablePadding="5dp"
+                android:gravity="left|center"
+                android:hint="@string/input_psd"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:id="@+id/register_psdEroTet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:gravity="right"
+                android:paddingTop="5dp"
+                android:text="密码格式错误"
+                android:textColor="@color/red"
+                android:textSize="@dimen/default_text_size"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <!-- 邮箱注册 -->
+
+        <LinearLayout
+            android:id="@+id/register_emailArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/register_emailEdt"
+                style="@style/edit_input_style"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/black"
+                android:drawableBottom="@drawable/edit_line_select"
+                android:drawableLeft="@drawable/edit_phone_select"
+                android:drawablePadding="5dp"
+                android:gravity="left|center"
+                android:hint="@string/input_count_phone"
+                android:inputType="phone"
+                android:paddingLeft="10dp" />
+
+            <!--android:hint="@string/input_email"-->
+            <!--android:drawableLeft="@drawable/edit_count_select"-->
+            <TextView
+                android:id="@+id/erreorEmailcut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:gravity="right"
+                android:paddingTop="5dp"
+                android:text="邮箱格式错误"
+                android:textColor="@color/red"
+                android:textSize="@dimen/default_text_size"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/register_psdEmailEdt"
+                style="@style/edit_input_style"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/black"
+                android:drawableBottom="@drawable/edit_line_select"
+                android:drawableLeft="@drawable/edit_psd_select"
+                android:drawablePadding="5dp"
+                android:gravity="left|center"
+                android:hint="@string/input_psd"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:id="@+id/eroEmailPsd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:gravity="right"
+                android:paddingTop="5dp"
+                android:text="密码格式错误"
+                android:textColor="@color/red"
+                android:textSize="@dimen/default_text_size"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/register_registerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape_oval_default_color"
+        android:text="@string/regiter"
+        android:textColor="@color/text_default_color"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/indexView"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_08_unchoose"
+            android:onClick="agreeBtn" />
+
+        <TextView
+            android:id="@+id/activity_xiyi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/indexView"
+            android:gravity="center"
+            android:text="@string/_zhengzai_tv_"
+            android:textColor="@color/text_black_hl"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</LinearLayout>

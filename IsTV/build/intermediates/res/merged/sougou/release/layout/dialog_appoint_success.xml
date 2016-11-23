@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_oppint_success"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:minHeight="93dp"
+    android:minWidth="140dp"
+    android:background="@drawable/shape_oval_gray_color"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/img_oppint_success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/icon_zhankai_successicon" />
+
+    <TextView
+        android:id="@+id/tv_oppint_success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="9dp"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        android:text="预约成功" />
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_danmu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_3_3full_dm_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <com.modernsky.istv.view.RoundAngleImageView
+        android:id="@+id/civ"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_h"
+        app:roundHeight="15dp"
+        app:roundWidth="15dp" />
+
+    <TextView
+        android:id="@+id/tv_name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="name"
+        android:textColor="#65ff3e"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_songgei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="送给选手"
+        android:textColor="#65ff3e"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_danmu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="弹幕内容"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/img_liwu"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/default_h" />
+
+</LinearLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <!-- 引用底部导航栏的布局文件 -->
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navi_height"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/icon_back" />
+
+        <Button
+            android:id="@+id/img_live"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@null" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="账号绑定"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/set_h_height"
+        android:layout_below="@+id/rl1"
+        android:layout_marginTop="15dp"
+        android:background="#292929">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/set_h_height"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="微信"
+            android:textColor="@color/write" />
+
+        <TextView
+            android:id="@+id/binding_imgWeiXinTet"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/set_h_height"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/binding_imgWeiXin"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="未绑定"
+            android:textColor="@color/text_default_color" />
+
+        <ImageView
+            android:id="@+id/binding_imgWeiXin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/icon_choose_1"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_default_color" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/set_h_height"
+        android:layout_below="@+id/rl2"
+        android:layout_marginTop="1dp"
+        android:background="#292929">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/set_h_height"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="QQ"
+            android:textColor="@color/write" />
+
+        <TextView
+            android:id="@+id/binding_imgQQTet"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/set_h_height"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/binding_imgQQ"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="未绑定"
+            android:textColor="@color/text_default_color" />
+
+        <ImageView
+            android:id="@+id/binding_imgQQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/icon_choose_1"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_default_color" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/set_h_height"
+        android:layout_below="@+id/rl3"
+        android:layout_marginTop="1dp"
+        android:background="#292929">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/set_h_height"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="微博"
+            android:textColor="@color/write" />
+
+        <TextView
+            android:id="@+id/binding_imgWeiboTet"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/set_h_height"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/binding_ImgWeiBo"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="未绑定"
+            android:textColor="@color/text_default_color" />
+
+        <ImageView
+            android:id="@+id/binding_ImgWeiBo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/icon_choose_1"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_default_color" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl4"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="绑定账号后，你可以更快捷的分享给那身边的朋友\n还可以直接用其登录正在现场"
+        android:textColor="@color/text_default_color"
+        android:textSize="13sp" />
+
+
+</RelativeLayout>

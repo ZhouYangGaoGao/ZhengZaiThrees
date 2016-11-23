@@ -1,0 +1,406 @@
+-injars /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/transforms/jarMerging/leshi/release/jars/1/1f/combined.jar
+-outjars /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/multi-dex/leshi/release/componentClasses.jar
+
+-libraryjars /Users/zhengzai/Library/Android/sdk/build-tools/23.0.2/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/multi-dex/leshi/release/components.flags
+
+
+-keep class com.modernsky.istv.manager.BaseApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.modernsky.istv.acitivity.SplashActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.MainActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.LogoActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.MakeRecordActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.CalendarActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.WelcomeActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.SetUserInfoActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.RegisterActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.RegisterOneActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.ChangeActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.ResetPsdActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.FindPsdTypeActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.SearchActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.BingPhoneActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.YinyueJieHejiActivtity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.ArtistDetailActiivty {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.TranscriptsActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.PlayActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.LookForwardActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.ShowActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.LiveActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.LoginActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.InputContectActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.EditUserInfoActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.ImagePreviewActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.TopicActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.ClienUserActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.SetActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.WebActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.BindingActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.BuyGiftActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.RankActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.YouHuiQuanActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.ShouCangActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.RecordActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.OrderMeActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.ZhanneixinActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.LivePublishActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.DormMusicActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.PaihangbangActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.DzzLiveInfoActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.UserHomepageActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.choiseCity.ChoiseCityActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.ApplyAnchorActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.ChoisePublishOrLiveActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.PublishActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.ApplyForActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.ScreenActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.OrderActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.RechargeActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.RechargeMbActivity {
+    <init>();
+}
+
+-keep class com.umeng.socialize.editorpage.ShareActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.WBShareActivity {
+    <init>();
+}
+
+-keep class com.sina.weibo.sdk.component.WeiboSdkBrowser {
+    <init>();
+}
+
+-keep class com.tencent.tauth.AuthActivity {
+    <init>();
+}
+
+-keep class com.tencent.connect.common.AssistActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.wxapi.WXEntryActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.wxapi.WXPayEntryActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.AppRegister {
+    <init>();
+}
+
+-keep class com.alipay.sdk.app.H5PayActivity {
+    <init>();
+}
+
+-keep class com.alipay.sdk.auth.AuthActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.nmpush.MyPushIntentService {
+    <init>();
+}
+
+-keep class com.modernsky.istv.nmpush.NotificationService {
+    <init>();
+}
+
+-keep class io.rong.imlib.ipc.RongService {
+    <init>();
+}
+
+-keep class io.rong.imlib.ReConnectService {
+    <init>();
+}
+
+-keep class io.rong.imlib.ConnectChangeReceiver {
+    <init>();
+}
+
+-keep class io.rong.imlib.ipc.PushMessageReceiver {
+    <init>();
+}
+
+-keep class io.rong.push.PushService {
+    <init>();
+}
+
+-keep class io.rong.push.CommandService {
+    <init>();
+}
+
+-keep class io.rong.push.PushReceiver {
+    <init>();
+}
+
+-keep class io.rong.imlib.HeartbeatReceiver {
+    <init>();
+}
+
+-keep class com.letv.pp.service.CdeService {
+    <init>();
+}
+
+-keep class com.lecloud.download.control.LeDownloadService {
+    <init>();
+}
+
+-keep class com.modernsky.istv.MusicService {
+    <init>();
+}
+
+-keep class com.modernsky.istv.MediaButtonReceiver {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.QRCodeActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.VrPlayerActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.DabangAboutActivity {
+    <init>();
+}
+
+-keep class com.modernsky.istv.acitivity.TimerShaftActivity {
+    <init>();
+}
+
+-keep class com.umeng.message.NotificationProxyBroadcastReceiver {
+    <init>();
+}
+
+-keep class com.umeng.message.SystemReceiver {
+    <init>();
+}
+
+-keep class com.umeng.message.MessageReceiver {
+    <init>();
+}
+
+-keep class com.umeng.message.ElectionReceiver {
+    <init>();
+}
+
+-keep class com.umeng.message.RegistrationReceiver {
+    <init>();
+}
+
+-keep class com.umeng.message.UmengMessageBootReceiver {
+    <init>();
+}
+
+-keep class com.umeng.message.UmengService {
+    <init>();
+}
+
+-keep class com.umeng.message.UmengIntentService {
+    <init>();
+}
+
+-keep class com.umeng.message.UmengMessageIntentReceiverService {
+    <init>();
+}
+
+-keep class com.umeng.message.UmengMessageCallbackHandlerService {
+    <init>();
+}
+
+-keep class com.umeng.message.UmengDownloadResourceService {
+    <init>();
+}
+
+-keep class com.umeng.message.local.UmengLocalNotificationService {
+    <init>();
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

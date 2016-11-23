@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:minHeight="60dp"
+    android:minWidth="300dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pop_login_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text="M豆余额不足，赠送失败"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/pop_letter_send"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_horizontal"
+        android:paddingBottom="20dp"
+        android:paddingTop="40dp">
+
+        <Button
+            android:id="@+id/pop_login_sure"
+            style="@style/mybutton_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape_oval_default_bule_color"
+            android:singleLine="true"
+            android:text="获取M豆" />
+
+        <Button
+            android:id="@+id/pop_login_cancle"
+            style="@style/mybutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_oval_touming_black_color"
+            android:singleLine="true"
+            android:text="看看其他的礼物" />
+    </LinearLayout>
+
+</LinearLayout>

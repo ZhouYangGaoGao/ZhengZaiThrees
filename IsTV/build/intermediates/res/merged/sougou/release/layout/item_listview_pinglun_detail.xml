@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:background="#232323"
+    android:gravity="center_vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/img_reply"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/icon_arrow_rep" />
+
+    <com.modernsky.istv.view.RoundAngleImageView
+        android:id="@+id/img_grid"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/img_reply"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_h"
+        app:roundHeight="20dp"
+        app:roundWidth="20dp" />
+
+    <TextView
+        android:id="@+id/tv_lable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/img_grid"
+        android:layout_alignTop="@id/img_grid"
+        android:background="@drawable/dzz_0home_icon_levelbg"
+        android:gravity="center"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:singleLine="true"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="9dp" />
+
+    <TextView
+        android:id="@+id/tv_video_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/img_grid"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@drawable/text_color_white_and_gray_selector_pressed"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_video_name"
+        android:layout_below="@+id/tv_video_name"
+        android:layout_toRightOf="@+id/img_grid"
+        android:textColor="@color/text_grey"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/item_pinglun_detial_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tv_video_name"
+        android:text="12:00"
+        android:textColor="@color/text_grey"
+        android:textSize="10sp" />
+</RelativeLayout>

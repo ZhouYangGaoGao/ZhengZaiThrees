@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:background="#1e1e1e"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/rl_pinglun_info1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/time1">
+
+        <TextView
+            android:id="@+id/tv_huifu1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView2"
+            android:layout_marginLeft="1dp"
+            android:layout_toRightOf="@+id/tv_video_name1"
+            android:maxLength="10"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/text_grey" />
+
+        <com.modernsky.istv.view.RoundAngleImageView
+            android:id="@+id/img_grid"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_h"
+            app:roundHeight="20dp"
+            app:roundWidth="20dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_video_name1"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/img_grid"
+            android:text="asdfa;lsf"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_grey"
+            android:textSize="13sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_video_name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@+id/img_grid"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15sp" />
+        <!--android:maxLength="10"-->
+        <com.modernsky.istv.view.RoundAngleImageView
+            android:id="@+id/giftImg"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignTop="@+id/tv_video_name1"
+            android:layout_toRightOf="@+id/tv_video_name1"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/giftNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/giftImg"
+            android:singleLine="true"
+            android:text="X123"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/time1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="刚刚"
+        android:textColor="@color/text_grey"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/tv_add_more"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/gridview_paly_pinglun"
+        android:background="#232323"
+        android:drawableTop="@drawable/line"
+        android:gravity="center"
+        android:text="点击加载更多评论"
+        android:textColor="#585b66"
+        android:visibility="gone" />
+
+</RelativeLayout>

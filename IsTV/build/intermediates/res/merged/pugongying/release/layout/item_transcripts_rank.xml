@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/item_img_user"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/item_tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:drawablePadding="5dp"
+            android:maxEms="16"
+            android:textColor="@color/whitef0"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/item_img_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/item_tv_username"
+            android:paddingTop="2dp"
+            android:src="@drawable/icon_man" />
+
+
+        <TextView
+            android:id="@+id/item_tv_index"
+            android:layout_width="38dp"
+            android:layout_height="19dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/but_guanzhu_hl"
+            android:gravity="center"
+            android:text="关注"
+            android:textColor="#24e7a9"
+            android:textSize="9dp" />
+
+
+        <TextView
+            android:id="@+id/item_tv_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="12dp"
+            android:layout_toLeftOf="@id/item_tv_index"
+            android:textColor="@color/grey9a" />
+
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/item_img_index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:padding="10dp"
+        android:src="@drawable/dzz_report_toplist_1" />
+
+    <com.modernsky.istv.view.RoundAngleImageView
+        android:id="@+id/item_img_user"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_below="@id/v_line"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/item_img_index"
+        android:scaleType="centerCrop"
+        app:roundHeight="27dp"
+        app:roundWidth="27dp" />
+
+    <TextView
+        android:id="@+id/item_tv_lable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/item_img_user"
+        android:layout_alignTop="@id/item_img_user"
+        android:background="@drawable/dzz_0home_icon_levelbg"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="8sp" />
+
+
+</RelativeLayout>

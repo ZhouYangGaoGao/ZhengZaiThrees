@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#202020"
+                android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- 引用顶部导航栏的布局文件 -->
+        <include android:id="@+id/topView"
+            layout="@layout/topbar_layout"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/text_left_pailianshi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/white"
+                    android:text="直播 · 预告"/>
+
+                <TextView
+                    android:id="@+id/line_below_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_alignLeft="@+id/text_left_pailianshi"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/text_left_pailianshi"
+                    android:background="@color/default_blue_color"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/text_right_pailianshi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/white"
+                    android:text="历史直播"/>
+
+                <TextView
+                    android:id="@+id/line_below_right"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_alignLeft="@+id/text_right_pailianshi"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/text_right_pailianshi"
+                    android:background="@color/default_blue_color"/>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/img_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:padding="10dp"
+                android:src="@drawable/icon_arrow_down"/>
+        </LinearLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager_pailianshi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+    <include
+        layout="@layout/layout_diantai"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="50dp"/>
+
+    <include
+        android:id="@+id/layoutButtom_drag"
+        layout="@layout/include_buttom_drag"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>

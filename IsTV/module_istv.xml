@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_istv" default="compile.module.istv">
+  <dirname property="module.istv.basedir" file="${ant.file.module_istv}"/>
+  
+  <property name="module.jdk.home.istv" value="${jdk.home.1.7}"/>
+  <property name="module.jdk.bin.istv" value="${jdk.bin.1.7}"/>
+  <property name="module.jdk.classpath.istv" value="jdk.classpath.1.7"/>
+  
+  <property name="compiler.args.istv" value="-encoding UTF-8 -source 1.7 -target 1.7 ${compiler.args}"/>
+  
+  <property name="istv.output.dir" value="${module.istv.basedir}/build/intermediates/classes/arm/debug"/>
+  <property name="istv.testoutput.dir" value="${module.istv.basedir}/build/intermediates/classes/test/arm/debug"/>
+  
+  <path id="istv.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="istv.module.production.classpath">
+    <path refid="${module.jdk.classpath.istv}"/>
+    <path refid="library.com.umeng.message.lib_v2.6.0.classpath"/>
+    <path refid="library.juniversalchardet-1.0.3.classpath"/>
+    <path refid="library.mta-sdk-1.6.2.classpath"/>
+    <path refid="library.circleimageview-1.3.0.classpath"/>
+    <path refid="library.oss-0.3.0.classpath"/>
+    <path refid="library.httpcore-4.1.4.classpath"/>
+    <path refid="library.multidex-1.0.1.classpath"/>
+    <path refid="library.picasso-2.5.2.classpath"/>
+    <path refid="library.httpmime-4.1.3.classpath"/>
+    <path refid="library.support-v4-23.0.1.classpath"/>
+    <path refid="library.adapters-1.0-rc3.classpath"/>
+    <path refid="library.weibosdkcore_3.1.2.classpath"/>
+    <path refid="library.design-23.0.0.classpath"/>
+    <path refid="library.xutils-2.6.13.classpath"/>
+    <path refid="library.analytics-5.6.4.classpath"/>
+    <path refid="library.fastjson-1.2.7.classpath"/>
+    <path refid="library.library-2.4.0.classpath"/>
+    <path refid="library.umeng_social_sdk.classpath"/>
+    <path refid="library.alipaysdk.classpath"/>
+    <path refid="library.nodemedia-client-v0.9.3.classpath"/>
+    <path refid="library.alipayutdid.classpath"/>
+    <path refid="library.core-1.8.3.classpath"/>
+    <path refid="library.baselibrary-1.0-rc5.classpath"/>
+    <path refid="library.alipaysecsdk.classpath"/>
+    <path refid="library.socialsdk_qqzone_3.classpath"/>
+    <path refid="library.zbar-1.8.3.classpath"/>
+    <path refid="library.socialsdk_weixin_2.classpath"/>
+    <path refid="library.compiler-1.0-rc5.classpath"/>
+    <path refid="library.socialsdk_weixin_1.classpath"/>
+    <path refid="library.socialsdk_sina.classpath"/>
+    <path refid="library.open_sdk_r5509.classpath"/>
+    <path refid="library.gson-2.1.classpath"/>
+    <path refid="library.library-1.0-rc3.classpath"/>
+    <path refid="library.appcompat-v7-23.0.0.classpath"/>
+    <path refid="library.support-annotations-23.0.1.classpath"/>
+    <pathelement location="${playerlibrelease.output.dir}"/>
+    <path refid="library.avdsmart_sdk.classpath"/>
+    <path refid="library.lesdk3.0.classpath"/>
+    <path refid="library.cde-sdk-0.9.84.classpath"/>
+    <path refid="library.playersdk_2016_01_13_10_v4.0_release.classpath"/>
+    <path refid="library.admodule.classpath"/>
+    <path refid="library.videotracker.classpath"/>
+    <path refid="library.letvadlib_lecloud.classpath"/>
+    <path refid="library.android-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.effects-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.usb-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.maps-google_inc.:google_apis:23.classpath"/>
+    <pathelement location="${imlib.output.dir}"/>
+    <path refid="library.rong_imlib_v2_3_7.classpath"/>
+    <path refid="library.org.apache.http.legacy-google_inc.:google_apis:23.classpath"/>
+  </path>
+  
+  <path id="istv.runtime.production.module.classpath">
+    <pathelement location="${istv.output.dir}"/>
+    <path refid="library.com.umeng.message.lib_v2.6.0.classpath"/>
+    <path refid="library.juniversalchardet-1.0.3.classpath"/>
+    <path refid="library.mta-sdk-1.6.2.classpath"/>
+    <path refid="library.circleimageview-1.3.0.classpath"/>
+    <path refid="library.oss-0.3.0.classpath"/>
+    <path refid="library.httpcore-4.1.4.classpath"/>
+    <path refid="library.multidex-1.0.1.classpath"/>
+    <path refid="library.picasso-2.5.2.classpath"/>
+    <path refid="library.httpmime-4.1.3.classpath"/>
+    <path refid="library.support-v4-23.0.1.classpath"/>
+    <path refid="library.adapters-1.0-rc3.classpath"/>
+    <path refid="library.weibosdkcore_3.1.2.classpath"/>
+    <path refid="library.design-23.0.0.classpath"/>
+    <path refid="library.xutils-2.6.13.classpath"/>
+    <path refid="library.analytics-5.6.4.classpath"/>
+    <path refid="library.fastjson-1.2.7.classpath"/>
+    <path refid="library.library-2.4.0.classpath"/>
+    <path refid="library.umeng_social_sdk.classpath"/>
+    <path refid="library.alipaysdk.classpath"/>
+    <path refid="library.nodemedia-client-v0.9.3.classpath"/>
+    <path refid="library.alipayutdid.classpath"/>
+    <path refid="library.core-1.8.3.classpath"/>
+    <path refid="library.baselibrary-1.0-rc5.classpath"/>
+    <path refid="library.alipaysecsdk.classpath"/>
+    <path refid="library.socialsdk_qqzone_3.classpath"/>
+    <path refid="library.zbar-1.8.3.classpath"/>
+    <path refid="library.socialsdk_weixin_2.classpath"/>
+    <path refid="library.compiler-1.0-rc5.classpath"/>
+    <path refid="library.socialsdk_weixin_1.classpath"/>
+    <path refid="library.socialsdk_sina.classpath"/>
+    <path refid="library.open_sdk_r5509.classpath"/>
+    <path refid="library.gson-2.1.classpath"/>
+    <path refid="library.library-1.0-rc3.classpath"/>
+    <path refid="library.appcompat-v7-23.0.0.classpath"/>
+    <path refid="library.support-annotations-23.0.1.classpath"/>
+    <path refid="playerlibrelease.runtime.production.module.classpath"/>
+    <path refid="imlib.runtime.production.module.classpath"/>
+    <path refid="library.android-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.effects-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.usb-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.maps-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.org.apache.http.legacy-google_inc.:google_apis:23.classpath"/>
+  </path>
+  
+  <path id="istv.module.classpath">
+    <path refid="${module.jdk.classpath.istv}"/>
+    <pathelement location="${istv.output.dir}"/>
+    <path refid="library.com.umeng.message.lib_v2.6.0.classpath"/>
+    <path refid="library.juniversalchardet-1.0.3.classpath"/>
+    <path refid="library.mta-sdk-1.6.2.classpath"/>
+    <path refid="library.circleimageview-1.3.0.classpath"/>
+    <path refid="library.oss-0.3.0.classpath"/>
+    <path refid="library.httpcore-4.1.4.classpath"/>
+    <path refid="library.multidex-1.0.1.classpath"/>
+    <path refid="library.picasso-2.5.2.classpath"/>
+    <path refid="library.httpmime-4.1.3.classpath"/>
+    <path refid="library.support-v4-23.0.1.classpath"/>
+    <path refid="library.adapters-1.0-rc3.classpath"/>
+    <path refid="library.weibosdkcore_3.1.2.classpath"/>
+    <path refid="library.design-23.0.0.classpath"/>
+    <path refid="library.xutils-2.6.13.classpath"/>
+    <path refid="library.analytics-5.6.4.classpath"/>
+    <path refid="library.fastjson-1.2.7.classpath"/>
+    <path refid="library.library-2.4.0.classpath"/>
+    <path refid="library.umeng_social_sdk.classpath"/>
+    <path refid="library.alipaysdk.classpath"/>
+    <path refid="library.nodemedia-client-v0.9.3.classpath"/>
+    <path refid="library.alipayutdid.classpath"/>
+    <path refid="library.core-1.8.3.classpath"/>
+    <path refid="library.baselibrary-1.0-rc5.classpath"/>
+    <path refid="library.alipaysecsdk.classpath"/>
+    <path refid="library.socialsdk_qqzone_3.classpath"/>
+    <path refid="library.zbar-1.8.3.classpath"/>
+    <path refid="library.socialsdk_weixin_2.classpath"/>
+    <path refid="library.compiler-1.0-rc5.classpath"/>
+    <path refid="library.socialsdk_weixin_1.classpath"/>
+    <path refid="library.socialsdk_sina.classpath"/>
+    <path refid="library.open_sdk_r5509.classpath"/>
+    <path refid="library.gson-2.1.classpath"/>
+    <path refid="library.library-1.0-rc3.classpath"/>
+    <path refid="library.appcompat-v7-23.0.0.classpath"/>
+    <path refid="library.support-annotations-23.0.1.classpath"/>
+    <path refid="library.multidex-instrumentation-1.0.1.classpath"/>
+    <pathelement location="${playerlibrelease.testoutput.dir}"/>
+    <pathelement location="${playerlibrelease.output.dir}"/>
+    <path refid="library.avdsmart_sdk.classpath"/>
+    <path refid="library.lesdk3.0.classpath"/>
+    <path refid="library.cde-sdk-0.9.84.classpath"/>
+    <path refid="library.playersdk_2016_01_13_10_v4.0_release.classpath"/>
+    <path refid="library.admodule.classpath"/>
+    <path refid="library.videotracker.classpath"/>
+    <path refid="library.letvadlib_lecloud.classpath"/>
+    <path refid="library.android-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.effects-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.usb-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.maps-google_inc.:google_apis:23.classpath"/>
+    <pathelement location="${imlib.testoutput.dir}"/>
+    <pathelement location="${imlib.output.dir}"/>
+    <path refid="library.rong_imlib_v2_3_7.classpath"/>
+    <path refid="library.org.apache.http.legacy-google_inc.:google_apis:23.classpath"/>
+  </path>
+  
+  <path id="istv.runtime.module.classpath">
+    <pathelement location="${istv.testoutput.dir}"/>
+    <pathelement location="${istv.output.dir}"/>
+    <path refid="library.com.umeng.message.lib_v2.6.0.classpath"/>
+    <path refid="library.juniversalchardet-1.0.3.classpath"/>
+    <path refid="library.mta-sdk-1.6.2.classpath"/>
+    <path refid="library.circleimageview-1.3.0.classpath"/>
+    <path refid="library.oss-0.3.0.classpath"/>
+    <path refid="library.httpcore-4.1.4.classpath"/>
+    <path refid="library.multidex-1.0.1.classpath"/>
+    <path refid="library.picasso-2.5.2.classpath"/>
+    <path refid="library.httpmime-4.1.3.classpath"/>
+    <path refid="library.support-v4-23.0.1.classpath"/>
+    <path refid="library.adapters-1.0-rc3.classpath"/>
+    <path refid="library.weibosdkcore_3.1.2.classpath"/>
+    <path refid="library.design-23.0.0.classpath"/>
+    <path refid="library.xutils-2.6.13.classpath"/>
+    <path refid="library.analytics-5.6.4.classpath"/>
+    <path refid="library.fastjson-1.2.7.classpath"/>
+    <path refid="library.library-2.4.0.classpath"/>
+    <path refid="library.umeng_social_sdk.classpath"/>
+    <path refid="library.alipaysdk.classpath"/>
+    <path refid="library.nodemedia-client-v0.9.3.classpath"/>
+    <path refid="library.alipayutdid.classpath"/>
+    <path refid="library.core-1.8.3.classpath"/>
+    <path refid="library.baselibrary-1.0-rc5.classpath"/>
+    <path refid="library.alipaysecsdk.classpath"/>
+    <path refid="library.socialsdk_qqzone_3.classpath"/>
+    <path refid="library.zbar-1.8.3.classpath"/>
+    <path refid="library.socialsdk_weixin_2.classpath"/>
+    <path refid="library.compiler-1.0-rc5.classpath"/>
+    <path refid="library.socialsdk_weixin_1.classpath"/>
+    <path refid="library.socialsdk_sina.classpath"/>
+    <path refid="library.open_sdk_r5509.classpath"/>
+    <path refid="library.gson-2.1.classpath"/>
+    <path refid="library.library-1.0-rc3.classpath"/>
+    <path refid="library.appcompat-v7-23.0.0.classpath"/>
+    <path refid="library.support-annotations-23.0.1.classpath"/>
+    <path refid="library.multidex-instrumentation-1.0.1.classpath"/>
+    <path refid="playerlibrelease.runtime.module.classpath"/>
+    <path refid="imlib.runtime.module.classpath"/>
+    <path refid="library.android-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.effects-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.usb-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.maps-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.org.apache.http.legacy-google_inc.:google_apis:23.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.istv">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.istv">
+    <patternset refid="excluded.from.module.istv"/>
+  </patternset>
+  
+  <path id="istv.module.sourcepath">
+    <dirset dir="${module.istv.basedir}">
+      <include name="build/generated/source/r/arm/debug"/>
+      <include name="build/generated/source/aidl/arm/debug"/>
+      <include name="build/generated/source/buildConfig/arm/debug"/>
+      <include name="build/generated/source/rs/arm/debug"/>
+      <include name="build/generated/res/rs/arm/debug"/>
+      <include name="res"/>
+      <include name="src"/>
+      <include name="assets"/>
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  <path id="istv.module.test.sourcepath">
+    <dirset dir="${module.istv.basedir}">
+      <include name="build/generated/source/r/androidTest/arm/debug"/>
+      <include name="build/generated/source/aidl/androidTest/arm/debug"/>
+      <include name="build/generated/source/buildConfig/androidTest/arm/debug"/>
+      <include name="build/generated/source/rs/androidTest/arm/debug"/>
+      <include name="build/generated/res/rs/androidTest/arm/debug"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.istv" depends="compile.module.istv.production,compile.module.istv.tests" description="Compile module IsTV"/>
+  
+  <target name="compile.module.istv.production" depends="register.custom.compilers,compile.module.playerlibrelease,compile.module.imlib" description="Compile module IsTV; production classes">
+    <mkdir dir="${istv.output.dir}"/>
+    <javac2 destdir="${istv.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.istv}/javac">
+      <compilerarg line="${compiler.args.istv}"/>
+      <bootclasspath refid="istv.module.bootclasspath"/>
+      <classpath refid="istv.module.production.classpath"/>
+      <src refid="istv.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.istv"/>
+    </javac2>
+    
+    <copy todir="${istv.output.dir}">
+      <fileset dir="${module.istv.basedir}/build/generated/source/r/arm/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.istv.basedir}/build/generated/source/aidl/arm/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.istv.basedir}/build/generated/source/buildConfig/arm/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.istv.basedir}/build/generated/source/rs/arm/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.istv.basedir}/build/generated/res/rs/arm/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.istv.basedir}/res">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.istv.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.istv.basedir}/assets">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.istv.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.istv.tests" depends="register.custom.compilers,compile.module.istv.production" description="compile module IsTV; test classes" unless="skip.tests">
+    <mkdir dir="${istv.testoutput.dir}"/>
+    <javac2 destdir="${istv.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.istv}/javac">
+      <compilerarg line="${compiler.args.istv}"/>
+      <bootclasspath refid="istv.module.bootclasspath"/>
+      <classpath refid="istv.module.classpath"/>
+      <src refid="istv.module.test.sourcepath"/>
+      <patternset refid="excluded.from.compilation.istv"/>
+    </javac2>
+    
+    <copy todir="${istv.testoutput.dir}">
+      <fileset dir="${module.istv.basedir}/build/generated/source/r/androidTest/arm/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.istv.basedir}/build/generated/source/aidl/androidTest/arm/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.istv.basedir}/build/generated/source/buildConfig/androidTest/arm/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.istv.basedir}/build/generated/source/rs/androidTest/arm/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.istv.basedir}/build/generated/res/rs/androidTest/arm/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="clean.module.istv" description="cleanup module">
+    <delete dir="${istv.output.dir}"/>
+    <delete dir="${istv.testoutput.dir}"/>
+  </target>
+</project>

@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/activity_translate_out.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/activity_translate_out.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/slide_top_to_bottom.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/slide_top_to_bottom.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/design_snackbar_in.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/umeng_socialize_shareboard_animation_out.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/umeng_socialize_shareboard_animation_out.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/popup_enter.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/popup_enter.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/abc_slide_out_top.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/slide_out_to_top.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/slide_out_to_top.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/popup_exit.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/popup_exit.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/abc_popup_enter.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/abc_popup_exit.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/slide_in_from_top.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/slide_in_from_top.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/slide_in_from_bottom.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/push_bottom_out.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/push_bottom_out.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/abc_fade_out.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/abc_slide_in_top.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/fade_out.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/fade_out.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/umeng_socialize_shareboard_animation_in.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/umeng_socialize_shareboard_animation_in.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/slide_out_to_bottom.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/push_bottom_in.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/push_bottom_in.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/push_top_out.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/push_top_out.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/anim_loding.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/anim_loding.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/umeng_socialize_fade_out.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/umeng_socialize_fade_out.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/push_right_in.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/push_right_in.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/slide_right_out.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/slide_right_out.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/push_left_out.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/push_left_out.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/activity_translate_in.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/activity_translate_in.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/umeng_socialize_slide_out_from_bottom.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/umeng_socialize_slide_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/design_snackbar_out.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/fade_in.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/fade_in.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/push_right_out.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/push_right_out.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/slide_bottom_to_top.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/slide_bottom_to_top.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/enter.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/enter.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/push_left_in.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/push_left_in.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/design_fab_in.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/umeng_socialize_fade_in.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/umeng_socialize_fade_in.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/umeng_socialize_slide_in_from_bottom.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/umeng_socialize_slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/design_fab_out.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/anim/design_fab_out.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/slide_left_in.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/slide_left_in.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/push_top_in.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/push_top_in.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/abc_fade_in.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/chuizi/release/anim/exit.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/anim/exit.xml"
+    }
+]

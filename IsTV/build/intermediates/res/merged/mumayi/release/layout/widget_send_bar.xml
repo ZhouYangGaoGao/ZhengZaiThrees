@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/xiuchang_bottom_area"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="bottom"
+    android:background="#9B9B9B"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/but_6_1_inputbg"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btn_gift"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/icon_6_1_gift"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/et_input"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="请输入"
+            android:imeOptions="actionSend"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="#e5e5e5"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/shape_oval_default_bule_color"
+        android:text="发送"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+</LinearLayout>

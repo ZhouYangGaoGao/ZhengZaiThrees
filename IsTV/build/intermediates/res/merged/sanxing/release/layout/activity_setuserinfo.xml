@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical">
+
+    <!-- 引用底部导航栏的布局文件 -->
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navi_height"
+        android:background="@color/topbar_bg"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/img_live"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/icon_back" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@null" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="个人信息"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+        <RelativeLayout
+            android:id="@+id/userinfo_imgArea"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:clickable="true">
+
+            <com.modernsky.istv.view.RoundAngleImageView
+                android:id="@+id/userinfo_userImg"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                app:roundHeight="25dp"
+                app:roundWidth="25dp" />
+
+            <TextView
+                android:id="@+id/client_userNameTet"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="头像"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_grey" />
+
+        <RelativeLayout
+            android:id="@+id/userinfo_nameArea"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/userinfo_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/icon_10_6_9enter"
+                android:gravity="center_vertical"
+                android:text="name"
+                android:textColor="@color/text_grey" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/_name"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_grey" />
+
+        <RelativeLayout
+            android:id="@+id/userinfo_phoneArea"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/userinfo_phoneTet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/icon_10_6_9enter"
+                android:gravity="center_vertical"
+                android:text="phone"
+                android:textColor="@color/text_grey" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/_phone"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_grey" />
+
+        <RelativeLayout
+            android:id="@+id/userinfo_emailArea"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/userinfo_emialTet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/icon_10_6_9enter"
+                android:gravity="center_vertical"
+                android:text="无"
+                android:textColor="@color/text_grey" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/_emial"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

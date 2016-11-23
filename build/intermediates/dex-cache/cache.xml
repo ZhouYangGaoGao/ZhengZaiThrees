@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\internal_impl-23.0.1_edd63c6be86eb4768669bf7e6669dfd9148fc525\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\com.android.support-support-v4-23.0.1_79fc25676a65bc3362dd2c00a130a80fbeee8366\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.ZX-201606091022\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.1.3\d97e400d31bbeb36c1c60d2c3a9bbf2cdccf85a8\httpmime-4.1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d97e400d31bbeb36c1c60d2c3a9bbf2cdccf85a8">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\httpmime-4.1.3_729a4ff4669ab713cf77e7043eb2913f9ba0dd71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\libs\zip_file.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c614fd77dd17ce90fab8e112128b21bf08092cb6">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\zip_file_2ca873985a78c20db780bc53f1f41ba7b0cd685e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\libs\SocialSDK_QQZone_3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6d046bb00be56dd658b1a815632b74a8ddb06266">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\SocialSDK_QQZone_3_6ccbad8abd4d03c8689a4aa2113d31493c60be3a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.ZX-201606091022\.gradle\caches\modules-2\files-2.1\com.squareup.haha\haha\2.0.2\fd65b84d12d6adc77ec0e4fcaca623fc391d8679\haha-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fd65b84d12d6adc77ec0e4fcaca623fc391d8679">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\haha-2.0.2_4d224ca77119305efa846ba918734fb1fbe808aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\build\intermediates\exploded-aar\companyData\playerLibRelease\unspecified\jars\libs\LePanoVideo.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8b553651af44153d0966b44df78fe7458775e797">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\8\LePanoVideo_f067bc737ede22ee30f513df686f1f5fa5438835\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\build\intermediates\exploded-aar\com.android.support\design\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8a5238e4bdcd6568b82db669d41817de670586b8">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\com.android.support-design-23.0.0_4177ad4e362be79836cb31ca3eb0f45a904bb190\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\build\intermediates\exploded-aar\ZhengZaiThrees\playerLibRelease\unspecified\jars\libs\avdsmart_sdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="65a21bfe0ec91836a495e2d46e3b226c2fe9f8e2">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\8\avdsmart_sdk_bc943054d64ca8475ea61ade5dec991d79ba57c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\libs\SocialSDK_Sina.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ada8b8d7d1557f75a01bd1f7ec5e7738291cf2b1">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\SocialSDK_Sina_d8ed38dcb7d9b02ce747dfe3c46ba17a99f51101\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\build\intermediates\exploded-aar\ZhengZaiThrees\IMLib\unspecified\jars\libs\Rong_IMLib_v2_4_9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9229e03f41ad6001164f078a512391aa6989a087">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\8\Rong_IMLib_v2_4_9_a59451da655c7de82b1bd3ae6775fb5fdd6dc8a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\libs\open_sdk_r5509.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="538ea8fb21ea76e8cb424598ac38127cb3344d79">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\open_sdk_r5509_58aa68c3743b79001644b806483747d34eeec7fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\com.android.support-appcompat-v7-23.0.0_862687380f833d7c2cfeb6cc4d6dbc24469da99c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.ZX-201606091022\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.1\2e66da15851f9f5b5079228f856c2f090ba98c38\gson-2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2e66da15851f9f5b5079228f856c2f090ba98c38">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\gson-2.1_74b01de799d8dfd6a723745b882e7e221e9b5ba2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\libs\unity-classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1ecebd98da2f1e39f3f79a78d84d72acf036adc4">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\unity-classes_31c47c52c3ed9f31e2b0a641e0f8faf925722b51\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\libs\SocialSDK_WeiXin_2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2e9029354d9b3b1a18964da663912827c193faeb">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\SocialSDK_WeiXin_2_c7ae488d9f619f064807af963fe980055f52b95b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\build\intermediates\exploded-aar\ZhengZaiThrees\playerLibRelease\unspecified\jars\libs\letvadlib_lecloud.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="562633676591eacfb6a551c3c18cb4a9e17abd86">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\8\letvadlib_lecloud_a1526c67f3b4faf23b0691471c36e23431237c07\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\com.android.support-multidex-1.0.1_425b09d55c6c582298cfd2bb2a0e77d017b962c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\build\intermediates\exploded-aar\companyData\playerLibRelease\unspecified\jars\libs\VideoTracker.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3011d0496d553ed6b9ee90da12a7e872d5cc2e54">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\8\VideoTracker_0b67020ca183e11c29ace2e13a2a45251b453e86\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\support-annotations-23.0.1_beda813ab5e17befd13c8b85d378c2c79ba234af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\build\intermediates\incremental-runtime-classes\zhengzai\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="29d56f2675f534648c0c41e919c80abccf9069e9">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\instant-run_549ef838169c495cd7e5f6e91382c7290cf0a4d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\build\intermediates\exploded-aar\ZhengZaiThrees\PushSDK\unspecified\jars\libs\com.umeng.message_v2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="03a0e2d8dffd0b9bb36bdb21389c49f0eaa6f068">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\8\com.umeng.message_v2.8.0_e7dce61852e4dc7d12a3098c0f64975d516d7a9b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9c8472f8e10502af60d0f63ea11eed68bdf690c2">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\com.squareup.leakcanary-leakcanary-android-1.4-beta2_8aff693df9c3ca61e8680875b9bb27222f7de688\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\libs\SocialSDK_WeiXin_2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2e9029354d9b3b1a18964da663912827c193faeb">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\SocialSDK_WeiXin_2_568c217237efa6d33f6f89af97617cdc9110f577\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\build\intermediates\exploded-aar\ZhengZaiThrees\playerLibRelease\unspecified\jars\libs\VideoTracker.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3011d0496d553ed6b9ee90da12a7e872d5cc2e54">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\8\VideoTracker_153905f0901f75e3a4e30bb944bc219735ef68c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\build\intermediates\incremental-runtime-classes\zhengzai\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="72cc84ef7b7595ddf4f2e85b24bab2b7aca78f4c">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\instant-run_02cea22e83141593f743efddb5359d90e8f39e95\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.ZX-201606091022\.gradle\caches\modules-2\files-2.1\com.squareup.leakcanary\leakcanary-analyzer\1.4-beta2\449777cd466ac0a16f7e8d0dc508e70e2cdd13a9\leakcanary-analyzer-1.4-beta2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="449777cd466ac0a16f7e8d0dc508e70e2cdd13a9">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\leakcanary-analyzer-1.4-beta2_50c01481c8dc68f861a232ca261333a61905e75a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\internal_impl-23.0.1_62198dbd1516e7c8872753b5660af233109d3f4b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\build\intermediates\exploded-aar\companyData\playerLibRelease\unspecified\jars\libs\AdModule.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4be13c6de898afac573466c7c760bb2b90c0a868">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\8\AdModule_56d9513e8c32f28b3b9d4098983d8db7ea93149b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.ZX-201606091022\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.1.4\31cc0a151d458c4b99476805ede9c8accafb734c\httpcore-4.1.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="31cc0a151d458c4b99476805ede9c8accafb734c">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\httpcore-4.1.4_0b93e1566b77db0ac2e503c0f580badec31a1914\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\build\intermediates\exploded-aar\me.dm7.barcodescanner\zbar\1.8.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="99ec7a15c96670fc376811136c027fbd4dbc26e9">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\me.dm7.barcodescanner-zbar-1.8.3_0e185d40e5cd9293e42e47fc01bff47686a7f27e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\libs\mta-sdk-1.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\mta-sdk-1.6.2_417515381759979ca942f12e8f3436e6697bd5a8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\com.android.support-multidex-1.0.1_c2cddb68a384206a01c71290ca38e1f01f2bad8e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\libs\alipaysdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="346c146fa719c51ab65a66d22af1bd64fae47578">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\alipaysdk_a941078fd33d470f2a6e6d015b3dbcafe05c9878\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.ZX-201606091022\.gradle\caches\modules-2\files-2.1\com.squareup.leakcanary\leakcanary-watcher\1.4-beta2\6a920fb0d14e5e3b36e37cf33b1eeef2bcce4c92\leakcanary-watcher-1.4-beta2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6a920fb0d14e5e3b36e37cf33b1eeef2bcce4c92">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\leakcanary-watcher-1.4-beta2_64394a0bcf6390bf28e3c3d5ec9bf64767eb97f9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\libs\nodemedia-client-v0.9.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="db3ca9d26637b7151655448f42f9a4f6e1c99820">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\nodemedia-client-v0.9.4_63523e7995ac7ebd0bf7c24692bf4f9b3e7c4ed3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\libs\mta-sdk-1.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\mta-sdk-1.6.2_b44540e6ee84c9797fd035735a64fb717e5af2f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\build\intermediates\exploded-aar\me.dm7.barcodescanner\zbar\1.8.3\jars\libs\zbar.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b7350ba6ec0fd2beac4e95d75410da582cec5baa">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\zbar_a05fdd4e676e2d794e717b46bfb5189ebd333864\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\libs\unity-classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1ecebd98da2f1e39f3f79a78d84d72acf036adc4">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\unity-classes_37f96cf2dd4bae0e1db07f3bc282dfb93f18ab3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\libs\EasyMovieTexture.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1dcd35129cd612211f8fe5a9003925bb230e0586">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\EasyMovieTexture_5e64e11c29595555e768707c42515651e15f597d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\build\intermediates\incremental-classes\zhengzai\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="812d9e1d1da369504a69fba30b8c714460a8956a">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\instant-run-bootstrap_440fc4a6cc0f65be8bf4bda5f1b508c29d438bfe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\libs\SocialSDK_WeiXin_1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\SocialSDK_WeiXin_1_876c42dfdcdd0d47f7eef497cb7758c323ae5415\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\libs\umeng_social_sdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c4bb8895b0d9447a46921501e5b6c75afa26ca62">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\umeng_social_sdk_bc449a30a4c8d9a6e87e62007ee9f867ff141e83\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\build\intermediates\incremental-classes\zhengzai\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ad97b23e8a72a53e7a042140f45c180c168b1b6d">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\instant-run-bootstrap_d4090df5c23e57fc85eab66e84e96610dc72b82a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\build\intermediates\exploded-aar\com.lidroid.xutils\xutils\2.6.13\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="23291b48b3b85cd1047f526236e46b5f3a70e8bb">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\com.lidroid.xutils-xutils-2.6.13_34ec81e11acba4481db048cf3d9b6a0963c58a8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\build\intermediates\exploded-aar\ZhengZaiThrees\playerLibRelease\unspecified\jars\libs\cde-sdk-0.9.90.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="153ce7335a3842dcffb260972a5156d0f92f2618">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\8\cde-sdk-0.9.90_032f1f8feb8459a9c1dd63dacf2385218c630d73\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\libs\open_sdk_r5509.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="538ea8fb21ea76e8cb424598ac38127cb3344d79">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\open_sdk_r5509_a28f06a36cfc7b446fd8b6f4fdc8cc0d2fa6a4a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\libs\oss-0.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="931005f66b35b39d13271dcff8710bff9bc5b551">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\oss-0.3.0_71b712608f63fb651540ffc105992225b41bd444\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\libs\alipaysdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="346c146fa719c51ab65a66d22af1bd64fae47578">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\alipaysdk_fd02db5032149041ade71e57d11ef595c253803f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.ZX-201606091022\.gradle\caches\modules-2\files-2.1\com.squareup.wire\wire-runtime\1.7.0\99b61fbfbd9ae5d5309bb4a618e1f2d875821e2c\wire-runtime-1.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="99b61fbfbd9ae5d5309bb4a618e1f2d875821e2c">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\wire-runtime-1.7.0_f59abeaf8a4db011d7b49994528bb5d671112d5a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\build\intermediates\exploded-aar\me.dm7.barcodescanner\zbar\1.8.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="99ec7a15c96670fc376811136c027fbd4dbc26e9">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\me.dm7.barcodescanner-zbar-1.8.3_4737ef11bb0a9264ff2485d824709f62b8266412\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\libs\zip_file.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c614fd77dd17ce90fab8e112128b21bf08092cb6">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\zip_file_8ac1fd5d4674357f6bee7f41f65fb6ca032c2dcf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\libs\weiboSDKCore_3.1.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f3617ce51258bf3ec0fe2503e3c0a920040b1b53">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\weiboSDKCore_3.1.4_8603a5258f599e761fb27e39fa2ebe51269188d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\com.android.support-support-v4-23.0.1_2df1c9e0b83abc919ba7ac192d23337617ea0445\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\build\intermediates\exploded-aar\companyData\playerLibRelease\unspecified\jars\libs\avdsmart_sdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="65a21bfe0ec91836a495e2d46e3b226c2fe9f8e2">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\8\avdsmart_sdk_68999c3697073f9a720cf78c4d466d0f96ebd636\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\build\intermediates\exploded-aar\ZhengZaiThrees\playerLibRelease\unspecified\jars\libs\LePanoVideo.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8b553651af44153d0966b44df78fe7458775e797">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\8\LePanoVideo_c15894f52a47bfe8cee7f71e3cec34fff9960b56\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\libs\SocialSDK_WeiXin_1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\SocialSDK_WeiXin_1_4be156766083f2eb24166ad819e38f8bec0d64d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\libs\oss-0.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="931005f66b35b39d13271dcff8710bff9bc5b551">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\oss-0.3.0_624654a37d4273b7ab17cc3c1916322e8d7afc3b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\libs\nodemedia-client-v0.9.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="db3ca9d26637b7151655448f42f9a4f6e1c99820">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\nodemedia-client-v0.9.4_40351b81080d9942003cd3289f8be2418f88fef2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\libs\unityvractivity.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d981bc0320ce2fc85d3f3b8397a9317385ccc7bb">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\unityvractivity_231ec13e25b9011b318e56194a28c5c83ea6f336\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\build\intermediates\exploded-aar\companyData\IMLib\unspecified\jars\libs\Rong_IMLib_v2_4_9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9229e03f41ad6001164f078a512391aa6989a087">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\8\Rong_IMLib_v2_4_9_813cbbb38256d5f977467afb7e5af93a30104f21\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\build\intermediates\exploded-aar\companyData\playerLibRelease\unspecified\jars\libs\playersdk_2016_03_29_16_v4.0_release.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="82e6b751e719c8ff382e33bc2ac9e9ab39de26a8">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\8\playersdk_2016_03_29_16_v4.0_release_d6151b21ddfe6f364684b4f92df62caa3ff7edef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\build\intermediates\exploded-aar\companyData\playerLibRelease\unspecified\jars\libs\cde-sdk-0.9.90.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="153ce7335a3842dcffb260972a5156d0f92f2618">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\8\cde-sdk-0.9.90_7f8659aac207a59fedfd851ccea6d6a7c33db3e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\com.android.support-appcompat-v7-23.0.0_4c5ac4c12628ad94353609b78767257ca017b7fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\libs\EasyMovieTexture.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1dcd35129cd612211f8fe5a9003925bb230e0586">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\EasyMovieTexture_fb990ab78f7e532f0763999b17ce429eda5391c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\libs\umeng_social_sdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c4bb8895b0d9447a46921501e5b6c75afa26ca62">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\umeng_social_sdk_b6375a9717df20ac496647fbac4c040e69c8b32d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\libs\alipayutdid.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\alipayutdid_fae19c561064842b8d7821067cc4768119282bc6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\build\intermediates\exploded-aar\me.dm7.barcodescanner\zbar\1.8.3\jars\libs\zbar.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b7350ba6ec0fd2beac4e95d75410da582cec5baa">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\zbar_f43cf1041cd4949d50a0e65239aacd1d877a593a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\build\intermediates\exploded-aar\com.android.support\design\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8a5238e4bdcd6568b82db669d41817de670586b8">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\com.android.support-design-23.0.0_96dd9ab2097f84b0c3fb645e0eaa62c9944c2394\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\libs\alipaysecsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7413c074c9edf523050267b93d0875151dc4b644">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\alipaysecsdk_388d6a3e610e19051ed2e448b48c0401cec1b0fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\libs\unityvractivity.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d981bc0320ce2fc85d3f3b8397a9317385ccc7bb">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\unityvractivity_e1932ab21e79afb3a4ca70f4aa5b51322f9f06b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\build\intermediates\exploded-aar\com.lidroid.xutils\xutils\2.6.13\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="23291b48b3b85cd1047f526236e46b5f3a70e8bb">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\com.lidroid.xutils-xutils-2.6.13_5f4ca2574fec538400843e2ec3f89ec950ea9a01\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\build\intermediates\exploded-aar\companyData\playerLibRelease\unspecified\jars\libs\letvadlib_lecloud.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="562633676591eacfb6a551c3c18cb4a9e17abd86">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\8\letvadlib_lecloud_00d8c00e3936ff0f35b294436d032cbfb29ba9b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.8.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2acb8f25e91dc79b3e9fe3e4fc059d491756efcd">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\me.dm7.barcodescanner-core-1.8.3_86f686f59fa557c18c98e846b8ede164256fea88\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\libs\weiboSDKCore_3.1.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f3617ce51258bf3ec0fe2503e3c0a920040b1b53">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\weiboSDKCore_3.1.4_23c502d0c550d925a6c87f006d2ce6360cccac76\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\libs\SocialSDK_Sina.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ada8b8d7d1557f75a01bd1f7ec5e7738291cf2b1">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\SocialSDK_Sina_847eca7e53293b67f18cce15e19df7aa034a0ec2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\libs\SocialSDK_QQZone_3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6d046bb00be56dd658b1a815632b74a8ddb06266">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\SocialSDK_QQZone_3_c956851e4cd0f4b1275fe57ee0b8c12cd7df57ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9c8472f8e10502af60d0f63ea11eed68bdf690c2">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\com.squareup.leakcanary-leakcanary-android-1.4-beta2_beab68b28da7f2b794db7d089f35c59f77f25611\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\build\intermediates\exploded-aar\ZhengZaiThrees\playerLibRelease\unspecified\jars\libs\playersdk_2016_03_29_16_v4.0_release.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="82e6b751e719c8ff382e33bc2ac9e9ab39de26a8">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\8\playersdk_2016_03_29_16_v4.0_release_88736e251ec206525c3d9f4e9d5af20e41a48921\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\libs\alipayutdid.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\alipayutdid_5e8bdb4c664fa2deb4d8f08fd58d88b6766794d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.ZX-201606091022\.gradle\caches\modules-2\files-2.1\com.umeng.analytics\analytics\6.0.4\27238b0acdc4e764623a653d5776488783e9ae3f\analytics-6.0.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="27238b0acdc4e764623a653d5776488783e9ae3f">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\analytics-6.0.4_df9c656468e7a3943176d09ce4e7026ae3675629\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\libs\alipaysecsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7413c074c9edf523050267b93d0875151dc4b644">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\2\alipaysecsdk_481dd9adc05221b36cdc9305886543b210fdf5ab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.8.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2acb8f25e91dc79b3e9fe3e4fc059d491756efcd">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\me.dm7.barcodescanner-core-1.8.3_2cbd9ec2ae64438c9f590f78ead9ff0c72993ef4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\companyData\IsTV\build\intermediates\exploded-aar\companyData\PushSDK\unspecified\jars\libs\com.umeng.message_v2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="03a0e2d8dffd0b9bb36bdb21389c49f0eaa6f068">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\8\com.umeng.message_v2.8.0_12efad759c2fe13a632338b84ef8c344aa50245c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.ZX-201606091022\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.2.0\c0b52915a48fa91b1b94a28d4a2997bac5f524df\okio-1.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c0b52915a48fa91b1b94a28d4a2997bac5f524df">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\okio-1.2.0_8c7913cca204b79c3c25b2aed0c233a115d1766b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ZhengZaiThrees\IsTV\build\intermediates\exploded-aar\ZhengZaiThrees\playerLibRelease\unspecified\jars\libs\AdModule.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4be13c6de898afac573466c7c760bb2b90c0a868">
+        <dex dex="E:\ZhengZaiThrees\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\8\AdModule_a40f85993fc16bcaa334732b4feed2257d79525a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.ZX-201606091022\.gradle\caches\modules-2\files-2.1\com.alibaba\fastjson\1.2.8\aba3867820f46117ef0dfe760418b1bc0278894f\fastjson-1.2.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="aba3867820f46117ef0dfe760418b1bc0278894f">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\fastjson-1.2.8_bf9f8f78888f411d5d15d539601701338f58bb2a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator.ZX-201606091022\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\companyData\IsTV\build\intermediates\transforms\dex\zhengzai\debug\folders\1000\10\library-2.4.0_409cc4dc08a4cb993e3eadf19fb7aa6ae8d97be1\classes.dex" />
+    </item>
+
+</items>

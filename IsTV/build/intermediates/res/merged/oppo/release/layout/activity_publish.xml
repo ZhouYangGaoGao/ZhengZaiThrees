@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aa000000">
+
+    <RelativeLayout
+        android:id="@+id/outLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/layout_inner"
+            android:layout_width="284dp"
+            android:layout_height="505dp"
+            android:layout_below="@+id/tv_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_fabu_publish"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <RelativeLayout
+                android:id="@+id/layout_add_showbill"
+                android:layout_width="230dp"
+                android:layout_height="125dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_addshowbill">
+
+                <ImageView
+                    android:id="@+id/img_add1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="47dp"
+                    android:src="@drawable/icon_jiahao" />
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_add1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"
+                    android:text="点击上传直播封面"
+                    android:textColor="@color/grey9e"
+                    android:textSize="9sp" />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="27dp"
+                    android:text="(规格要求： 1242×698， 72dpi)"
+                    android:textColor="@color/grey9e"
+                    android:textSize="9dp" />
+
+                <ImageView
+                    android:id="@+id/img_haibao"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:scaleType="centerCrop" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/text_name_live"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_add_showbill"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="15dp"
+                android:text="直播名称:"
+                android:textColor="@color/huib1"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/tv_bxx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/layout_add_showbill"
+                android:layout_marginRight="34dp"
+                android:layout_marginTop="18dp"
+                android:text="必填项"
+                android:textColor="@color/grey4e"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/line1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/text_name_live"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="34dp"
+                android:layout_marginTop="13dp"
+                android:layout_toRightOf="@+id/text_name_live"
+                android:background="@drawable/line_bitianxiang" />
+
+            <EditText
+                android:id="@+id/edittext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/line1"
+                android:layout_below="@+id/layout_add_showbill"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/tv_bxx"
+                android:layout_toRightOf="@+id/text_name_live"
+                android:background="@null"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/whitee4"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/tv_time_live"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_name_live"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="33dp"
+                android:text="直播时间:"
+                android:textColor="@color/huib1"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/tv_time_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_time_live"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/tv_time_live"
+                android:text="仅可预约一周内，每天的18：00-22：30"
+                android:textColor="@color/grey4e"
+                android:textSize="10dp" />
+
+            <LinearLayout
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_below="@+id/tv_time_live"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <NumberPicker
+                    android:id="@+id/numberPicker1"
+                    android:layout_width="27dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="22dp"
+                    android:divider="@null"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:text="年"
+                    android:textColor="@color/huib1"
+                    android:textSize="12dp"
+                    android:visibility="gone" />
+
+                <NumberPicker
+                    android:id="@+id/numberPicker2"
+                    android:layout_width="30dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="30dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:text="月"
+                    android:textColor="@color/huib1"
+                    android:textSize="12dp" />
+
+                <NumberPicker
+                    android:id="@+id/numberPicker3"
+                    android:layout_width="30dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="7dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="日"
+                    android:textColor="@color/huib1"
+                    android:textSize="12dp" />
+
+                <NumberPicker
+                    android:id="@+id/numberPicker4"
+                    android:layout_width="30dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="7dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:text="时"
+                    android:textColor="@color/huib1"
+                    android:textSize="12dp" />
+
+                <NumberPicker
+                    android:id="@+id/numberPicker5"
+                    android:layout_width="30dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="7dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_name_live"
+                    android:layout_marginLeft="7dp"
+                    android:text="分"
+                    android:textColor="@color/huib1"
+                    android:textSize="12dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tv_time_live"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="50dp"
+                android:background="@color/black" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tv_time_live"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="80dp"
+                android:background="@color/black" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/btn_publish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_inner"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/icon_btn_fabu_publish_select"
+            android:gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="发布"
+            android:textColor="@drawable/textcolor_white_and_blue_seletor"
+            android:textSize="13sp" />
+
+        <RelativeLayout
+            android:id="@+id/layoutschool"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/layout_inner"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="337dp"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/text_location_live"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="10dp"
+                android:text="直播地点:"
+                android:textColor="@color/huib1"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/btx_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="34dp"
+                android:layout_marginTop="13dp"
+                android:text="必填项"
+                android:textColor="@color/grey4e"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/line_location"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/text_location_live"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="34dp"
+                android:layout_marginTop="11dp"
+                android:layout_toRightOf="@+id/text_location_live"
+                android:background="@color/grey4e" />
+
+            <EditText
+                android:id="@+id/edittext2"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_alignBottom="@+id/line_location"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/btx_location"
+                android:layout_toRightOf="@+id/text_location_live"
+                android:background="@null"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/whitee4"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/text_show_introduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_location_live"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="25dp"
+                android:text="演出介绍"
+                android:textColor="@color/huib1"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/text_bac_introduce"
+                android:layout_width="236dp"
+                android:layout_height="78dp"
+                android:layout_below="@+id/text_show_introduce"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="7dp"
+                android:gravity="center"
+                android:text="字数不少于20字（必填项）"
+                android:textColor="@color/huib1_29alpha"
+                android:textSize="12dp" />
+
+            <EditText
+                android:id="@+id/edit_introduce"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/text_bac_introduce"
+                android:layout_alignLeft="@+id/text_bac_introduce"
+                android:layout_alignRight="@+id/text_bac_introduce"
+                android:layout_alignTop="@+id/text_bac_introduce"
+                android:background="@drawable/shape_wenzi"
+                android:gravity="start"
+                android:paddingLeft="9dp"
+                android:paddingRight="9dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/whitee4"
+                android:textSize="12sp" />
+
+            <ListView
+                android:id="@+id/schooListView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/line_location"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="30dp"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_below="@+id/layoutschool" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36dp"
+            android:alpha="0.7"
+            android:text="发布预告"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:id="@+id/img_close"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="21dp"
+                android:src="@drawable/icon_delet" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dialog_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_shadow"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:alpha="0.7"
+        android:text="发布预告"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:id="@+id/img_close"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="21dp"
+            android:src="@drawable/icon_delet" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="284dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_kaishizhibo">
+
+        <com.modernsky.istv.view.RoundAngleImageView
+            android:id="@+id/peoplePic"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pic_touxiang_zhubo"
+            app:roundHeight="51dp"
+            app:roundWidth="51dp"
+            app:sideColor="@color/grey33"
+            app:sideWidth="3dp" />
+
+        <TextView
+            android:id="@+id/tv_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/peoplePic"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/dzz_0home_icon_levelbg"
+            android:gravity="end"
+            android:text="21"
+            android:textColor="@color/white"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/tv_name_anchor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/peoplePic"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="12dp"
+            android:text="蓝猫眉宇驰"
+            android:textColor="@color/whiteef"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name_anchor"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="50dp"
+            android:text="先发布预告才能直播哦，骚年"
+            android:textColor="@color/redc0"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/btn_public"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name_anchor"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="103dp"
+            android:background="@drawable/icon_btn_publish_select"
+            android:gravity="center_vertical"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="发布预告"
+            android:textColor="@drawable/textcolor_white_and_blue_seletor"
+            android:textSize="14sp" />
+        <!--android:background="@drawable/but_fubu"-->
+        <TextView
+            android:id="@+id/btn_beginlive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_public"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/but_zhibo"
+            android:gravity="center_vertical"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="开始直播"
+            android:textColor="@color/default_blue_color"
+            android:textSize="14sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+</RelativeLayout>

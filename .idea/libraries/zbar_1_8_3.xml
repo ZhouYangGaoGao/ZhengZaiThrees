@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="zbar-1.8.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IsTV/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.3/jars/libs/zbar.jar!/" />
+      <root url="jar://$PROJECT_DIR$/IsTV/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/IsTV/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

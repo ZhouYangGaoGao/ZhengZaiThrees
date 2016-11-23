@@ -1,0 +1,1022 @@
+[
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_recharge.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_recharge.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_dabang_about.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_dabang_about.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/notification_media_cancel_action.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_edituserinfo.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_edituserinfo.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/umeng_socialize_facebook_login_activity_layout.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/umeng_socialize_facebook_login_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_search_hot.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_search_hot.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_image_preview.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_image_preview.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_timer_big2.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_timer_big2.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_gite_gridview.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_gite_gridview.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/merge_camera_preview_view_finder.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.8.3/res/layout/merge_camera_preview_view_finder.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/design_layout_tab_icon.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/widget_send_bar.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/widget_send_bar.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/include_buttom_drag.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/include_buttom_drag.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/fragment_my_task.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/fragment_my_task.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/layout_diantai.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/layout_diantai.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/umeng_socialize_oauth_dialog.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/umeng_socialize_oauth_dialog.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/dialog_choise_pay.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/dialog_choise_pay.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/umeng_socialize_full_alert_dialog_item.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/umeng_socialize_full_alert_dialog_item.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_paihangbang.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_paihangbang.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/dianbo_pinglun_lv.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/dianbo_pinglun_lv.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_pop_calendor.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_pop_calendor.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_timer_small2.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_timer_small2.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_reset_psd.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_reset_psd.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_viewpager.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_viewpager.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_main.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/videoview.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/videoview.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_set.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_set.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/fragment_zhipo.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/fragment_zhipo.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_screen_simple.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/head_hotspot.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/head_hotspot.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_zhanneixin.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_zhanneixin.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/screen_activity.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/screen_activity.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/umeng_socialize_bind_select_dialog.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/umeng_socialize_bind_select_dialog.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/head_imageview.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/head_imageview.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/umeng_socialize_full_curtain.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/umeng_socialize_full_curtain.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_paihang.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_paihang.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_see_leave.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_see_leave.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/widget_danmu.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/widget_danmu.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/notification_media_action.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_attention_list.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_attention_list.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_messagelist.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_messagelist.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/fragment_youhuiquan.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/fragment_youhuiquan.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_task_list.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_task_list.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_choisepublishorlive.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_choisepublishorlive.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/notification_template_lines.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/pingfen_dialog.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/pingfen_dialog.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_gridview_pinglun.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_gridview_pinglun.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_fans_list.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_fans_list.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/tv_choise.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/tv_choise.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_welcome.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/footbar_layout.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/footbar_layout.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/layoyt_anchor.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/layoyt_anchor.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/com_facebook_activity_layout.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/dialog_guide.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/dialog_guide.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_people_pic.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_people_pic.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/messenger_button_send_white_round.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_gridview_order.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_gridview_order.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_find_psd.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_find_psd.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/videocontroller.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/videocontroller.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_show.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_show.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/videoview_lookforward.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/videoview_lookforward.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/dialog_appoint_success.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/dialog_appoint_success.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_ershoumiegui.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_ershoumiegui.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/fragment_my_works.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/fragment_my_works.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/timer_foot.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/timer_foot.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/viewpage.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/viewpage.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_live.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_live.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_listview_search_ablumlist.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_listview_search_ablumlist.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/mediacontroler_livepublisher.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/mediacontroler_livepublisher.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/umeng_socialize_base_alert_dialog.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/umeng_socialize_base_alert_dialog.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/umeng_bak_platform_item_simple.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/umeng_bak_platform_item_simple.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_yinyuejie.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_yinyuejie.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_yinyuejieheji.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_yinyuejieheji.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_count.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_count.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/messenger_button_send_white_large.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/messenger_button_send_white_large.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_bing_phone.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_bing_phone.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/design_layout_snackbar.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_play.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_play.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_action_menu_layout.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/dialog_version_update.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/dialog_version_update.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/select_dialog_item_material.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/umeng_socialize_shareboard_item.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/umeng_socialize_shareboard_item.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_screen_toolbar.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_user_homepage.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_user_homepage.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_livefragment.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_livefragment.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_history.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_history.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_notice.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_notice.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/pull_to_refresh_header_horizontal.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_calendar_layout.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_calendar_layout.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_rank.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_rank.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_grid_item_mb.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_grid_item_mb.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/layout_list.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/layout_list.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/dialog_tanmu.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/dialog_tanmu.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/fragment_xuanji.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/fragment_xuanji.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/messenger_button_send_white_small.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_choisecity.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_choisecity.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/design_navigation_item.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/fragment_play.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/fragment_play.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_timershaft.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_timershaft.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/temptext.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/temptext.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_lookforward.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_lookforward.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_user_client.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_user_client.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_start.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_start.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_select_dialog_material.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/fragment_first.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/fragment_first.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/dialog_login.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/dialog_login.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/umeng_socialize_base_alert_dialog_button.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/umeng_socialize_base_alert_dialog_button.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_order.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_order.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/umeng_socialize_titile_bar.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/umeng_socialize_titile_bar.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_dialog_title_material.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_setuserinfo.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_setuserinfo.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/include_user_intro.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/include_user_intro.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_text_live_id.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_text_live_id.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_purchas_history.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_purchas_history.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/design_navigation_item_header.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/notification_view.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/notification_view.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/layout_threesharepop.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/layout_threesharepop.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_action_mode_bar.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_listview_topic.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_listview_topic.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/head_paihangbang.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/head_paihangbang.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/a_ranking.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/a_ranking.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/phone_constacts_item.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/phone_constacts_item.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/tv.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/tv.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_search_album.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_search_album.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_publish.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_publish.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/dialog_user_report.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/dialog_user_report.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/left_menu.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/left_menu.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_twoline.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_twoline.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_search_view.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/dialog_network_tishi.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/dialog_network_tishi.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_transcripts_rank.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_transcripts_rank.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_listview.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_listview.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/notification_progress_layout.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/notification_progress_layout.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/fragment_show_right.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/fragment_show_right.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_topic.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_topic.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_change_psd.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_change_psd.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/pop_share_picture.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/pop_share_picture.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_zhanneixin.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_zhanneixin.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/umeng_socialize_simple_spinner_item.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/umeng_socialize_simple_spinner_item.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_live_detailinfo.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_live_detailinfo.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/fragment_rank.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/fragment_rank.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/notification_template_media.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_hlv_showfragment.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_hlv_showfragment.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/a_transcripts.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/a_transcripts.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/tv_single.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/tv_single.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/umeng_socialize_failed_load_page.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/umeng_socialize_failed_load_page.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_tabview.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_tabview.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_center.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_center.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_text.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_text.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_input_user_contect.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_input_user_contect.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/design_navigation_menu.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_pay_order.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_pay_order.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_work_info.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_work_info.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/widget_switch.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/widget_switch.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_splash.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/pop_count_number.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/pop_count_number.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/messenger_button_send_blue_large.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_applyfor_anchor.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_applyfor_anchor.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/messenger_button_send_blue_small.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/notification_template_big_media.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/layout_ll_menu.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/layout_ll_menu.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/dialog_choosecity.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/dialog_choosecity.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/notification_template_part_time.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_timer_big.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_timer_big.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_register_one.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_register_one.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/dialog_audiences.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/dialog_audiences.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/umeng_bak_platform_selector_dialog.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/umeng_bak_platform_selector_dialog.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_ranking_head.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_ranking_head.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/umeng_bak_at_list_item.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/umeng_bak_at_list_item.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/mediacontroller_new_show.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/mediacontroller_new_show.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/head_viewpage.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/head_viewpage.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_livepublish.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_livepublish.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_time.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_time.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/timer_top.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/timer_top.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_listview_youhuiquan.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_listview_youhuiquan.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/dialog_show_goumai.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/dialog_show_goumai.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/umeng_socialize_post_share.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/umeng_socialize_post_share.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/messenger_button_send_blue_round.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/design_layout_tab_text.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/dialog_horizon_mb.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/dialog_horizon_mb.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/com_facebook_tooltip_bubble.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_dabang.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_dabang.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/title_popup.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/title_popup.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_buygift.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_buygift.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/video_show.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/video_show.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/dialog_form_perform.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/dialog_form_perform.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_works_list.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_works_list.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/pay_result.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/pay_result.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_pailianshi.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_pailianshi.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/videoliveview.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/videoliveview.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/com_facebook_login_fragment.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_main_content.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_main_content.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/user_header_info.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/user_header_info.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/list_search_history.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/list_search_history.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/fragment_chat.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/pull_to_refresh_header_vertical.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/topbar_layout.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/topbar_layout.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/widget_video_loading.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/widget_video_loading.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/dialog_gift.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/dialog_gift.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/pop_calendor.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/pop_calendor.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/fragment_my_fans.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/fragment_my_fans.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_timer_small.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_timer_small.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/dialog_tologin.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/dialog_tologin.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/fragment_chatroom_.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/fragment_chatroom_.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/pop_three_share.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/pop_three_share.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_collegelist.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_collegelist.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/video_function.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/video_function.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/fragment_anchor_detail.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/fragment_anchor_detail.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_screen_content_include.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/headviewpager_show.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/headviewpager_show.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/fragment_my_attention.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/fragment_my_attention.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_ranking_child.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_ranking_child.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_register.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_makerecord_layout.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_makerecord_layout.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_search.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_search.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_anchor_rank.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_anchor_rank.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_applyfor.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_applyfor.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/fragment_webview.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/fragment_webview.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/dialog_loading.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/dialog_loading.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/top_back_and_title.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/top_back_and_title.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/dianbo_pinglun_lv_child.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/dianbo_pinglun_lv_child.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/dialog_pinglun.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/dialog_pinglun.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/head_image.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/head_image.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_listview_pinglun_detail.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_listview_pinglun_detail.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/complete_choise_img.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/complete_choise_img.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_login.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/umeng_socialize_full_alert_dialog.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/umeng_socialize_full_alert_dialog.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_buygift.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_buygift.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/design_navigation_item_separator.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/item_ranking_foot.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/item_ranking_foot.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/fragment_order.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/fragment_order.xml"
+    },
+    {
+        "merged": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/res/merged/huawei/release/layout/activity_binding.xml",
+        "source": "/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/res/layout/activity_binding.xml"
+    }
+]

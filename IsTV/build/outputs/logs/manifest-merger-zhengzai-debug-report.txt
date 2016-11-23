@@ -1,0 +1,1282 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:2:1-578:12
+	package
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:2:11-39
+		INJECTED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml
+		INJECTED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml
+		INJECTED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:4:11-57
+	xmlns:android
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:3:11-69
+	android:versionCode
+		INJECTED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml
+		INJECTED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:6:5-8:35
+	android:required
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:8:9-33
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:7:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:9:5-11:35
+	android:required
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:11:9-33
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:10:9-57
+uses-feature#android.software.leanback
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:12:5-14:35
+	android:required
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:14:9-33
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:13:9-49
+uses-feature#0x00020000
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:15:5-17:34
+	android:glEsVersion
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:16:9-41
+	android:required
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:17:9-32
+uses-permission#android.permission.FLASHLIGHT
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:19:22-66
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:21:5-74
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:21:22-72
+uses-permission#android.permission.READ_CALENDAR
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:23:5-71
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:23:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:24:22-70
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:26:5-80
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:26:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:27:5-83
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:27:22-81
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:29:5-80
+MERGED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:11:5-81
+MERGED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:16:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:29:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:30:5-78
+MERGED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:13:5-79
+MERGED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:30:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:31:5-75
+MERGED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:14:5-76
+MERGED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:31:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:32:5-74
+MERGED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:15:5-75
+MERGED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:18:5-75
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:32:22-72
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:33:5-70
+MERGED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:16:5-71
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:33:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:34:5-79
+MERGED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:19:5-80
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:34:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:35:5-65
+MERGED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:20:5-66
+MERGED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:31:5-66
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:35:22-63
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:36:5-83
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:36:22-81
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:37:5-67
+MERGED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:18:5-68
+MERGED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:37:22-65
+uses-permission#android.permission.INTERNET
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:38:5-66
+MERGED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:12:5-67
+MERGED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:38:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:39:5-79
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:39:22-77
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:40:5-72
+MERGED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:12:5-73
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:40:22-70
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:42:5-78
+MERGED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:42:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:43:5-75
+MERGED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:43:22-73
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:44:5-80
+MERGED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:21:5-81
+MERGED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:44:22-78
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:45:5-67
+MERGED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:17:5-68
+MERGED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:45:22-65
+uses-permission#android.permission.BROADCAST_PACKAGE_REPLACED
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:47:5-84
+MERGED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:28:5-85
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:47:22-82
+uses-permission#android.permission.RESTART_PACKAGES
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:48:5-74
+MERGED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:29:5-75
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:48:22-72
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:50:5-73
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:50:22-71
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:51:5-70
+MERGED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:30:5-71
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:51:22-68
+uses-permission#android.permission.BROADCAST_PACKAGE_ADDED
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:54:5-81
+MERGED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:25:5-82
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:54:22-79
+uses-permission#android.permission.BROADCAST_PACKAGE_CHANGED
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:55:5-83
+MERGED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:26:5-84
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:55:22-81
+uses-permission#android.permission.BROADCAST_PACKAGE_INSTALL
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:56:5-83
+MERGED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:27:5-84
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:56:22-81
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:58:5-87
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:58:22-85
+uses-permission#android.permission.CAMERA
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:62:5-64
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:62:22-62
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:64:5-67
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:64:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:65:5-73
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:65:22-71
+application
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:67:5-549:19
+MERGED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:23:5-87:19
+MERGED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:36:5-141:19
+MERGED from [com.android.support:design:23.0.0] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/design/23.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.0] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.lidroid.xutils:xutils:2.6.13] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.lidroid.xutils/xutils/2.6.13/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:zbar:1.8.3] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.3/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.8.3] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.8.3/AndroidManifest.xml:11:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:28:5-57:19
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:71:9-41
+	android:allowBackup
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:69:9-35
+	android:icon
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:70:9-38
+	android:largeHeap
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:72:9-33
+	android:theme
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:73:9-43
+	tools:replace
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:74:9-51
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:68:9-48
+activity#com.modernsky.istv.acitivity.SplashActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:76:9-84:20
+	android:theme
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:78:13-53
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:77:13-53
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:79:13-83:29
+action#android.intent.action.MAIN
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:80:17-68
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:80:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:82:17-76
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:82:27-74
+activity#com.modernsky.istv.acitivity.MainActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:85:9-107:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:89:13-49
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:87:13-45
+	android:launchMode
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:88:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:91:13-56
+	android:theme
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:90:13-60
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:86:13-51
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:92:13-95:29
+category#android.intent.category.DEFAULT
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:94:17-75
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:94:27-73
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:96:13-106:29
+action#android.intent.action.VIEW
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:98:17-68
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:98:25-66
+category#android.intent.category.BROWSABLE
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:101:17-77
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:101:27-75
+data
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:103:17-105:48
+	android:host
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:104:21-39
+	android:scheme
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:105:21-46
+activity#com.modernsky.istv.acitivity.LogoActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:108:9-112:55
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:111:13-49
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:110:13-45
+	android:theme
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:112:13-53
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:109:13-51
+activity#com.modernsky.istv.acitivity.MakeRecordActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:113:9-116:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:116:13-49
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:115:13-45
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:114:13-57
+activity#com.modernsky.istv.acitivity.CalendarActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:117:9-120:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:120:13-49
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:119:13-45
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:118:13-55
+activity#com.modernsky.istv.acitivity.WelcomeActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:121:9-124:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:124:13-49
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:123:13-45
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:122:13-54
+activity#com.modernsky.istv.acitivity.SetUserInfoActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:125:9-128:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:128:13-49
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:127:13-45
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:126:13-58
+activity#com.modernsky.istv.acitivity.RegisterActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:129:9-132:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:132:13-49
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:131:13-45
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:130:13-55
+activity#com.modernsky.istv.acitivity.RegisterOneActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:133:9-136:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:136:13-49
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:135:13-45
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:134:13-58
+activity#com.modernsky.istv.acitivity.ChangeActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:137:9-140:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:140:13-49
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:139:13-45
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:138:13-53
+activity#com.modernsky.istv.acitivity.ResetPsdActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:141:9-144:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:144:13-49
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:143:13-45
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:142:13-55
+activity#com.modernsky.istv.acitivity.FindPsdTypeActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:145:9-148:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:148:13-49
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:147:13-45
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:146:13-58
+activity#com.modernsky.istv.acitivity.SearchActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:149:9-154:54
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:152:13-49
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:151:13-45
+	android:windowSoftInputMode
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:154:13-52
+	android:theme
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:153:13-55
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:150:13-53
+activity#com.modernsky.istv.acitivity.BingPhoneActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:155:9-158:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:158:13-49
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:157:13-45
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:156:13-56
+activity#com.modernsky.istv.acitivity.YinyueJieHejiActivtity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:159:9-162:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:162:13-49
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:161:13-45
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:160:13-61
+activity#com.modernsky.istv.acitivity.ArtistDetailActiivty
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:163:9-166:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:166:13-49
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:165:13-45
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:164:13-59
+activity#com.modernsky.istv.acitivity.TranscriptsActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:167:9-170:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:170:13-49
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:169:13-45
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:168:13-58
+activity#com.modernsky.istv.acitivity.PlayActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:171:9-179:57
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:177:13-49
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:175:13-45
+	android:launchMode
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:176:13-44
+	android:exported
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:174:13-36
+	android:windowSoftInputMode
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:179:13-55
+	android:configChanges
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:173:13-74
+	android:theme
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:178:13-60
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:172:13-51
+activity#com.modernsky.istv.acitivity.LookForwardActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:180:9-188:57
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:186:13-49
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:184:13-45
+	android:launchMode
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:185:13-44
+	android:exported
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:183:13-36
+	android:windowSoftInputMode
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:188:13-55
+	android:configChanges
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:182:13-74
+	android:theme
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:187:13-60
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:181:13-58
+activity#com.modernsky.istv.acitivity.ShowActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:189:9-197:57
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:195:13-49
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:193:13-45
+	android:launchMode
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:194:13-44
+	android:exported
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:192:13-36
+	android:windowSoftInputMode
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:197:13-55
+	android:configChanges
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:191:13-74
+	android:theme
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:196:13-60
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:190:13-51
+activity#com.modernsky.istv.acitivity.LiveActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:198:9-206:57
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:204:13-49
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:202:13-45
+	android:launchMode
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:203:13-44
+	android:exported
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:201:13-36
+	android:windowSoftInputMode
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:206:13-55
+	android:configChanges
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:200:13-74
+	android:theme
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:205:13-60
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:199:13-51
+activity#com.modernsky.istv.acitivity.LoginActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:208:9-210:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:210:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:209:13-52
+activity#com.modernsky.istv.acitivity.InputContectActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:211:9-213:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:213:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:212:13-59
+activity#com.modernsky.istv.acitivity.EditUserInfoActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:214:9-216:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:216:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:215:13-59
+activity#com.modernsky.istv.acitivity.ImagePreviewActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:217:9-219:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:219:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:218:13-59
+activity#com.modernsky.istv.acitivity.TopicActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:220:9-222:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:222:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:221:13-52
+activity#com.modernsky.istv.acitivity.ClienUserActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:223:9-225:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:225:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:224:13-56
+activity#com.modernsky.istv.acitivity.SetActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:226:9-228:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:228:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:227:13-50
+activity#com.modernsky.istv.acitivity.WebActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:229:9-231:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:231:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:230:13-50
+activity#com.modernsky.istv.acitivity.BindingActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:232:9-234:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:234:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:233:13-54
+activity#com.modernsky.istv.acitivity.BuyGiftActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:235:9-237:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:237:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:236:13-54
+activity#com.modernsky.istv.acitivity.RankActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:238:9-240:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:240:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:239:13-51
+activity#com.modernsky.istv.acitivity.YouHuiQuanActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:241:9-243:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:243:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:242:13-57
+activity#com.modernsky.istv.acitivity.ShouCangActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:244:9-246:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:246:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:245:13-55
+activity#com.modernsky.istv.acitivity.RecordActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:247:9-249:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:249:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:248:13-53
+activity#com.modernsky.istv.acitivity.OrderMeActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:250:9-252:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:252:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:251:13-54
+activity#com.modernsky.istv.acitivity.ZhanneixinActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:253:9-255:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:255:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:254:13-57
+activity#com.modernsky.istv.acitivity.LivePublishActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:256:9-259:52
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:259:13-50
+	android:configChanges
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:258:13-59
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:257:13-58
+activity#com.modernsky.istv.acitivity.DormMusicActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:260:9-262:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:262:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:261:13-56
+activity#com.modernsky.istv.acitivity.PaihangbangActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:263:9-265:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:265:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:264:13-58
+activity#com.modernsky.istv.acitivity.DzzLiveInfoActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:266:9-268:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:268:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:267:13-58
+activity#com.modernsky.istv.acitivity.UserHomepageActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:269:9-271:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:271:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:270:13-59
+activity#com.modernsky.istv.choiseCity.ChoiseCityActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:272:9-274:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:274:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:273:13-58
+activity#com.modernsky.istv.acitivity.ApplyAnchorActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:275:9-278:55
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:277:13-49
+	android:theme
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:278:13-53
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:276:13-58
+activity#com.modernsky.istv.acitivity.ChoisePublishOrLiveActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:279:9-282:55
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:281:13-49
+	android:theme
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:282:13-53
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:280:13-66
+activity#com.modernsky.istv.acitivity.PublishActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:283:9-287:74
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:285:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:287:13-72
+	android:theme
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:286:13-48
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:284:13-54
+activity#com.modernsky.istv.acitivity.ApplyForActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:288:9-290:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:290:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:289:13-55
+activity#com.modernsky.istv.acitivity.ScreenActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:292:9-296:49
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:295:13-49
+	android:launchMode
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:294:13-48
+	android:theme
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:296:13-47
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:293:13-53
+activity#com.modernsky.istv.acitivity.OrderActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:297:9-309:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:301:13-49
+	android:launchMode
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:300:13-43
+	android:exported
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:299:13-36
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:298:13-52
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:302:13-308:29
+activity#com.modernsky.istv.acitivity.RechargeActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:310:9-322:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:314:13-49
+	android:launchMode
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:313:13-43
+	android:exported
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:312:13-36
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:311:13-55
+activity#com.modernsky.istv.acitivity.RechargeMbActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:323:9-336:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:327:13-50
+	android:launchMode
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:326:13-43
+	android:exported
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:325:13-36
+	android:theme
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:328:13-53
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:324:13-57
+activity#com.umeng.socialize.editorpage.ShareActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:339:9-342:53
+	android:excludeFromRecents
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:341:13-46
+	android:theme
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:342:13-51
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:340:13-72
+activity#com.modernsky.istv.acitivity.WBShareActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:344:9-352:20
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:347:13-49
+	android:configChanges
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:346:13-63
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:345:13-54
+intent-filter#android.intent.category.DEFAULT+com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:348:13-351:29
+action#com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:349:17-91
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:349:25-89
+activity#com.sina.weibo.sdk.component.WeiboSdkBrowser
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:353:9-357:57
+	android:exported
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:356:13-37
+	android:windowSoftInputMode
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:357:13-55
+	android:configChanges
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:355:13-63
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:354:13-72
+activity#com.tencent.tauth.AuthActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:361:9-373:20
+	android:launchMode
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:363:13-44
+	android:noHistory
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:364:13-37
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:362:13-58
+activity#com.tencent.connect.common.AssistActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:374:9-377:74
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:376:13-49
+	android:theme
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:377:13-72
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:375:13-69
+activity#com.modernsky.istv.wxapi.WXEntryActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:378:9-383:74
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:382:13-49
+	android:exported
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:381:13-36
+	android:configChanges
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:380:13-74
+	android:theme
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:383:13-72
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:379:13-50
+activity#com.modernsky.istv.wxapi.WXPayEntryActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:385:9-388:45
+	android:launchMode
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:388:13-43
+	android:exported
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:387:13-36
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:386:13-53
+receiver#com.modernsky.istv.AppRegister
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:390:9-394:20
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:390:19-46
+intent-filter#com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:391:13-393:29
+action#com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:392:17-99
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:392:25-97
+activity#com.alipay.sdk.app.H5PayActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:398:9-402:49
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:402:13-47
+	android:exported
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:401:13-37
+	android:configChanges
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:400:13-74
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:399:13-60
+activity#com.alipay.sdk.auth.AuthActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:403:9-407:49
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:407:13-47
+	android:exported
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:406:13-37
+	android:configChanges
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:405:13-74
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:404:13-60
+meta-data#UMENG_APPKEY
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:411:9-413:55
+	android:value
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:413:13-53
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:412:13-40
+meta-data#UMENG_MESSAGE_SECRET
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:415:9-417:63
+	android:value
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:417:13-61
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:416:13-48
+meta-data#UMENG_CHANNEL
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:419:9-421:53
+	android:value
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:421:13-51
+		INJECTED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:420:13-41
+service#com.modernsky.istv.nmpush.MyPushIntentService
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:422:9-424:38
+	android:process
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:424:13-36
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:423:13-73
+service#com.modernsky.istv.nmpush.NotificationService
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:428:9-80
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:428:18-78
+meta-data#RONG_CLOUD_APP_KEY
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:433:9-436:44
+	android:value
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:435:13-42
+	tools:replace
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:436:13-42
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:434:13-46
+service#io.rong.imlib.ipc.RongService
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:443:9-445:37
+MERGED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:27:9-29:38
+	android:process
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:445:13-35
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:444:13-57
+service#io.rong.imlib.ReConnectService
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:446:9-65
+MERGED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:30:9-66
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:446:18-63
+receiver#io.rong.imlib.ConnectChangeReceiver
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:448:9-71
+MERGED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:32:9-72
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:448:19-69
+receiver#io.rong.imlib.ipc.PushMessageReceiver
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:450:9-455:20
+MERGED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:33:9-37:20
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:450:19-71
+intent-filter#io.rong.push.message
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:452:13-454:29
+action#io.rong.push.message
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:453:17-62
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:453:25-60
+service#io.rong.push.PushService
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:458:9-467:19
+MERGED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:42:9-50:19
+	android:process
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:460:13-43
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:459:13-52
+intent-filter#android.intent.category.DEFAULT+io.rong.push
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:462:13-466:29
+action#io.rong.push
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:465:17-54
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:465:25-52
+service#io.rong.push.CommandService
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:468:9-476:19
+MERGED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:51:9-59:19
+	android:process
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:470:13-43
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:469:13-55
+intent-filter#android.intent.category.DEFAULT+io.rong.command
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:471:13-475:29
+action#io.rong.command
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:474:17-57
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:474:25-55
+receiver#io.rong.push.PushReceiver
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:478:9-493:20
+MERGED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:61:9-83:20
+	android:process
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:480:13-43
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:479:13-53
+intent-filter#io.rong.imlib.action.push.heartbeat
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:482:13-484:29
+action#io.rong.imlib.action.push.heartbeat
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:483:17-77
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:483:25-75
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:486:13-488:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:487:17-78
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:487:25-76
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:490:13-492:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:491:17-78
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:491:25-76
+receiver#io.rong.imlib.HeartbeatReceiver
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:494:9-496:37
+MERGED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:38:9-40:38
+	android:process
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:496:13-35
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:495:13-59
+service#com.letv.pp.service.CdeService
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:499:9-501:37
+	android:process
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:501:13-35
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:500:13-58
+service#com.lecloud.download.control.LeDownloadService
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:502:9-506:19
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:502:18-79
+intent-filter#Ledownload.service.action
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:503:13-505:29
+action#Ledownload.service.action
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:504:17-67
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:504:25-65
+service#com.modernsky.istv.MusicService
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:509:9-513:19
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:509:18-46
+intent-filter#MusicServiceAction
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:510:13-512:29
+action#MusicServiceAction
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:511:17-60
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:511:25-58
+receiver#com.modernsky.istv.MediaButtonReceiver
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:515:9-56
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:515:19-54
+activity#com.modernsky.istv.acitivity.QRCodeActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:517:9-61
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:517:19-59
+activity#com.modernsky.istv.acitivity.VrPlayerActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:520:9-535:20
+	android:process
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:525:13-34
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:526:13-50
+	android:label
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:523:13-45
+	android:launchMode
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:524:13-44
+	android:configChanges
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:522:13-170
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:521:13-55
+intent-filter#android.intent.category.LEANBACK_LAUNCHER+com.google.intent.category.CARDBOARD
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:527:13-531:29
+category#com.google.intent.category.CARDBOARD
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:529:17-80
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:529:27-78
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:530:17-85
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:530:27-83
+meta-data#unityplayer.UnityActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:532:13-534:39
+	android:value
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:534:17-37
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:533:17-57
+activity#com.modernsky.istv.acitivity.DabangAboutActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:539:9-541:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:541:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:540:13-58
+activity#com.modernsky.istv.acitivity.TimerShaftActivity
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:543:9-545:51
+	android:screenOrientation
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:545:13-49
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:544:13-57
+uses-permission#android.permission.NFC
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:551:5-61
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:551:22-59
+permission#android.permission.FORCE_STOP_PACKAGES
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:553:5-556:46
+	android:protectionLevel
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:556:9-44
+	android:permissionGroup
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:555:9-72
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:554:9-62
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:558:5-77
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:558:22-75
+uses-permission#android.permission.SYSTEM_OVERLAY_WINDOW
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:560:5-79
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:560:22-77
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:562:5-564:35
+	android:required
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:564:9-33
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:563:9-52
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:565:5-567:35
+	android:required
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:567:9-33
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:566:9-63
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:568:5-570:35
+	android:required
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:570:9-33
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:569:9-72
+uses-feature#android.hardware.microphone
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:571:5-573:35
+	android:required
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:573:9-33
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:572:9-51
+uses-feature#android.hardware.bluetooth
+ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:574:5-576:35
+	android:required
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:576:9-33
+	android:name
+		ADDED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml:575:9-50
+uses-sdk
+INJECTED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:23.0.0] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/design/23.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.0] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.lidroid.xutils:xutils:2.6.13] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.lidroid.xutils/xutils/2.6.13/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:zbar:1.8.3] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.3/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.8.3] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.8.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/AndroidManifest.xml:18:5-42
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml
+		INJECTED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml
+		INJECTED from /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/AndroidManifest.xml
+intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.USER_PRESENT
+ADDED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:73:13-77:29
+action#android.intent.action.USER_PRESENT
+ADDED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:74:17-77
+	android:name
+		ADDED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:74:25-74
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:75:17-87
+	android:name
+		ADDED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:75:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:76:17-90
+	android:name
+		ADDED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:76:25-87
+intent-filter#android.intent.action.PACKAGE_REMOVED
+ADDED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:78:13-82:29
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:79:17-80
+	android:name
+		ADDED from [ZhengZaiThrees:IMLib:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/IMLib/unspecified/AndroidManifest.xml:79:25-77
+uses-permission#android.permission.SEND_SMS
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:32:5-67
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:32:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:33:5-70
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:33:22-67
+uses-permission#android.permission.READ_SMS
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:34:5-67
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:34:22-64
+receiver#com.umeng.message.NotificationProxyBroadcastReceiver
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:37:9-40:20
+	android:exported
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:38:13-80
+receiver#com.umeng.message.SystemReceiver
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:41:9-55:20
+	android:process
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:43:13-36
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:42:13-60
+receiver#com.umeng.message.MessageReceiver
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:56:9-63:20
+	android:process
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:59:13-36
+	android:exported
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:57:13-61
+intent-filter#org.agoo.android.intent.action.RECEIVE
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:60:13-62:29
+action#org.agoo.android.intent.action.RECEIVE
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:61:17-81
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:61:25-78
+receiver#com.umeng.message.ElectionReceiver
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:64:9-72:20
+	android:process
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:66:13-36
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:65:13-62
+intent-filter#org.agoo.android.intent.action.ELECTION_RESULT_V4+umeng
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:67:13-71:29
+action#org.agoo.android.intent.action.ELECTION_RESULT_V4
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:68:17-92
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:68:25-89
+category#umeng
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:70:17-50
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:70:27-47
+receiver#com.umeng.message.RegistrationReceiver
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:73:9-79:20
+	android:exported
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:75:13-37
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:74:13-66
+intent-filter#${applicationId}.intent.action.COMMAND
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:76:13-78:29
+action#${applicationId}.intent.action.COMMAND
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:77:17-81
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:77:25-78
+receiver#com.umeng.message.UmengMessageBootReceiver
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:80:9-84:20
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:80:19-76
+service#com.umeng.message.UmengService
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:86:9-102:19
+	android:process
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:90:13-36
+	android:label
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:89:13-40
+	android:exported
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:88:13-36
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:87:13-58
+intent-filter#${applicationId}.intent.action.START
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:91:13-93:29
+action#${applicationId}.intent.action.START
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:92:17-79
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:92:25-76
+intent-filter#${applicationId}.intent.action.COCKROACH
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:94:13-96:29
+action#${applicationId}.intent.action.COCKROACH
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:95:17-83
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:95:25-80
+intent-filter#org.agoo.android.intent.action.PING_V4+umeng
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:97:13-101:29
+action#org.agoo.android.intent.action.PING_V4
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:98:17-81
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:98:25-78
+service#com.umeng.message.UmengIntentService
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:103:9-105:39
+	android:process
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:105:13-36
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:104:13-64
+service#com.umeng.message.UmengMessageIntentReceiverService
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:106:9-116:19
+	android:process
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:109:13-36
+	android:exported
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:108:13-36
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:107:13-79
+intent-filter#org.android.agoo.client.MessageReceiverService
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:110:13-112:29
+action#org.android.agoo.client.MessageReceiverService
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:111:17-89
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:111:25-86
+intent-filter#org.android.agoo.client.ElectionReceiverService
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:113:13-115:29
+action#org.android.agoo.client.ElectionReceiverService
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:114:17-90
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:114:25-87
+service#com.umeng.message.UmengMessageCallbackHandlerService
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:117:9-132:19
+	android:exported
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:119:13-37
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:118:13-80
+intent-filter#com.umeng.messge.registercallback.action
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:120:13-122:29
+action#com.umeng.messge.registercallback.action
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:121:17-83
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:121:25-80
+intent-filter#com.umeng.message.unregistercallback.action
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:123:13-125:29
+action#com.umeng.message.unregistercallback.action
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:124:17-86
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:124:25-83
+intent-filter#com.umeng.message.message.handler.action
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:126:13-128:29
+action#com.umeng.message.message.handler.action
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:127:17-83
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:127:25-80
+intent-filter#com.umeng.message.autoupdate.handler.action
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:129:13-131:29
+action#com.umeng.message.autoupdate.handler.action
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:130:17-86
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:130:25-83
+service#com.umeng.message.UmengDownloadResourceService
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:135:9-137:40
+	android:exported
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:137:13-37
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:136:13-74
+service#com.umeng.message.local.UmengLocalNotificationService
+ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:138:9-140:40
+	android:exported
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:140:13-37
+	android:name
+		ADDED from [ZhengZaiThrees:PushSDK:unspecified] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/ZhengZaiThrees/PushSDK/unspecified/AndroidManifest.xml:139:13-81
+service#com.squareup.leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:29:9-32:45
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:31:13-36
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:32:13-42
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:30:13-80
+service#com.squareup.leakcanary.DisplayLeakService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:33:9-35:39
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:34:13-70
+activity#com.squareup.leakcanary.internal.DisplayLeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:37:9-49:20
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:39:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:41:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:40:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:43:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:42:13-59
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:38:13-80
+activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:50:9-56:68
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:52:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:54:13-82
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:53:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:56:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:55:13-59
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/AndroidManifest.xml:51:13-93

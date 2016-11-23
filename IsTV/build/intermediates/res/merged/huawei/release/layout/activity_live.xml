@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <!-- 引入视频播放控件 -->
+    <include
+        android:id="@+id/include_video"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/video_height"
+        layout="@layout/videoliveview" />
+
+    <FrameLayout
+        android:id="@+id/fragmentRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

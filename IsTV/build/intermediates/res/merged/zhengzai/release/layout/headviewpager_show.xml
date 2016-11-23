@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include layout="@layout/viewpage" />
+
+    <RelativeLayout
+        android:id="@+id/rl_hlv_top"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:background="@color/black20"
+        android:visibility="gone">
+
+        <com.modernsky.istv.view.HorizontalListView
+            android:id="@+id/hlv_top"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:layout_centerVertical="true"
+            android:background="@color/black20" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout_dorm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black18"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_dorm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="12dp"
+            android:drawableLeft="@drawable/dzz_0home_icon_tt_ssyyh"
+            android:drawablePadding="4dp"
+            android:text="宿舍音乐会"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/img_dorm"
+            android:layout_width="match_parent"
+            android:layout_height="121dp"
+            android:layout_below="@+id/tv_dorm"
+            android:layout_marginTop="6dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_hotanchor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black18"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_hotanchor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="12dp"
+            android:drawableLeft="@drawable/dzz_0home_icon_tt_hot"
+            android:drawablePadding="4dp"
+            android:text="热门选手"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <com.modernsky.istv.view.HorizontalListView
+            android:id="@+id/anchorList"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_below="@+id/tv_hotanchor"
+            android:layout_marginTop="17dp"
+            android:background="@color/black18" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_paihangbang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black18"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_phb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="12dp"
+            android:drawableLeft="@drawable/dzz_0home_icon_tt_phb"
+            android:drawablePadding="4dp"
+            android:text="人气榜"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+
+        <ImageView
+            android:id="@+id/img_dzz_phb"
+            android:layout_width="match_parent"
+            android:layout_height="121dp"
+            android:layout_below="@+id/tv_phb"
+            android:layout_marginTop="6dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher" />
+    </RelativeLayout>
+</LinearLayout>

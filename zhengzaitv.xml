@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="zhengzaitv" default="all">
+  
+  
+  <property file="zhengzaitv.properties"/>
+  <!-- Uncomment the following property if no tests compilation is needed -->
+  <!-- 
+  <property name="skip.tests" value="true"/>
+   -->
+  
+  <!-- Compiler options -->
+  
+  <property name="compiler.debug" value="on"/>
+  <property name="compiler.generate.no.warnings" value="off"/>
+  <property name="compiler.args" value=""/>
+  <property name="compiler.max.memory" value="700m"/>
+  <patternset id="ignored.files">
+    <exclude name="**/*.hprof/**"/>
+    <exclude name="**/*.pyc/**"/>
+    <exclude name="**/*.pyo/**"/>
+    <exclude name="**/*.rbc/**"/>
+    <exclude name="**/*~/**"/>
+    <exclude name="**/.DS_Store/**"/>
+    <exclude name="**/.git/**"/>
+    <exclude name="**/.hg/**"/>
+    <exclude name="**/.svn/**"/>
+    <exclude name="**/CVS/**"/>
+    <exclude name="**/RCS/**"/>
+    <exclude name="**/SCCS/**"/>
+    <exclude name="**/__pycache__/**"/>
+    <exclude name="**/_svn/**"/>
+    <exclude name="**/rcs/**"/>
+  </patternset>
+  <patternset id="library.patterns">
+    <include name="*.war"/>
+    <include name="*.swc"/>
+    <include name="*.apk"/>
+    <include name="*.zip"/>
+    <include name="*.ear"/>
+    <include name="*.egg"/>
+    <include name="*.ane"/>
+    <include name="*.jar"/>
+  </patternset>
+  <patternset id="compiler.resources">
+    <exclude name="**/?*.java"/>
+    <exclude name="**/?*.form"/>
+    <exclude name="**/?*.class"/>
+    <exclude name="**/?*.groovy"/>
+    <exclude name="**/?*.scala"/>
+    <exclude name="**/?*.flex"/>
+    <exclude name="**/?*.kt"/>
+    <exclude name="**/?*.clj"/>
+  </patternset>
+  
+  <!-- JDK definitions -->
+  
+  <property name="jdk.bin.1.7" value="${jdk.home.1.7}/bin"/>
+  <path id="jdk.classpath.1.7">
+    <fileset dir="${jdk.home.1.7}">
+      <include name="jre/lib/charsets.jar"/>
+      <include name="jre/lib/deploy.jar"/>
+      <include name="jre/lib/ext/dnsns.jar"/>
+      <include name="jre/lib/ext/localedata.jar"/>
+      <include name="jre/lib/ext/sunec.jar"/>
+      <include name="jre/lib/ext/sunjce_provider.jar"/>
+      <include name="jre/lib/ext/sunpkcs11.jar"/>
+      <include name="jre/lib/ext/zipfs.jar"/>
+      <include name="jre/lib/htmlconverter.jar"/>
+      <include name="jre/lib/javaws.jar"/>
+      <include name="jre/lib/jce.jar"/>
+      <include name="jre/lib/jfr.jar"/>
+      <include name="jre/lib/jfxrt.jar"/>
+      <include name="jre/lib/jsse.jar"/>
+      <include name="jre/lib/management-agent.jar"/>
+      <include name="jre/lib/plugin.jar"/>
+      <include name="jre/lib/resources.jar"/>
+      <include name="jre/lib/rt.jar"/>
+      <include name="lib/ant-javafx.jar"/>
+      <include name="lib/dt.jar"/>
+      <include name="lib/javafx-doclet.jar"/>
+      <include name="lib/javafx-mx.jar"/>
+      <include name="lib/jconsole.jar"/>
+      <include name="lib/sa-jdi.jar"/>
+      <include name="lib/tools.jar"/>
+    </fileset>
+  </path>
+  
+  <property name="project.jdk.home" value="${jdk.home.1.7}"/>
+  <property name="project.jdk.bin" value="${jdk.bin.1.7}"/>
+  <property name="project.jdk.classpath" value="jdk.classpath.1.7"/>
+  
+  
+  <!-- Project Libraries -->
+  
+  <path id="library.adapters-1.0-rc3.classpath">
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/com.android.databinding/adapters/1.0-rc3/res"/>
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/com.android.databinding/adapters/1.0-rc3/jars/classes.jar"/>
+  </path>
+  
+  <path id="library.admodule.classpath">
+    <pathelement location="${basedir}/playerLibRelease/libs/AdModule.jar"/>
+  </path>
+  
+  <path id="library.alipaysdk.classpath">
+    <pathelement location="${basedir}/IsTV/libs/alipaysdk.jar"/>
+  </path>
+  
+  <path id="library.alipaysecsdk.classpath">
+    <pathelement location="${basedir}/IsTV/libs/alipaysecsdk.jar"/>
+  </path>
+  
+  <path id="library.alipayutdid.classpath">
+    <pathelement location="${basedir}/IsTV/libs/alipayutdid.jar"/>
+  </path>
+  
+  <path id="library.analytics-5.6.4.classpath">
+    <pathelement location="${basedir}/../.gradle/caches/modules-2/files-2.1/com.umeng.analytics/analytics/5.6.4/76fed6d2233b958f0c1d589aa366785e0ab5c8f1/analytics-5.6.4.jar"/>
+  </path>
+  
+  <path id="library.android-google_inc.:google_apis:23.classpath">
+    <pathelement location="${basedir}/../Desktop/adt-bundle-mac-x86_64-20140702/Development/sdk/platforms/android-23/android.jar"/>
+  </path>
+  
+  <path id="library.appcompat-v7-23.0.0.classpath">
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res"/>
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"/>
+  </path>
+  
+  <path id="library.avdsmart_sdk.classpath">
+    <pathelement location="${basedir}/playerLibRelease/libs/avdsmart_sdk.jar"/>
+  </path>
+  
+  <path id="library.baselibrary-1.0-rc5.classpath">
+    <pathelement location="${idea.home}/gradle/m2repository/com/android/databinding/baseLibrary/1.0-rc5/baseLibrary-1.0-rc5.jar"/>
+  </path>
+  
+  <path id="library.cde-sdk-0.9.84.classpath">
+    <pathelement location="${basedir}/playerLibRelease/libs/cde-sdk-0.9.84.jar"/>
+  </path>
+  
+  <path id="library.circleimageview-1.3.0.classpath">
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/res"/>
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/jars/classes.jar"/>
+  </path>
+  
+  <path id="library.com.umeng.message.lib_v2.6.0.classpath">
+    <pathelement location="${basedir}/IsTV/libs/com.umeng.message.lib_v2.6.0.jar"/>
+  </path>
+  
+  <path id="library.compiler-1.0-rc5.classpath">
+    <pathelement location="${basedir}/../.gradle/caches/modules-2/files-2.1/com.android.databinding/compiler/1.0-rc5/88c75264b7ba5b80ee1f34c3351fba62f94c0ebb/compiler-1.0-rc5.jar"/>
+  </path>
+  
+  <path id="library.core-1.8.3.classpath">
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.8.3/res"/>
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.8.3/jars/classes.jar"/>
+  </path>
+  
+  <path id="library.design-23.0.0.classpath">
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/com.android.support/design/23.0.0/res"/>
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/com.android.support/design/23.0.0/jars/classes.jar"/>
+  </path>
+  
+  <path id="library.effects-google_inc.:google_apis:23.classpath">
+    <pathelement location="${basedir}/../Desktop/adt-bundle-mac-x86_64-20140702/Development/sdk/add-ons/addon-google_apis-google-23/libs/effects.jar"/>
+  </path>
+  
+  <path id="library.fastjson-1.2.7.classpath">
+    <pathelement location="${basedir}/../.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.7/a5c721e8ea1e18854272879d6ed2770d25feb342/fastjson-1.2.7.jar"/>
+  </path>
+  
+  <path id="library.gson-2.1.classpath">
+    <pathelement location="${basedir}/../.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.1/2e66da15851f9f5b5079228f856c2f090ba98c38/gson-2.1.jar"/>
+  </path>
+  
+  <path id="library.httpcore-4.1.4.classpath">
+    <pathelement location="${basedir}/../.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.1.4/31cc0a151d458c4b99476805ede9c8accafb734c/httpcore-4.1.4.jar"/>
+  </path>
+  
+  <path id="library.httpmime-4.1.3.classpath">
+    <pathelement location="${basedir}/../.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.1.3/d97e400d31bbeb36c1c60d2c3a9bbf2cdccf85a8/httpmime-4.1.3.jar"/>
+  </path>
+  
+  <path id="library.juniversalchardet-1.0.3.classpath">
+    <pathelement location="${idea.home}/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar"/>
+  </path>
+  
+  <path id="library.lesdk3.0.classpath">
+    <pathelement location="${basedir}/playerLibRelease/libs/Lesdk3.0.jar"/>
+  </path>
+  
+  <path id="library.letvadlib_lecloud.classpath">
+    <pathelement location="${basedir}/playerLibRelease/libs/letvadlib_lecloud.jar"/>
+  </path>
+  
+  <path id="library.library-1.0-rc3.classpath">
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/com.android.databinding/library/1.0-rc3/res"/>
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/com.android.databinding/library/1.0-rc3/jars/classes.jar"/>
+  </path>
+  
+  <path id="library.library-2.4.0.classpath">
+    <pathelement location="${basedir}/../.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"/>
+  </path>
+  
+  <path id="library.maps-google_inc.:google_apis:23.classpath">
+    <pathelement location="${basedir}/../Desktop/adt-bundle-mac-x86_64-20140702/Development/sdk/add-ons/addon-google_apis-google-23/libs/maps.jar"/>
+  </path>
+  
+  <path id="library.mta-sdk-1.6.2.classpath">
+    <pathelement location="${basedir}/IsTV/libs/mta-sdk-1.6.2.jar"/>
+  </path>
+  
+  <path id="library.multidex-1.0.1.classpath">
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/res"/>
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"/>
+  </path>
+  
+  <path id="library.multidex-instrumentation-1.0.1.classpath">
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/com.android.support/multidex-instrumentation/1.0.1/res"/>
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/com.android.support/multidex-instrumentation/1.0.1/jars/classes.jar"/>
+  </path>
+  
+  <path id="library.nodemedia-client-v0.9.3.classpath">
+    <pathelement location="${basedir}/IsTV/libs/nodemedia-client-v0.9.3.jar"/>
+  </path>
+  
+  <path id="library.open_sdk_r5509.classpath">
+    <pathelement location="${basedir}/IsTV/libs/open_sdk_r5509.jar"/>
+  </path>
+  
+  <path id="library.org.apache.http.legacy-google_inc.:google_apis:23.classpath">
+    <pathelement location="${basedir}/../Desktop/adt-bundle-mac-x86_64-20140702/Development/sdk/platforms/android-23/optional/org.apache.http.legacy.jar"/>
+  </path>
+  
+  <path id="library.oss-0.3.0.classpath">
+    <pathelement location="${basedir}/IsTV/libs/oss-0.3.0.jar"/>
+  </path>
+  
+  <path id="library.picasso-2.5.2.classpath">
+    <pathelement location="${basedir}/../.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"/>
+  </path>
+  
+  <path id="library.playersdk_2016_01_13_10_v4.0_release.classpath">
+    <pathelement location="${basedir}/playerLibRelease/libs/playersdk_2016_01_13_10_v4.0_release.jar"/>
+  </path>
+  
+  <path id="library.rong_imlib_v2_3_7.classpath">
+    <pathelement location="${basedir}/IMLib/libs/Rong_IMLib_v2_3_7.jar"/>
+  </path>
+  
+  <path id="library.socialsdk_qqzone_3.classpath">
+    <pathelement location="${basedir}/IsTV/libs/SocialSDK_QQZone_3.jar"/>
+  </path>
+  
+  <path id="library.socialsdk_sina.classpath">
+    <pathelement location="${basedir}/IsTV/libs/SocialSDK_Sina.jar"/>
+  </path>
+  
+  <path id="library.socialsdk_weixin_1.classpath">
+    <pathelement location="${basedir}/IsTV/libs/SocialSDK_WeiXin_1.jar"/>
+  </path>
+  
+  <path id="library.socialsdk_weixin_2.classpath">
+    <pathelement location="${basedir}/IsTV/libs/SocialSDK_WeiXin_2.jar"/>
+  </path>
+  
+  <path id="library.support-annotations-23.0.1.classpath">
+    <pathelement location="${basedir}/../Desktop/adt-bundle-mac-x86_64-20140702/Development/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"/>
+  </path>
+  
+  <path id="library.support-v4-23.0.1.classpath">
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/res"/>
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"/>
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"/>
+  </path>
+  
+  <path id="library.umeng_social_sdk.classpath">
+    <pathelement location="${basedir}/IsTV/libs/umeng_social_sdk.jar"/>
+  </path>
+  
+  <path id="library.usb-google_inc.:google_apis:23.classpath">
+    <pathelement location="${basedir}/../Desktop/adt-bundle-mac-x86_64-20140702/Development/sdk/add-ons/addon-google_apis-google-23/libs/usb.jar"/>
+  </path>
+  
+  <path id="library.videotracker.classpath">
+    <pathelement location="${basedir}/playerLibRelease/libs/VideoTracker.jar"/>
+  </path>
+  
+  <path id="library.weibosdkcore_3.1.2.classpath">
+    <pathelement location="${basedir}/IsTV/libs/weiboSDKCore_3.1.2.jar"/>
+  </path>
+  
+  <path id="library.xutils-2.6.13.classpath">
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/com.lidroid.xutils/xutils/2.6.13/res"/>
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/com.lidroid.xutils/xutils/2.6.13/jars/classes.jar"/>
+  </path>
+  
+  <path id="library.zbar-1.8.3.classpath">
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.3/res"/>
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.3/jars/classes.jar"/>
+    <pathelement location="${basedir}/IsTV/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.3/jars/libs/zbar.jar"/>
+  </path>
+  <!-- Register Custom Compiler Taskdefs -->
+  <property name="javac2.home" value="${idea.home}/lib"/>
+  <path id="javac2.classpath">
+    <pathelement location="${javac2.home}/javac2.jar"/>
+    <pathelement location="${javac2.home}/jdom.jar"/>
+    <pathelement location="${javac2.home}/asm-all.jar"/>
+    <pathelement location="${javac2.home}/jgoodies-forms.jar"/>
+  </path>
+  <target name="register.custom.compilers">
+    <taskdef name="javac2" classname="com.intellij.ant.Javac2" classpathref="javac2.classpath"/>
+    <taskdef name="instrumentIdeaExtensions" classname="com.intellij.ant.InstrumentIdeaExtensions" classpathref="javac2.classpath"/>
+  </target>
+  
+  <!-- Modules -->
+  
+  <import file="${basedir}/IMLib/module_imlib.xml"/>
+  
+  <import file="${basedir}/playerLibRelease/module_playerlibrelease.xml"/>
+  
+  <import file="${basedir}/ShortcutBadger/module_shortcutbadger.xml"/>
+  
+  <import file="${basedir}/module_zhengzaitv.xml"/>
+  
+  <import file="${basedir}/IsTV/module_istv.xml"/>
+  
+  <target name="init" description="Build initialization">
+    <!-- Perform any build initialization in this target -->
+  </target>
+  
+  <target name="clean" depends="clean.module.imlib, clean.module.playerlibrelease, clean.module.shortcutbadger, clean.module.zhengzaitv, clean.module.istv" description="cleanup all"/>
+  
+  <target name="build.modules" depends="init, clean, compile.module.imlib, compile.module.playerlibrelease, compile.module.shortcutbadger, compile.module.zhengzaitv, compile.module.istv" description="build all modules"/>
+  
+  <target name="all" depends="build.modules" description="build all"/>
+</project>

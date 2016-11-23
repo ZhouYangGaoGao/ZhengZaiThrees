@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_imlib" default="compile.module.imlib">
+  <dirname property="module.imlib.basedir" file="${ant.file.module_imlib}"/>
+  
+  <property name="module.jdk.home.imlib" value="${jdk.home.1.7}"/>
+  <property name="module.jdk.bin.imlib" value="${jdk.bin.1.7}"/>
+  <property name="module.jdk.classpath.imlib" value="jdk.classpath.1.7"/>
+  
+  <property name="compiler.args.imlib" value="-encoding UTF-8 -source 1.7 -target 1.7 ${compiler.args}"/>
+  
+  <property name="imlib.output.dir" value="${module.imlib.basedir}/build/intermediates/classes/debug"/>
+  <property name="imlib.testoutput.dir" value="${module.imlib.basedir}/build/intermediates/classes/test/debug"/>
+  
+  <path id="imlib.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="imlib.module.production.classpath">
+    <path refid="${module.jdk.classpath.imlib}"/>
+    <path refid="library.rong_imlib_v2_3_7.classpath"/>
+    <path refid="library.android-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.effects-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.usb-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.maps-google_inc.:google_apis:23.classpath"/>
+  </path>
+  
+  <path id="imlib.runtime.production.module.classpath">
+    <pathelement location="${imlib.output.dir}"/>
+    <path refid="library.rong_imlib_v2_3_7.classpath"/>
+    <path refid="library.android-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.effects-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.usb-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.maps-google_inc.:google_apis:23.classpath"/>
+  </path>
+  
+  <path id="imlib.module.classpath">
+    <path refid="${module.jdk.classpath.imlib}"/>
+    <pathelement location="${imlib.output.dir}"/>
+    <path refid="library.rong_imlib_v2_3_7.classpath"/>
+    <path refid="library.android-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.effects-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.usb-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.maps-google_inc.:google_apis:23.classpath"/>
+  </path>
+  
+  <path id="imlib.runtime.module.classpath">
+    <pathelement location="${imlib.testoutput.dir}"/>
+    <pathelement location="${imlib.output.dir}"/>
+    <path refid="library.rong_imlib_v2_3_7.classpath"/>
+    <path refid="library.android-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.effects-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.usb-google_inc.:google_apis:23.classpath"/>
+    <path refid="library.maps-google_inc.:google_apis:23.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.imlib">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.imlib">
+    <patternset refid="excluded.from.module.imlib"/>
+  </patternset>
+  
+  <path id="imlib.module.sourcepath">
+    <dirset dir="${module.imlib.basedir}">
+      <include name="build/generated/source/r/debug"/>
+      <include name="build/generated/source/aidl/debug"/>
+      <include name="build/generated/source/buildConfig/debug"/>
+      <include name="build/generated/source/rs/debug"/>
+      <include name="build/generated/res/rs/debug"/>
+      <include name="res"/>
+    </dirset>
+  </path>
+  
+  <path id="imlib.module.test.sourcepath">
+    <dirset dir="${module.imlib.basedir}">
+      <include name="build/generated/source/r/androidTest/debug"/>
+      <include name="build/generated/source/aidl/androidTest/debug"/>
+      <include name="build/generated/source/buildConfig/androidTest/debug"/>
+      <include name="build/generated/source/rs/androidTest/debug"/>
+      <include name="build/generated/res/rs/androidTest/debug"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.imlib" depends="compile.module.imlib.production,compile.module.imlib.tests" description="Compile module IMLib"/>
+  
+  <target name="compile.module.imlib.production" depends="register.custom.compilers" description="Compile module IMLib; production classes">
+    <mkdir dir="${imlib.output.dir}"/>
+    <javac2 destdir="${imlib.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.imlib}/javac">
+      <compilerarg line="${compiler.args.imlib}"/>
+      <bootclasspath refid="imlib.module.bootclasspath"/>
+      <classpath refid="imlib.module.production.classpath"/>
+      <src refid="imlib.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.imlib"/>
+    </javac2>
+    
+    <copy todir="${imlib.output.dir}">
+      <fileset dir="${module.imlib.basedir}/build/generated/source/r/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.imlib.basedir}/build/generated/source/aidl/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.imlib.basedir}/build/generated/source/buildConfig/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.imlib.basedir}/build/generated/source/rs/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.imlib.basedir}/build/generated/res/rs/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.imlib.basedir}/res">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.imlib.tests" depends="register.custom.compilers,compile.module.imlib.production" description="compile module IMLib; test classes" unless="skip.tests">
+    <mkdir dir="${imlib.testoutput.dir}"/>
+    <javac2 destdir="${imlib.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.imlib}/javac">
+      <compilerarg line="${compiler.args.imlib}"/>
+      <bootclasspath refid="imlib.module.bootclasspath"/>
+      <classpath refid="imlib.module.classpath"/>
+      <src refid="imlib.module.test.sourcepath"/>
+      <patternset refid="excluded.from.compilation.imlib"/>
+    </javac2>
+    
+    <copy todir="${imlib.testoutput.dir}">
+      <fileset dir="${module.imlib.basedir}/build/generated/source/r/androidTest/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.imlib.basedir}/build/generated/source/aidl/androidTest/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.imlib.basedir}/build/generated/source/buildConfig/androidTest/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.imlib.basedir}/build/generated/source/rs/androidTest/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.imlib.basedir}/build/generated/res/rs/androidTest/debug">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="clean.module.imlib" description="cleanup module">
+    <delete dir="${imlib.output.dir}"/>
+    <delete dir="${imlib.testoutput.dir}"/>
+  </target>
+</project>

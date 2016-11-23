@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1f1f1f">
+
+    <RelativeLayout
+        android:id="@+id/netsearch_preaent"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#000000">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_back" />
+
+        <Button
+            android:id="@+id/btn_back_calendar"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@null" />
+
+        <TextView
+            android:id="@+id/tv_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="2015"
+            android:layout_toRightOf="@+id/btn_back_calendar"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_yuyue"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignBaseline="@+id/tv_year"
+            android:layout_alignBottom="@+id/tv_year"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape_oval_default_color"
+            android:text="预约全部"
+            android:textSize="13sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="27dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/netsearch_preaent"
+        android:background="#000000"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tv_zhouyi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="一"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tv_zhouer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="二"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tv_zhousan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="三"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tv_zhousi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="四"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tv_zhouwu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="五"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tv_zhouliu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="六"
+            android:textColor="@color/hui7c7c" />
+
+        <TextView
+            android:id="@+id/tv_zhouri"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="日"
+            android:textColor="@color/hui7c7c" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:baselineAligned="false"
+        android:layout_alignParentBottom="true"
+        android:background="#111111">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/tv_yijieshu"
+                android:background="@drawable/dot_normal_greydot" />
+
+            <TextView
+                android:id="@+id/tv_yijieshu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="已结束"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/tv_weiyuyue"
+                android:background="@drawable/dot_normal_bluedot" />
+
+            <TextView
+                android:id="@+id/tv_weiyuyue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="未预约"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/tv_yiyuyue"
+                android:background="@drawable/dot_normal_pinkdot" />
+
+            <TextView
+                android:id="@+id/tv_yiyuyue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="已预约"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true">
+
+        <main.java.cn.aigestudio.datepicker.views.DatePicker
+            android:id="@+id/dp_viewId"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"/>
+    </RelativeLayout>
+
+</RelativeLayout>

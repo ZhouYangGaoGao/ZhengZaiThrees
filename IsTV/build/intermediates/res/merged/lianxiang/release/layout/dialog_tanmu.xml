@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_tanmu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_video_below"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#868686"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/img_send"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/but_3_3full_dm_sent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@id/img_send"
+            android:layout_alignTop="@id/img_send"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/img_send"
+            android:background="@drawable/shape_oval_tanmu_black_color">
+
+            <TextView
+                android:id="@+id/img_show_tanmu"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/icon_3_3full_dm_fontnum"
+                android:drawablePadding="5dp"
+                android:text="50"
+                android:gravity="center_vertical"
+                android:textColor="@color/default_blue_color" />
+
+            <EditText
+                android:id="@+id/ed_sendmsg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/img_show_tanmu"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="在这里发送弹幕哦~！"
+                android:imeOptions="actionSend|flagNoExtractUi"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:textColor="@color/gray" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

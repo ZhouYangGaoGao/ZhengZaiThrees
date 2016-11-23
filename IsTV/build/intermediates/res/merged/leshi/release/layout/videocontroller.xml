@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_video"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mediacontroller_bg">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/img_btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/mediacontroller_button"
+            android:padding="10dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/icon_back" />
+
+        <Button
+            android:id="@+id/btn_xuanji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/xuanji"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_video_titles"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/btn_wutai"
+            android:layout_toRightOf="@id/img_btn_back"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/btn_biaoqing"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/gb_gaoqing_select"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/gaoqing"
+            android:textSize="14dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/btn_wutai"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/btn_vr"
+            android:background="@drawable/gb_gaoqing_select"
+            android:button="@null"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:textSize="14dp"
+            android:singleLine="true"
+            android:text="舞台切换"
+            android:textColor="@color/black"
+            android:visibility="visible" />
+        <ImageButton
+            android:id="@+id/btn_vr"
+            android:layout_width="70dp"
+            android:layout_height="27dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/btn_biaoqing"
+            android:background="@drawable/gb_gaoqing_select"
+            android:src="@drawable/icon_vr"
+            android:button="@null"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:textSize="14dp"
+            android:singleLine="true"
+            android:text="VR舞台"
+            android:textColor="@color/black"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/btn_jiemu"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/btn_wutai"
+            android:background="@drawable/gb_gaoqing_select"
+            android:button="@null"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:textSize="14dp"
+            android:text="节目单"
+            android:textColor="@color/black"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/img_btn_lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/mediacontroller_button"
+        android:padding="10dp"
+        android:src="@drawable/icon_07bofang_unlock" />
+
+    <include
+        layout="@layout/video_function"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <ListView
+        android:id="@+id/rg_play"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="8dp"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:visibility="invisible" />
+
+    <ListView
+        android:id="@+id/lv_wutai"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_toLeftOf="@+id/lv_vr"
+        android:divider="@null"
+        android:layout_marginRight="5dp"
+        android:dividerHeight="0dp"
+        android:visibility="invisible" />
+    <ListView
+        android:id="@+id/lv_vr"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_toLeftOf="@+id/rg_play"
+        android:layout_toStartOf="@+id/rg_play"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:visibility="invisible" />
+</RelativeLayout>

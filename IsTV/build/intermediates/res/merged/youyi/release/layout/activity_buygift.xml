@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:id="@+id/top_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topbar_height"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_Back"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="M豆"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/top_content"
+        android:background="@color/whitegray"
+        android:visibility="gone" />
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_content"
+        android:horizontalSpacing="0dp"
+        android:listSelector="#2a2a2a"
+        android:numColumns="3"
+        android:scrollbars="none"
+        android:verticalSpacing="0dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mediacontroller_bg">
+
+    <TextView
+        android:id="@+id/tile_dialog_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/img_form"
+        android:layout_below="@+id/tile_dialog_form"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rl1_form"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/name1_form"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="草莓舞台"
+                android:textColor="@color/white_bababa"
+                android:textSize="14sp" />
+
+            <ListView
+                android:id="@+id/listview1_perform"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/name1_form"
+                android:layout_marginTop="15dp"
+                android:divider="@null"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:dividerHeight="0dp"
+                android:listSelector="#00000000"
+                android:scrollbars="none" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl2_form"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/name2_form"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="草莓舞台"
+                android:textColor="@color/white_bababa"
+                android:textSize="14sp" />
+
+            <ListView
+                android:id="@+id/listview2_perform"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/name2_form"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:listSelector="#00000000"
+                android:scrollbars="none" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl3_form"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/name3_form"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="草莓舞台"
+                android:textColor="@color/white_bababa"
+                android:textSize="14sp" />
+
+            <ListView
+                android:id="@+id/listview3_perform"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/name3_form"
+                android:layout_marginTop="15dp"
+                android:divider="@null"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:dividerHeight="0dp"
+                android:listSelector="#00000000"
+                android:scrollbars="none" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/close" />
+
+</RelativeLayout>

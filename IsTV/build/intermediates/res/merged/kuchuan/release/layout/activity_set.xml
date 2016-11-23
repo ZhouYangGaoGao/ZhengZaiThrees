@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <!-- 引用底部导航栏的布局文件 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navi_height"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/icon_back" />
+
+        <Button
+            android:id="@+id/img_live"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@null" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="系统设置"
+            android:textColor="@color/text_default_color"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/set_BtnManaCOunt"
+        style="@style/styleName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/set_h_height"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="10dp"
+        android:text="账号管理"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/set_BtnBangdingSHare"
+        style="@style/styleName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/set_h_height"
+        android:layout_marginTop="10dp"
+        android:text="绑定分享" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/set_h_height"
+        android:layout_marginTop="2dp"
+        android:background="#292929">
+
+        <TextView
+            android:id="@+id/leftDianTai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="电台设置"
+            android:textColor="@color/text_default_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/leftDianTai"
+            android:layout_toRightOf="@+id/leftDianTai"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="自动播放"
+            android:textColor="@color/text_default_color"
+            android:textSize="12sp" />
+
+        <Switch
+            android:id="@+id/set_BtnMusicSet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:checked="true"
+            android:switchMinWidth="13dp"
+            android:textOff=""
+            android:textOn=""
+            android:thumb="@drawable/sild_bg_btn"
+            android:track="@drawable/noti_selector" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/set_h_height"
+        android:layout_marginTop="30dp"
+        android:background="#292929">
+
+        <TextView
+            android:id="@+id/left_net_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="网络提醒"
+            android:textColor="@color/text_default_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/left_net_set"
+            android:layout_toLeftOf="@+id/set_BtnNetWarn"
+            android:layout_toRightOf="@+id/left_net_set"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="允许2G/3G/4G下在线播放"
+            android:textColor="@color/text_default_color"
+            android:textSize="12sp" />
+
+        <Switch
+            android:id="@+id/set_BtnNetWarn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:checked="true"
+            android:switchMinWidth="13dp"
+            android:textOff=""
+            android:textOn=""
+            android:thumb="@drawable/sild_bg_btn"
+            android:track="@drawable/noti_selector" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/set_h_height"
+        android:layout_marginTop="2dp"
+        android:background="#292929"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/left_qxd_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="清晰度设置"
+            android:textColor="@color/text_default_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/left_qxd_set"
+            android:layout_toRightOf="@+id/left_qxd_set"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="视频播放时默认清晰度最优"
+            android:textColor="@color/text_default_color"
+            android:textSize="12sp" />
+
+        <Switch
+            android:id="@+id/set_QXD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:checked="true"
+            android:switchMinWidth="13dp"
+            android:textOff=""
+            android:textOn=""
+            android:thumb="@drawable/sild_bg_btn"
+            android:thumbTextPadding="13dp"
+            android:track="@drawable/noti_selector" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/set_BtnclearMemery"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/set_h_height"
+        android:layout_marginTop="2dp"
+        android:background="#292929"
+        android:clickable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/set_h_height"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="清除缓存"
+            android:textColor="@drawable/text_color_white_and_gray_selector" />
+
+        <TextView
+            android:id="@+id/tv_chche"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/set_h_height"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="0M" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/set_h_height"
+        android:layout_marginTop="30dp"
+        android:background="#292929">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/set_h_height"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="系统通知"
+            android:textColor="@color/text_default_color" />
+
+        <Switch
+            android:id="@+id/set_ImgpinglunImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:checked="true"
+            android:switchMinWidth="13dp"
+            android:textOff=""
+            android:textOn=""
+            android:thumb="@drawable/sild_bg_btn"
+            android:track="@drawable/noti_selector" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/set_version"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/set_h_height"
+        android:layout_marginTop="2dp"
+        android:background="#292929"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/tv_checkversion"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/set_h_height"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="当前版本"
+            android:textColor="@drawable/text_color_white_and_gray_selector" />
+
+        <TextView
+            android:id="@+id/tv_newversion"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/set_h_height"
+            android:layout_toRightOf="@+id/tv_checkversion"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="( 发现新版本！)"
+            android:textColor="@color/red"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_version"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/set_h_height"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="v3.3.2" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <Button
+            android:id="@+id/set_outBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/set_h_height"
+            android:layout_alignParentBottom="true"
+            android:background="#292929"
+            android:gravity="center"
+            android:text="退出登录"
+            android:textColor="@drawable/text_color_white_and_gray_selector"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>

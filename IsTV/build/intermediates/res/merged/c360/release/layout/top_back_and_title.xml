@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topcontent"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/navi_height"
+    android:background="@color/topbar_bg">
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:padding="10dp"
+        android:src="@drawable/icon_back" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_toRightOf="@+id/img_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="排行榜"
+        android:paddingRight="30dp"
+        android:lines="1"
+        android:ellipsize="end"
+        android:textColor="@color/write"
+        android:textSize="17dp" />
+
+</RelativeLayout>

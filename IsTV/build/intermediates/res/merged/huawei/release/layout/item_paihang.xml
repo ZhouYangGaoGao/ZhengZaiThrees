@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@color/grey_34"
+                android:gravity="center_vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp">
+
+    <com.modernsky.istv.view.RoundAngleImageView
+        android:id="@+id/paihang_userImg"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="17dp"
+        android:background="@color/gray"
+        android:scaleType="fitXY"
+        app:roundHeight="30dp"
+        app:roundWidth="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_lv_anchor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/paihang_userImg"
+        android:background="@drawable/dzz_0home_icon_levelbg"
+        android:gravity="end|center_vertical"
+        android:singleLine="true"
+        android:text="30"
+        android:textColor="@color/whitef0"
+        android:textSize="8sp"/>
+
+    <TextView
+        android:id="@+id/paihang_userNameTet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/paihang_userImg"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="@color/whitegray"
+        android:textSize="15dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="本场贡献"
+            android:textColor="#9095aa"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:id="@+id/paihang_userGongxianTet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text=""
+            android:textColor="#9095aa"
+            android:textSize="12dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

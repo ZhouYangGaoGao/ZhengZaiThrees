@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/listview_pinglun"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@drawable/line"
+        android:fadingEdge="none"
+        android:transcriptMode="normal" />
+
+    <LinearLayout
+        android:id="@+id/xiuchang_bottom_area"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom"
+        android:background="@color/hui2c"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/footbar_play"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_edittext"
+            android:gravity="center_vertical"
+            android:hint="@string/hudong"
+            android:imeOptions="actionSend"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="#e5e5e5"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/btn_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/shape_oval_default_bule_color"
+            android:padding="5dp"
+            android:text="发送"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        <com.modernsky.istv.widget.WidgetRadioSwitch
+            android:id="@+id/wrs"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="#272727"
+            android:visibility="visible" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/topbar_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black09">
+
+            <TextView
+                android:id="@+id/tv_name_live"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="120dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="直播的表偷直播的表偷偷toototoo头"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_time_live"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_name_live"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:text="2016.03.23  18:00 - 18:30"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/img_bg1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/img_pic_liveinfo"
+                android:layout_marginBottom="35dp" />
+
+            <ImageView
+                android:id="@+id/img_bg2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/view"
+                android:layout_below="@+id/tv_time_live"
+                android:layout_marginTop="50dp"
+                android:background="@color/bla18" />
+
+            <com.modernsky.istv.view.RoundAngleImageView
+                android:id="@+id/img_pic_liveinfo"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/tv_time_live"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pic_touxiang_zhubo"
+                app:roundHeight="35dp"
+                app:roundWidth="35dp"
+                app:sideColor="@color/grey33"
+                app:sideWidth="4dp" />
+
+            <TextView
+                android:id="@+id/tv_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/img_pic_liveinfo"
+                android:layout_below="@+id/tv_time_live"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/dzz_0home_icon_levelbg"
+                android:gravity="center"
+                android:text="21"
+                android:textColor="@color/white"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/tv_name_band"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_pic_liveinfo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:drawableLeft="@drawable/icon_woman"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/icon_woman"
+                android:text="XUANBAND乐队"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_self_introdution"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_name_band"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:maxLines="2"
+                android:text="XUANBAND乐XUANBAND乐XUANBAND乐队XUANBAND乐队队XUANBAND乐队XUANBAND乐队队"
+                android:textColor="@color/whitebd"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:id="@+id/linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_below="@+id/tv_self_introdution"
+                android:layout_marginLeft="27dp"
+                android:layout_marginRight="27dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="34444\n排名"
+                    android:textColor="@color/whitebd"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    android:background="@color/grey3b" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="34444\n排名"
+                    android:textColor="@color/whitebd"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    android:background="@color/grey3b" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="34444\n排名"
+                    android:textColor="@color/whitebd"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="17dp"
+                    android:background="@color/grey3b" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="34444\n排名"
+                    android:textColor="@color/whitebd"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@+id/linearlayout" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view"
+                android:background="@color/black09"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_time_liveinfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:drawableLeft="@drawable/dzz_liveinfo_icon_time"
+                    android:drawablePadding="7dp"
+                    android:gravity="center_vertical"
+                    android:text="时间： 2016.03.23 18:00~18:30"
+                    android:textColor="@color/whitebd"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_location_liveinfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:drawableLeft="@drawable/dzz_liveinfo_icon_location"
+                    android:drawablePadding="7dp"
+                    android:gravity="center_vertical"
+                    android:text="地点: 北京印刷学院6号楼512"
+                    android:textColor="@color/whitebd"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:drawableLeft="@drawable/dzz_liveinfo_icon_introduce"
+                    android:drawablePadding="7dp"
+                    android:gravity="center_vertical"
+                    android:text="介绍"
+                    android:textColor="@color/whitebd"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_introduce"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginRight="17dp"
+                    android:layout_marginTop="15dp"
+
+                    android:gravity="center_vertical"
+                    android:text="介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍"
+                    android:textColor="@color/whitebd"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/buttomlayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/grey22alphadd">
+
+        <TextView
+            android:id="@+id/tv_state_lefttimr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="距离直播开始:"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:id="@+id/timeLauout"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_state_lefttimr"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <RelativeLayout
+                android:layout_width="30dp"
+                android:layout_height="fill_parent"
+                android:background="@color/black">
+
+                <TextView
+                    android:id="@+id/up1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="00"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/down1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/up1"
+                    android:gravity="center_horizontal"
+                    android:text="Days"
+                    android:textSize="8sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="30dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@color/black">
+
+                <TextView
+                    android:id="@+id/up2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="00"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/down2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/up2"
+                    android:gravity="center_horizontal"
+                    android:text="Hours"
+                    android:textSize="8sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="30dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@color/black">
+
+                <TextView
+                    android:id="@+id/up3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="00"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/down3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/up3"
+                    android:gravity="center_horizontal"
+                    android:text="Mins"
+                    android:textSize="8sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="30dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@color/black">
+
+                <TextView
+                    android:id="@+id/up4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="00"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/down4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/up4"
+                    android:gravity="center_horizontal"
+                    android:text="Secs"
+                    android:textSize="8sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btn_appoint"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/dzz_liveinfo_but_yuyue" />
+    </RelativeLayout>
+</RelativeLayout>

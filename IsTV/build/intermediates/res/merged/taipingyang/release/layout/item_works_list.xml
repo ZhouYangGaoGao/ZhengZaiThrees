@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_left_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rl_poster"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/bg_kaishizhibo">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/dzz_lby_pic_zhezhao_android"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:alpha="0.5"
+                    android:background="@drawable/bg_line_listpic"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="再一次燃烧吧!小宇宙!"
+                            android:textSize="12sp"/>
+
+                        <TextView
+                            android:id="@+id/tv_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="2016.03.07  14:00"
+                            android:textSize="10sp"/>
+
+                    </LinearLayout>
+                    <ImageView
+                        android:id="@+id/iv_tag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/icon_onair"/>
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_flag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_hearts"/>
+
+                    <TextView
+                        android:id="@+id/tv_num_zan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="246"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/item_delete_shoucangBtn"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:background="@color/red"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:text="@string/_del"
+            android:textColor="@color/white"
+            android:textSize="17sp"/>
+        <!--<ImageView-->
+        <!--android:id="@+id/iv_delete"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:src="@drawable/icon_02buytickets_5sddress_delete"-->
+        <!--/>-->
+    </LinearLayout>
+
+
+</HorizontalScrollView>

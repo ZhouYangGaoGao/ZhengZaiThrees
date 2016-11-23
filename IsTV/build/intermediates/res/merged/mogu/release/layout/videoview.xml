@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_videoview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/VODplayerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <com.letv.universal.widget.ReSurfaceView
+            android:id="@+id/sf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <include
+        layout="@layout/widget_video_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <FrameLayout
+        android:id="@+id/operation_volume_brightness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#00000000"
+        android:orientation="horizontal"
+        android:padding="0dip"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/operation_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/video_volumn_bg" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:paddingBottom="25dip">
+
+            <ImageView
+                android:id="@+id/operation_full"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:src="@drawable/video_num_bg" />
+
+            <ImageView
+                android:id="@+id/operation_percent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:scaleType="matrix"
+                android:src="@drawable/video_num_front" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <com.modernsky.istv.view.MediaController
+        android:id="@+id/mediacontroller_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/videocontroller" />
+    </com.modernsky.istv.view.MediaController>
+
+    <RelativeLayout
+        android:id="@+id/rl_ad"
+        android:layout_width="210dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:background="@color/black"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/image_ad"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/loading" />
+
+        <ImageView
+            android:id="@+id/image_cancel_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/icon_close" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/barrage"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/transparent_danmu_bg" />
+</FrameLayout>

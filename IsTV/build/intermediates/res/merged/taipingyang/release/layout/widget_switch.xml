@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="48dp"
+    android:background="#272727">
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_margin="0dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/gc1"
+            style="@style/bottom_tabbar_style"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="0dp"
+            android:background="@drawable/tabbar_find_selector"
+            android:padding="0dp" />
+        <!--android:drawableTop="@drawable/tabbar_find_selector"-->
+        <RadioButton
+            android:id="@+id/gc2"
+            style="@style/bottom_tabbar_style"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="0dp"
+            android:background="@drawable/tabbar_order_selector"
+
+            android:gravity="center"
+            android:padding="0dp"
+            android:text="" />
+        <!--android:drawableTop="@drawable/tabbar_order_selector"-->
+        <RadioButton
+            android:id="@+id/gc3"
+            style="@style/bottom_tabbar_style"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="0dp"
+            android:background="@drawable/tabbar_user_selector"
+            android:padding="0dp"
+            android:text="" />
+        <!--android:drawableTop="@drawable/tabbar_user_selector"-->
+        <RadioButton
+            android:id="@+id/gc4"
+            style="@style/bottom_tabbar_style"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="0dp"
+            android:background="@drawable/icon_6_1_bottombar_back"
+            android:padding="0dp"
+            android:text="" />
+        <!--android:drawableTop="@drawable/icon_6_1_bottombar_back"-->
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="bottom"
+        android:layout_margin="0dp"
+        android:background="#272727"
+        android:src="@null" />
+</FrameLayout>

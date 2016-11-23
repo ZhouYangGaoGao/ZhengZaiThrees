@@ -1,0 +1,289 @@
+apply plugin: 'com.android.application'
+
+def releaseTime() {
+    return new Date().format("yyyy-MM-dd", TimeZone.getTimeZone("UTC"))
+}
+
+android {
+    useLibrary 'org.apache.http.legacy'
+    compileSdkVersion 'Google Inc.:Google APIs:23'
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        applicationId "com.modernsky.istv"
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 339
+        versionName "3.3.9"
+        multiDexEnabled true
+
+        // 默认是umeng的渠道
+        manifestPlaceholders = [UMENG_CHANNEL_VALUE: "zhengzai"]
+
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+//    lintOptions {
+//        abortOnError false
+//    }
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jni.srcDirs = []
+            jniLibs.srcDirs = ['libs']
+        }
+
+        // Move the tests to tests/java, tests/res, etc...
+        instrumentTest.setRoot('tests')
+
+        // Move the build types to build-types/<type>
+        // For instance, build-types/debug/java, build-types/debug/AndroidManifest.xml, ...
+        // This moves them out of them default location under src/<type>/... which would
+        // conflict with src/ being used by the main source set.
+        // Adding new build types or product flavors should be accompanied
+        // by a similar customization.
+        debug.setRoot('build-types/debug')
+        release.setRoot('build-types/release')
+    }
+//    dataBinding {
+//        enabled = true
+//    }
+
+//    signingConfigs {
+//        debug {
+//            // No debug config
+//        }
+//
+//        release {
+//            storeFile file("../yourapp.keystore")
+//            storePassword "your password"
+//            keyAlias "your alias"
+//            keyPassword "your password"
+//        }
+//    }
+//
+//    buildTypes {
+//        debug {
+//            // 显示Log
+//            buildConfigField "boolean", "LOG_DEBUG", "true"
+////            versionNameSuffix "-debug"
+//            minifyEnabled false
+//            versionNameSuffix ""
+//            zipAlignEnabled false
+//            shrinkResources false
+//            signingConfig signingConfigs.debug
+//        }
+//
+//        release {
+//            // 不显示Log
+//            buildConfigField "boolean", "LOG_DEBUG", "false"
+//
+//            minifyEnabled true
+//            zipAlignEnabled true
+//            // 移除无用的resource文件
+//            shrinkResources true
+////            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            signingConfig signingConfigs.release
+//
+//            applicationVariants.all { variant ->
+//                variant.outputs.each { output ->
+//                    def outputFile = output.outputFile
+//                    if (outputFile != null && outputFile.name.endsWith('.apk')) {
+//                        // 输出apk名称为ZhengZaiTV_v1.2.1_2016-01-30_zhengzai.apk
+//                        def fileName = "ZhengZaiTV_v${defaultConfig.versionName}_${releaseTime()}_${variant.productFlavors[0].name}.apk"
+//                        output.outputFile = new File(outputFile.parent, fileName)
+//                    }
+//                }
+//            }
+//        }
+//    }
+
+    productFlavors {
+        zhengzai {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        wandoujia {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        baidu {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        c360 {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        xiaomi {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        yingyongbao {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        huawei {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        lianxiang {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        meizu {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        oppo {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        leshi {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        jifeng {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        sougou {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        pp {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        jinli {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        sanxing {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        mumayi {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        youyi {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        yingyonghui {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        wo {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        taipingyang {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        mogu {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        anbei {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        kuchuan {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        pugongying {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+        chuizi {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+
+        productFlavors.all { flavor ->
+            flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+        }
+
+    }
+}
+dependencies {
+    compile fileTree(include: '*.jar', dir: 'libs')
+    compile project(':playerLibRelease')
+    compile project(':IMLib')
+    compile project(':PushSDK')
+    // noinspection GradleCompatible
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    compile 'com.android.support:appcompat-v7:23.0.0'
+    compile 'com.android.support:support-v4:23.0.0'
+    compile 'com.android.support:design:23.0.0'
+    compile 'com.alibaba:fastjson:1.2.8'
+    compile 'com.lidroid.xutils:xutils:2.6.13'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'me.dm7.barcodescanner:zbar:1.8.3'
+    compile 'org.apache.httpcomponents:httpmime:4.1.3'
+    compile 'com.android.support:multidex:1.0.0'
+    //leakCanary内存泄露检测工具
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.4-beta2'
+    // or 1.4-beta2
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'
+    // or 1.4-beta2
+//        compile 'com.umeng.analytics:analytics:5.6.1'
+    //    compile 'de.hdodenhof:circleimageview:1.3.0+
+    //    compile 'com.squareup.picasso:picasso:2.5.2+'
+    //    compile 'com.android.support:multidex:1.0.1'
+    //    compile 'com.facebook.react:react-native:0.19.0+'
+    //    compile 'com.jakewharton:butterknife:7.0.1'
+    //    compile 'org.xutils:xutils:3.1.+'
+    //    compile 'org.apache.httpcomponents:httpcore:4.4.4+'
+    //    compile 'org.apache.httpcomponents:httpclient:4.5.1+'
+    //    compile 'com.android.support:recyclerview-v7:22.2.0+'
+    //    compile 'com.android.support:cardview-v7:22.2.0+'
+    compile 'com.squareup.okio:okio:0.6.1'
+    compile 'com.squareup.wire:wire-runtime:1.7.0'
+}
+configurations {
+    all*.exclude group: 'commons-logging', module: 'commons-logging'
+}

@@ -1,0 +1,4 @@
+#Mon Nov 21 16:39:33 CST 2016
+base.0=/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/transforms/dex/oppo/release/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build/intermediates/transforms/dex/oppo/release/folders/1000/1f/main/classes.dex

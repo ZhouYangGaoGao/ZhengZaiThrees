@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_tanmu"
+    android:orientation="horizontal">
+
+    <com.modernsky.istv.view.RoundAngleImageView
+        android:id="@+id/img_user_livemedia"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/pic_touxiang_zhubo"
+        android:scaleType="centerCrop"
+        app:roundHeight="8.5dp"
+        app:roundWidth="8.5dp"
+        app:sideColor="@color/grey33"
+        app:sideWidth="1dp" />
+
+    <TextView
+        android:id="@+id/text_left_item_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@+id/img_user_livemedia"
+        android:maxWidth="160dp"
+        android:text=""
+        android:textColor="@color/whitef0"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/img_gift"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@+id/text_left_item_message"
+        android:background="@color/transparent"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@+id/img_gift"
+        android:text=""
+        android:textSize="10sp" />
+</RelativeLayout>

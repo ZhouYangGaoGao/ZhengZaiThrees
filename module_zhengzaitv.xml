@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_zhengzaitv" default="compile.module.zhengzaitv">
+  <dirname property="module.zhengzaitv.basedir" file="${ant.file.module_zhengzaitv}"/>
+  
+  <property name="module.jdk.home.zhengzaitv" value="${jdk.home.1.7}"/>
+  <property name="module.jdk.bin.zhengzaitv" value="${jdk.bin.1.7}"/>
+  <property name="module.jdk.classpath.zhengzaitv" value="jdk.classpath.1.7"/>
+  
+  <property name="compiler.args.zhengzaitv" value="-encoding UTF-8 -source 1.6 -target 1.6 ${compiler.args}"/>
+  
+  <property name="zhengzaitv.output.dir" value="${module.zhengzaitv.basedir}/build/classes/production/zhengzaiTV"/>
+  <property name="zhengzaitv.testoutput.dir" value="${module.zhengzaitv.basedir}/build/classes/test/zhengzaiTV"/>
+  
+  <path id="zhengzaitv.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="zhengzaitv.module.production.classpath">
+    <path refid="${module.jdk.classpath.zhengzaitv}"/>
+  </path>
+  
+  <path id="zhengzaitv.runtime.production.module.classpath">
+    <pathelement location="${zhengzaitv.output.dir}"/>
+  </path>
+  
+  <path id="zhengzaitv.module.classpath">
+    <path refid="${module.jdk.classpath.zhengzaitv}"/>
+    <pathelement location="${zhengzaitv.output.dir}"/>
+  </path>
+  
+  <path id="zhengzaitv.runtime.module.classpath">
+    <pathelement location="${zhengzaitv.testoutput.dir}"/>
+    <pathelement location="${zhengzaitv.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.zhengzaitv">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.zhengzaitv">
+    <patternset refid="excluded.from.module.zhengzaitv"/>
+  </patternset>
+  
+  
+  <target name="compile.module.zhengzaitv" depends="compile.module.zhengzaitv.production,compile.module.zhengzaitv.tests" description="Compile module zhengzaiTV"/>
+  
+  <target name="compile.module.zhengzaitv.production" depends="register.custom.compilers" description="Compile module zhengzaiTV; production classes"/>
+  
+  <target name="compile.module.zhengzaitv.tests" depends="register.custom.compilers,compile.module.zhengzaitv.production" description="compile module zhengzaiTV; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.zhengzaitv" description="cleanup module">
+    <delete dir="${zhengzaitv.output.dir}"/>
+    <delete dir="${zhengzaitv.testoutput.dir}"/>
+  </target>
+</project>

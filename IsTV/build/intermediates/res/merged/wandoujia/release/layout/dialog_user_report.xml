@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_user_report"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:minHeight="280dp"
+    android:minWidth="250dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/title_reportdialog"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/gray_word">
+
+        <EditText
+            android:id="@+id/et_dia_user_report"
+            android:layout_width="fill_parent"
+            android:layout_height="140dp"
+            android:background="@null"
+            android:gravity="top"
+            android:hint="有什么掏心窝的话您说吧，人家会拿出小本一字不落的记下来呢~，我们会越来越美的！"
+            android:padding="3dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/text_black_l"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_num_report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/et_dia_user_report"
+            android:layout_marginRight="5dp"
+            android:text="0/140"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/btn_cancle_user_report"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_oval_black_report"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:text="取消"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_report_user_report"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_oval_black_report"
+            android:text="发送"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</LinearLayout>

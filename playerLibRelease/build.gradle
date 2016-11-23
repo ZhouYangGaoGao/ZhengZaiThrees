@@ -1,0 +1,29 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "19.1.0"
+
+    defaultConfig {
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: '*.jar', dir: 'libs')
+
+    compile 'com.google.code.gson:gson:2.1'
+    compile files('libs/AdModule.jar')
+    compile files('libs/LePanoVideo.jar')
+    compile files('libs/VideoTracker.jar')
+    compile files('libs/avdsmart_sdk.jar')
+    compile files('libs/cde-sdk-0.9.90.jar')
+    compile files('libs/letvadlib_lecloud.jar')
+    compile files('libs/playersdk_2016_03_29_16_v4.0_release.jar')
+}

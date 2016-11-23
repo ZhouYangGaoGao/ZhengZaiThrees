@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent_bg">
+
+    <TextView
+        android:id="@+id/line_top"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/line_buttom"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:background="@color/white" />
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/line_buttom"
+        android:layout_below="@+id/line_top"
+        android:layout_centerHorizontal="true"
+        android:background="@color/black"
+        android:horizontalSpacing="0dp"
+        android:listSelector="#2a2a2a"
+        android:numColumns="3"
+        android:paddingTop="0dp"
+        android:scrollbars="none"
+        android:verticalSpacing="0dp"
+        android:visibility="visible" />
+</RelativeLayout>

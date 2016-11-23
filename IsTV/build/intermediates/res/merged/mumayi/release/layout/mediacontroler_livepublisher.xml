@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/rl_user_livemedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp">
+
+        <RelativeLayout
+            android:id="@+id/chatroomName"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/img_user_livemedia"
+            android:layout_marginLeft="27dp"
+            android:background="@drawable/bg_touxiang_black"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp">
+
+            <TextView
+                android:id="@+id/tv_message_anchor_livemedia"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="1dp"
+                android:layout_height="15dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/tv_message_anchor_livemedia"
+                android:background="@drawable/icon_07bofang_line"
+                android:visibility="gone" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/line"
+                android:src="@drawable/icon_hearts"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tv_name_livemedia"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_above="@+id/chatroomName"
+            android:layout_marginLeft="27dp"
+            android:background="@drawable/bg_touxiang_jianbian"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="9sp" />
+
+        <com.modernsky.istv.view.RoundAngleImageView
+            android:id="@+id/img_user_livemedia"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/pic_touxiang_zhubo"
+            android:scaleType="centerCrop"
+            app:roundHeight="18dp"
+            app:roundWidth="18dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_num_audiens"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/audienList_livemedia"
+        android:layout_marginLeft="9dp"
+        android:background="@drawable/pic_yonghu_shuliang"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="9sp" />
+
+    <com.modernsky.istv.view.HorizontalListView
+        android:id="@+id/audienList_livemedia"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@+id/tv_num_audiens"
+        android:layout_below="@+id/rl_user_livemedia"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="9dp"
+        android:background="@color/transparent"
+        android:dividerHeight="12dp" />
+    <!--android:layout_toRightOf="@+id/tv_num_audiens"-->
+
+
+    <ImageView
+        android:id="@+id/btn_share_livemedia"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="9dp"
+        android:src="@drawable/but_share"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/btn_message_livemedia"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/but_shuru" />
+
+    <ImageView
+        android:id="@+id/btn_closeOropen_messageList"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="9dp"
+        android:layout_toLeftOf="@+id/btn_message_livemedia"
+        android:background="@drawable/but_pinglun"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/btn_light_livemedia"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="9dp"
+        android:layout_toLeftOf="@+id/btn_closeOropen_messageList"
+        android:background="@drawable/but_shanguang" />
+
+    <ImageView
+        android:id="@+id/btn_cam_livemedia"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="9dp"
+        android:layout_toLeftOf="@+id/btn_light_livemedia"
+        android:background="@drawable/but_jingtou" />
+
+
+
+    <ListView
+        android:id="@+id/messList_livemedia"
+        android:layout_width="258dp"
+        android:layout_height="153dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="12dp"
+        android:divider="@null"
+        android:dividerHeight="5dp"
+        android:scrollbars="none"/>
+
+</RelativeLayout>

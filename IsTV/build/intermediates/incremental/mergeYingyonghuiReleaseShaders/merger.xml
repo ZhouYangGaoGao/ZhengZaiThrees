@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/src/main/shaders"/></dataSet><dataSet config="yingyonghui"><source path="/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/src/yingyonghui/shaders"/></dataSet><dataSet config="release"><source path="/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/build-types/release/shaders"/></dataSet><dataSet config="yingyonghuiRelease"><source path="/Users/zhengzai/zhouyang/ZhengZaiThrees/IsTV/src/yingyonghuiRelease/shaders"/></dataSet></merger>

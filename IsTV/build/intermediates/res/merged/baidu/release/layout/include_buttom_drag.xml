@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:background="@color/hui29">
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="14">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="6">
+
+            <RelativeLayout
+                android:id="@+id/leftimg"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true">
+
+                <!-- android:background="@drawable/dragview_selector" -->
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/radio_bg_1_bottom" />
+
+                <ImageView
+                    android:id="@+id/imgButtom3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/radio_bg_2_rotate" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/radio_bg_3_black" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <com.modernsky.istv.view.RoundAngleImageView
+                        android:id="@+id/img4_buttom"
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:layout_centerInParent="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/default_music_people"
+                        app:roundHeight="13dp"
+                        app:roundWidth="13dp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/name_song"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@+id/name_person"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_toRightOf="@+id/leftimg"
+                android:ellipsize="end"
+                android:gravity="left|center_vertical"
+                android:maxLines="2"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/name_person"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/leftimg"
+                android:ellipsize="end"
+                android:gravity="left|center_vertical"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/huib1"
+                android:textSize="10dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/playLayout"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2">
+
+            <ImageView
+                android:id="@+id/playOrStop"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/radio_controlbar_play" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nextLayout"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2">
+
+            <ImageView
+                android:id="@+id/next"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:src="@drawable/radio_controlbar_3next" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/likeLayout"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2">
+
+            <ImageView
+                android:id="@+id/like"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:src="@drawable/radio_controlbar_1like" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/deleteLayout"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2">
+
+            <ImageView
+                android:id="@+id/delete"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:src="@drawable/radio_controlbar_2dislike" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

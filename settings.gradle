@@ -1,0 +1,2 @@
+include ':IMLib', ':IsTV', ':PushSDK'
+include ':playerLibRelease'

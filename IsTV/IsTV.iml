@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":IsTV" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" external.system.module.group="companyData" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":IsTV" />
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="zhengzaiDebug" />
+        <option name="SELECTED_TEST_ARTIFACT" value="_android_test_" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleZhengzaiDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileZhengzaiDebugSources" />
+        <afterSyncTasks>
+          <task>generateZhengzaiDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/res" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/build/intermediates/classes/zhengzai/debug" />
+    <output-test url="file://$MODULE_DIR$/build/intermediates/classes/test/zhengzai/debug" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/zhengzai/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/zhengzai/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/zhengzai/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/zhengzai/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/zhengzai/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/zhengzai/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/zhengzai/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/zhengzaiDebug/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/zhengzaiDebug/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/zhengzaiDebug/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/zhengzaiDebug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/zhengzaiDebug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/zhengzaiDebug/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/zhengzaiDebug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/zhengzaiDebug/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/zhengzai/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/zhengzai/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/zhengzai/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/zhengzai/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/zhengzai/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/zhengzai/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/zhengzai/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testZhengzaiDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testZhengzaiDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testZhengzaiDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testZhengzaiDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testZhengzaiDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testZhengzaiDebug/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testZhengzaiDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testZhengzaiDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/zhengzai/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/zhengzai/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/zhengzai/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/zhengzai/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/zhengzai/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/zhengzai/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/zhengzai/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/zhengzai/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestZhengzai/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestZhengzai/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestZhengzai/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestZhengzai/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestZhengzai/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestZhengzai/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestZhengzai/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestZhengzai/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testZhengzai/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testZhengzai/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testZhengzai/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testZhengzai/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testZhengzai/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testZhengzai/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testZhengzai/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testZhengzai/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build-types/debug/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build-types/debug/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build-types/debug/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build-types/debug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build-types/debug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build-types/debug/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build-types/debug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build-types/debug/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/dependency-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/design/23.0.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/multidex-instrumentation/1.0.1/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.lidroid.xutils/xutils/2.6.13/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.8.3/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.3/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-safeguard" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/multi-dex" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/pre-dexed" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
+      <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 23 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="haha-2.0.2" level="project" />
+    <orderEntry type="library" exported="" name="unityvractivity" level="project" />
+    <orderEntry type="library" exported="" name="SocialSDK_Sina" level="project" />
+    <orderEntry type="library" exported="" name="fastjson-1.2.8" level="project" />
+    <orderEntry type="library" exported="" name="umeng_social_sdk" level="project" />
+    <orderEntry type="library" exported="" name="weiboSDKCore_3.1.4" level="project" />
+    <orderEntry type="library" exported="" name="zbar-1.8.3" level="project" />
+    <orderEntry type="library" exported="" name="wire-runtime-1.7.0" level="project" />
+    <orderEntry type="library" exported="" name="nodemedia-client-v0.9.4" level="project" />
+    <orderEntry type="library" exported="" name="appcompat-v7-23.0.0" level="project" />
+    <orderEntry type="library" exported="" name="core-1.8.3" level="project" />
+    <orderEntry type="library" exported="" name="unity-classes" level="project" />
+    <orderEntry type="library" exported="" name="SocialSDK_WeiXin_1" level="project" />
+    <orderEntry type="library" exported="" name="EasyMovieTexture" level="project" />
+    <orderEntry type="library" exported="" name="SocialSDK_WeiXin_2" level="project" />
+    <orderEntry type="library" exported="" name="SocialSDK_QQZone_3" level="project" />
+    <orderEntry type="library" exported="" name="support-v4-23.0.1" level="project" />
+    <orderEntry type="library" exported="" name="zip_file" level="project" />
+    <orderEntry type="library" exported="" name="support-annotations-23.0.1" level="project" />
+    <orderEntry type="library" exported="" name="okio-1.2.0" level="project" />
+    <orderEntry type="library" exported="" name="leakcanary-android-1.4-beta2" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="multidex-instrumentation-1.0.1" level="project" />
+    <orderEntry type="library" exported="" name="alipayutdid" level="project" />
+    <orderEntry type="library" exported="" name="library-2.4.0" level="project" />
+    <orderEntry type="library" exported="" name="open_sdk_r5509" level="project" />
+    <orderEntry type="library" exported="" name="xutils-2.6.13" level="project" />
+    <orderEntry type="library" exported="" name="analytics-6.0.4" level="project" />
+    <orderEntry type="library" exported="" name="httpmime-4.1.3" level="project" />
+    <orderEntry type="library" exported="" name="leakcanary-analyzer-1.4-beta2" level="project" />
+    <orderEntry type="library" exported="" name="httpcore-4.1.4" level="project" />
+    <orderEntry type="library" exported="" name="alipaysecsdk" level="project" />
+    <orderEntry type="library" exported="" name="design-23.0.0" level="project" />
+    <orderEntry type="library" exported="" name="mta-sdk-1.6.2" level="project" />
+    <orderEntry type="library" exported="" name="multidex-1.0.1" level="project" />
+    <orderEntry type="library" exported="" name="alipaysdk" level="project" />
+    <orderEntry type="library" exported="" name="leakcanary-watcher-1.4-beta2" level="project" />
+    <orderEntry type="library" exported="" name="oss-0.3.0" level="project" />
+    <orderEntry type="module" module-name="playerLibRelease" exported="" />
+    <orderEntry type="module" module-name="PushSDK" exported="" />
+    <orderEntry type="module" module-name="IMLib" exported="" />
+    <orderEntry type="library" exported="" name="effects-android-23" level="project" />
+    <orderEntry type="library" exported="" name="usb-android-23" level="project" />
+    <orderEntry type="library" exported="" name="maps-android-23" level="project" />
+    <orderEntry type="library" exported="" name="org.apache.http.legacy-android-23" level="project" />
+    <orderEntry type="library" exported="" name="letvadlib_lecloud" level="project" />
+    <orderEntry type="library" exported="" name="gson-2.1" level="project" />
+    <orderEntry type="library" exported="" name="cde-sdk-0.9.90" level="project" />
+    <orderEntry type="library" exported="" name="AdModule" level="project" />
+    <orderEntry type="library" exported="" name="LePanoVideo" level="project" />
+    <orderEntry type="library" exported="" name="playersdk_2016_03_29_16_v4.0_release" level="project" />
+    <orderEntry type="library" exported="" name="avdsmart_sdk" level="project" />
+    <orderEntry type="library" exported="" name="VideoTracker" level="project" />
+    <orderEntry type="library" exported="" name="com.umeng.message_v2.8.0" level="project" />
+    <orderEntry type="library" exported="" name="Rong_IMLib_v2_4_9" level="project" />
+  </component>
+</module>

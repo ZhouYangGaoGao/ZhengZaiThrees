@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dialog_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_weiguanzhu">
+
+        <RelativeLayout
+            android:id="@+id/img_delete"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/icon_delet" />
+        </RelativeLayout>
+
+
+        <com.modernsky.istv.view.RoundAngleImageView
+            android:id="@+id/img_pic_dialog"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/pic_touxiang_zhubo"
+            android:scaleType="centerCrop"
+            app:roundHeight="32dp"
+            app:roundWidth="32dp"
+            app:sideColor="@color/white"
+            app:sideWidth="2dp" />
+
+        <ImageView
+            android:id="@+id/img_heart"
+            android:layout_width="31dp"
+            android:layout_height="31dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_toLeftOf="@+id/img_pic_dialog"
+            android:src="@drawable/but_hearts_watch"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/img_letter"
+            android:layout_width="31dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/img_pic_dialog"
+            android:src="@drawable/but_sixin_kedian"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/img_pic_dialog"
+            android:layout_alignTop="@id/img_pic_dialog">
+
+            <TextView
+                android:id="@+id/tv_level_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|end"
+                android:paddingRight="3dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="6sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_people"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_pic_dialog"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="0dp">
+            <!--<RelativeLayout-->
+            <!--android:id="@+id/rl_name"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--</RelativeLayout>-->
+            <TextView
+                android:id="@+id/tv_name_people_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="14dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/img_sex_people"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/tv_name_people_dialog"
+                android:layout_alignTop="@id/tv_name_people_dialog"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@+id/tv_name_people_dialog"
+                android:padding="8dp"
+                android:scaleType="center" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/img_level_people"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignBottom="@+id/rl_people"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_toLeftOf="@+id/rl_people"
+            android:src="@drawable/icon_crown"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/tv_job_people_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_people"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:text=""
+            android:textColor="@color/grey9a"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/tv_location_people_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_job_people_dialog"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="9dp"
+            android:drawableLeft="@drawable/icon_place"
+            android:drawablePadding="3dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/grey9a"
+            android:textSize="9sp"
+            android:visibility="invisible" />
+
+        <!--<RelativeLayout-->
+        <!--android:layout_width="164dp"-->
+        <!--android:layout_height="23dp"-->
+        <!--android:layout_below="@id/rl_fans"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_marginBottom="5dp"-->
+        <!--android:background="@drawable/but_guanzhuta">-->
+
+        <!--</RelativeLayout>-->
+
+
+        <RelativeLayout
+            android:id="@+id/rl_fans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_location_people_dialog"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/tv_num_fans_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_fandialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_num_fans_dialog"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:text="粉丝"
+                android:textColor="@color/grey9a"
+                android:textSize="9sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/rl_fans"
+            android:layout_marginRight="35dp"
+            android:layout_toLeftOf="@id/rl_fans">
+
+            <TextView
+
+                android:id="@+id/tv_num_stareberry_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_stareberry_fandialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_num_stareberry_dialog"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:text="Power"
+                android:textColor="@color/grey9a"
+                android:textSize="9sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/rl_fans"
+            android:layout_marginLeft="38dp"
+            android:layout_toRightOf="@id/rl_fans">
+
+            <TextView
+                android:id="@+id/tv_num_focus_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_focus_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_num_focus_dialog"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:text="关注"
+                android:textColor="@color/grey9a"
+                android:textSize="9sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_focuspeople_dialog"
+            android:layout_width="167dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/rl_fans"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/but_guanzhuta"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_hasfocus_dialog"
+            android:layout_width="168dp"
+            android:layout_height="25dp"
+            android:layout_below="@id/rl_fans"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/but_yiguanzhu"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="@color/grey9a"
+            android:visibility="gone" />
+    </RelativeLayout>
+</RelativeLayout>

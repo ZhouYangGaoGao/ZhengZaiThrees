@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_video_function"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_break"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="当前网络繁忙，建议您切换清晰度"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_clarity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="1"
+            android:text="自动切换"
+            android:textColor="@color/default_blue_color" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seek_video"
+        style="@style/MediaController_SeekBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:max="1000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/im_play_or_pause"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/mediacontroller_button"
+            android:contentDescription="@string/mediacontroller_play_pause"
+            android:scaleType="fitXY"
+            android:src="@drawable/mediacontroller_pause" />
+
+        <ImageView
+            android:id="@+id/iv_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mediacontroller_button"
+            android:clickable="false"
+            android:padding="5dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/icon_07bofang_line" />
+
+        <ImageButton
+            android:id="@+id/im_play_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/mediacontroller_button"
+            android:contentDescription="@string/mediacontroller_play_pause"
+            android:src="@drawable/icon_07bofang_next"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_video_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="00:00:00"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_sendmsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/shape_oval_tanmu_black_color"
+                android:hint="在这里发送弹幕哦~！"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:singleLine="true" />
+        </FrameLayout>
+
+        <ImageButton
+            android:id="@+id/img_show_tanmu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/but_3_3full_dm_controlbut_open" />
+
+        <ImageButton
+            android:id="@+id/ImageButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:padding="5dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/icon_07bofang_line" />
+
+        <ImageButton
+            android:id="@+id/ImageButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/mediacontroller_button"
+            android:padding="5dp"
+            android:src="@drawable/icon_07bofang_good_hl" />
+
+        <ImageButton
+            android:id="@+id/ImageButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/mediacontroller_button"
+            android:padding="5dp"
+            android:src="@drawable/icon_07bofang_shoucang" />
+
+        <ImageButton
+            android:id="@+id/ImageButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/mediacontroller_button"
+            android:padding="5dp"
+            android:src="@drawable/icon_07bofang_share_normal" />
+
+        <ImageButton
+            android:id="@+id/ImageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mediacontroller_button"
+            android:padding="10dp"
+            android:src="@drawable/icon_07bofang_dingyue_normal"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/img_paly_fangda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mediacontroller_button"
+            android:padding="10dp"
+            android:src="@drawable/icon_07bofang_fangda" />
+    </LinearLayout>
+</LinearLayout>

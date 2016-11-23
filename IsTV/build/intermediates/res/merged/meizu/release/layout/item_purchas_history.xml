@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#2e2e2e">
+
+    <TextView
+        android:id="@+id/item_lefttext"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:text="213321213" />
+
+    <TextView
+        android:id="@+id/item_righttext"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical"
+        android:text="2元" />
+
+</RelativeLayout>

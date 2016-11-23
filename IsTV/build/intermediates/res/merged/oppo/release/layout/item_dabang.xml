@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#272727"
+    android:orientation="vertical"
+    android:paddingBottom="9dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="7dp">
+
+    <TextView
+        android:id="@+id/item_dabang_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分之说明"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="8dp"
+        android:background="#363636" />
+
+    <TextView
+        android:id="@+id/item_dabang_dsc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9dp"
+        android:textColor="#9d9d9d"
+        android:textSize="10sp"
+        android:text="新网游排行榜游戏排行榜氛围热门游戏排行榜（包括所有以测试的开放产品）和新网游排行榜游戏排行榜氛围热门游戏排行榜（包括所有以测试的开放产品）和新网游排行榜游戏排行榜氛围热门游戏排行榜（包括所有以测试的开放产品）和新网游排行榜" />
+</LinearLayout>

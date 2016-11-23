@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_hot_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/bg_4search_labelbg"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/music_day"
+        android:textColor="#f0f0f0"
+        android:textSize="14dp" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_vr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/bg_4search_labelbg"
+        android:clickable="false"
+        android:focusable="false"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/icon_vr"
+        android:visibility="gone" />
+
+</RelativeLayout>
